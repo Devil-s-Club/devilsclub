@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Devils Club — estúdio indie de jogos. Experiências imersivas, narrativas ousadas e mundos que ficam na memória."
+    />
+    <title>Devil's Club — Estúdio de Jogos Indie</title>
+    <link rel="icon" href="assets/favicon.ico" sizes="any" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+
+    <header class="site-header" id="top">
+      <a href="#top" class="logo" aria-label="Devil's Club — início">
+        <img src="assets/logo-icon.png" alt="" class="logo-icon" width="44" height="44" decoding="async" />
+        <img src="assets/logo-wordmark.png" alt="Devil's Club" class="logo-wordmark" width="167" height="32" decoding="async" />
+      </a>
+      <nav class="nav" aria-label="Principal">
+        <a href="#jogos">Jogos</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#noticias">Notícias</a>
+        <a href="#imprensa">Imprensa</a>
+        <a href="#contato" class="nav-cta">Contato</a>
+      </nav>
+      <button
+        type="button"
+        class="menu-toggle"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+        aria-label="Abrir menu"
+      >
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <div class="mobile-menu" id="mobile-menu" hidden>
+      <nav aria-label="Menu mobile">
+        <a href="#jogos">Jogos</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#noticias">Notícias</a>
+        <a href="#imprensa">Imprensa</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-bg">
+          <div class="hero-glow hero-glow--1"></div>
+          <div class="hero-glow hero-glow--2"></div>
+          <div class="hero-grid"></div>
+        </div>
+        <div class="hero-content reveal">
+          <div class="hero-logo" role="img" aria-label="Devil's Club">
+            <img src="assets/logo-icon.png" alt="" class="hero-logo-icon" decoding="async" />
+            <img src="assets/logo-wordmark.png" alt="" class="hero-logo-wordmark" decoding="async" />
+          </div>
+          <p class="hero-eyebrow">Estúdio indie · Brasil</p>
+          <h1 id="hero-title" class="hero-title">
+            Jogos com<br />
+            <span class="hero-accent">alma e dentes</span>
+          </h1>
+          <p class="hero-lead">
+            Criamos experiências que misturam narrativa, tensão e design ousado.
+            Mundos sombrios, escolhas difíceis e memórias que ficam.
+          </p>
+          <div class="hero-actions">
+            <a href="#jogos" class="btn btn-primary">Ver projetos</a>
+            <a href="#newsletter" class="btn btn-ghost">Entrar na lista</a>
+          </div>
+        </div>
+        <a href="#jogos" class="hero-scroll" aria-label="Rolar para jogos">
+          <span>Scroll</span>
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <path d="M10 3v14M4 11l6 6 6-6" stroke="currentColor" stroke-width="1.5" />
+          </svg>
+        </a>
+      </section>
+
+      <section class="section games" id="jogos" aria-labelledby="games-title">
+        <div class="container">
+          <header class="section-header reveal">
+            <span class="section-tag">Projetos</span>
+            <h2 id="games-title" class="section-title">Em desenvolvimento</h2>
+            <p class="section-desc">
+              Cada título nasce de uma obsessão. Acompanhe o progresso e adicione à wishlist quando estiver disponível.
+            </p>
+          </header>
+
+          <article class="game-card game-card--featured reveal">
+            <div class="game-card-media">
+              <div class="game-placeholder" role="img" aria-label="Arte conceitual do jogo em destaque">
+                <span class="game-placeholder-label">Arte em breve</span>
+              </div>
+              <span class="game-status">Em desenvolvimento</span>
+            </div>
+            <div class="game-card-body">
+              <h3 class="game-title">Projeto Alpha</h3>
+              <p class="game-genre">Ação · Narrativa · PC / Console</p>
+              <p class="game-desc">
+                Um thriller sobrenatural em que cada decisão altera quem você é — e quem te caça.
+                Inspirado em clássicos do horror psicológico com combate visceral e exploração não linear.
+              </p>
+              <div class="game-actions">
+                <a href="#" class="btn btn-primary btn-sm">Wishlist na Steam</a>
+                <a href="#" class="btn btn-ghost btn-sm">Ver trailer</a>
+              </div>
+            </div>
+          </article>
+
+          <div class="games-grid">
+            <article class="game-card game-card--compact reveal">
+              <div class="game-card-media game-card-media--sm">
+                <div class="game-placeholder game-placeholder--alt" role="img" aria-label="Protótipo secundário">
+                  <span class="game-placeholder-label">Protótipo</span>
+                </div>
+                <span class="game-status game-status--proto">Protótipo</span>
+              </div>
+              <div class="game-card-body">
+                <h3 class="game-title">Projeto Beta</h3>
+                <p class="game-genre">Roguelite · Co-op</p>
+                <p class="game-desc">Expedições curtas, perigo crescente e loot que muda a run a cada morte.</p>
+              </div>
+            </article>
+
+            <article class="game-card game-card--compact reveal">
+              <div class="game-card-media game-card-media--sm">
+                <div class="game-placeholder game-placeholder--alt2" role="img" aria-label="Conceito em pesquisa">
+                  <span class="game-placeholder-label">R&D</span>
+                </div>
+                <span class="game-status game-status--rd">Pesquisa</span>
+              </div>
+              <div class="game-card-body">
+                <h3 class="game-title">Projeto Gamma</h3>
+                <p class="game-genre">Puzzle · Narrativa ambiental</p>
+                <p class="game-desc">Exploração silenciosa em ruínas digitais — história contada pelo ambiente.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about" id="sobre" aria-labelledby="about-title">
+        <div class="container about-grid">
+          <div class="about-visual reveal">
+            <div class="about-frame">
+              <div class="about-stat">
+                <span class="about-stat-num">2024</span>
+                <span class="about-stat-label">Fundação</span>
+              </div>
+              <div class="about-stat">
+                <span class="about-stat-num">Indie</span>
+                <span class="about-stat-label">De coração</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-copy reveal">
+            <span class="section-tag">Sobre</span>
+            <h2 id="about-title" class="section-title">O Devils Club</h2>
+            <p>
+              Somos um estúdio independente focado em jogos com identidade forte — onde arte, design e
+              código conversam desde o primeiro protótipo. Acreditamos em equipes enxutas, iteração
+              rápida e na coragem de cortar o que não serve à experiência.
+            </p>
+            <p>
+              Nosso nome não é marketing: é promessa. Jogos que mordem, que respeitam o tempo do jogador
+              e que não pedem desculpas por serem diferentes.
+            </p>
+            <ul class="about-values">
+              <li>
+                <strong>Narrativa jogável</strong>
+                — história emerge das mecânicas, não só dos diálogos.
+              </li>
+              <li>
+                <strong>Polish onde importa</strong>
+                — detalhe nos momentos que o jogador nunca esquece.
+              </li>
+              <li>
+                <strong>Comunidade cedo</strong>
+                — feedback real desde o playtest interno.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section news" id="noticias" aria-labelledby="news-title">
+        <div class="container">
+          <header class="section-header reveal">
+            <span class="section-tag">Atualizações</span>
+            <h2 id="news-title" class="section-title">Notícias</h2>
+          </header>
+          <div class="news-grid">
+            <article class="news-card reveal">
+              <time datetime="2026-05-15" class="news-date">15 Mai 2026</time>
+              <h3 class="news-headline">Devlog #01 — Por que começamos o Projeto Alpha</h3>
+              <p>Primeiro olhar sobre a visão, referências e o que queremos que você sinta ao jogar.</p>
+              <a href="#" class="news-link">Ler mais →</a>
+            </article>
+            <article class="news-card reveal">
+              <time datetime="2026-04-02" class="news-date">02 Abr 2026</time>
+              <h3 class="news-headline">Playtest fechado — vagas limitadas</h3>
+              <p>Estamos convidando jogadores da lista para testar o combate e o loop de exploração.</p>
+              <a href="#" class="news-link">Ler mais →</a>
+            </article>
+            <article class="news-card reveal">
+              <time datetime="2026-03-10" class="news-date">10 Mar 2026</time>
+              <h3 class="news-headline">Devils Club nas redes</h3>
+              <p>Siga o estúdio para bastidores, GIFs de protótipo e anúncios em primeira mão.</p>
+              <a href="#" class="news-link">Ler mais →</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section press" id="imprensa" aria-labelledby="press-title">
+        <div class="container press-box reveal">
+          <div class="press-copy">
+            <span class="section-tag">Imprensa</span>
+            <h2 id="press-title" class="section-title">Press kit</h2>
+            <p>
+              Logos, screenshots, fact sheet e contato para imprensa e criadores de conteúdo.
+              Material atualizado a cada marco de desenvolvimento.
+            </p>
+          </div>
+          <div class="press-actions">
+            <a href="#" class="btn btn-primary">Baixar press kit</a>
+            <a href="mailto:press@devilsclub.studio" class="btn btn-ghost">press@devilsclub.studio</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section community" id="newsletter" aria-labelledby="community-title">
+        <div class="container community-inner reveal">
+          <div class="community-copy">
+            <span class="section-tag">Comunidade</span>
+            <h2 id="community-title" class="section-title">Fique por dentro</h2>
+            <p>
+              Entre na lista para playtests, keys de imprensa e novidades antes de todo mundo.
+              Sem spam — só o que importa.
+            </p>
+            <div class="social-links">
+              <a href="#" class="social-link" aria-label="Discord">Discord</a>
+              <a href="#" class="social-link" aria-label="Twitter / X">X</a>
+              <a href="#" class="social-link" aria-label="YouTube">YouTube</a>
+              <a href="#" class="social-link" aria-label="itch.io">itch.io</a>
+              <a href="#" class="social-link" aria-label="Steam">Steam</a>
+            </div>
+          </div>
+          <form class="newsletter-form" action="#" method="post">
+            <label for="email" class="visually-hidden">E-mail</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="seu@email.com"
+              required
+              autocomplete="email"
+            />
+            <button type="submit" class="btn btn-primary">Inscrever</button>
+          </form>
+          <p class="form-note" role="status" hidden id="form-success">
+            Obrigado! Você está na lista.
+          </p>
+        </div>
+      </section>
+
+      <section class="section contact" id="contato" aria-labelledby="contact-title">
+        <div class="container contact-grid reveal">
+          <h2 id="contact-title" class="section-title">Vamos conversar</h2>
+          <div class="contact-items">
+            <div>
+              <span class="contact-label">Geral</span>
+              <a href="mailto:hello@devilsclub.studio">hello@devilsclub.studio</a>
+            </div>
+            <div>
+              <span class="contact-label">Parcerias & negócios</span>
+              <a href="mailto:biz@devilsclub.studio">biz@devilsclub.studio</a>
+            </div>
+            <div>
+              <span class="contact-label">Local</span>
+              <span>Brasil · Remoto-first</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a href="#top" class="logo logo--footer">
+          <img src="assets/logo-icon.png" alt="" class="logo-icon" width="36" height="36" decoding="async" />
+          <img src="assets/logo-wordmark.png" alt="Devil's Club" class="logo-wordmark" width="140" height="27" decoding="async" />
+        </a>
+        <p class="footer-copy">© <span id="year"></span> Devils Club. Todos os direitos reservados.</p>
+        <nav class="footer-nav" aria-label="Rodapé">
+          <a href="#">Privacidade</a>
+          <a href="#imprensa">Imprensa</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
