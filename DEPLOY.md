@@ -37,23 +37,36 @@ Em 1–3 minutos o site fica em:
 
 (Se o repo se chamar só `SEU_USUARIO.github.io`, a URL é `https://SEU_USUARIO.github.io`.)
 
-## 4. Domínio que você já paga (opcional)
+## 4. Domínio `devilsclub.com.br`
 
-1. Na raiz do projeto, crie o arquivo `CNAME` com uma linha só, por exemplo:
-   ```
-   www.devilsclub.studio
-   ```
-2. Commit e push:
-   ```powershell
-   git add CNAME
-   git commit -m "Add custom domain"
-   git push
-   ```
-3. No registrador do domínio, crie:
-   - **CNAME** `www` → `SEU_USUARIO.github.io`
-4. Em **Settings → Pages**, confira o domínio customizado e aguarde o HTTPS.
+O arquivo `CNAME` na raiz já aponta para `devilsclub.com.br`.
 
-Para o domínio **sem** www (`devilsclub.studio`), configure no registrador os **A records** que o GitHub mostra em Pages (IPs `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`) ou redirecione o apex para `www`.
+### No GitHub
+
+1. [Settings → Pages](https://github.com/Devil-s-Club/devilsclub/settings/pages)
+2. **Custom domain:** `devilsclub.com.br` → **Save**
+3. Quando o DNS propagar, marque **Enforce HTTPS**
+
+### No registrador do domínio (.com.br)
+
+Configure a zona DNS assim (apex = site na raiz, sem www):
+
+| Tipo | Nome / Host | Valor |
+|------|-------------|--------|
+| **A** | `@` (ou vazio) | `185.199.108.153` |
+| **A** | `@` | `185.199.109.153` |
+| **A** | `@` | `185.199.110.153` |
+| **A** | `@` | `185.199.111.153` |
+
+Opcional — se quiser `www.devilsclub.com.br` também:
+
+| Tipo | Nome | Valor |
+|------|------|--------|
+| **CNAME** | `www` | `devil-s-club.github.io` |
+
+No GitHub Pages, você pode adicionar `www.devilsclub.com.br` como domínio extra e redirecionar apex → www, ou manter só o apex.
+
+Propagação: de alguns minutos até 48 h (`.br` costuma ser rápido).
 
 ## 5. Atualizar o site depois
 
