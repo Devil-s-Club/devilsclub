@@ -19,6 +19,30 @@
   window.addEventListener("scroll", onScroll, { passive: true });
   onScroll();
 
+  function scrollToTop() {
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    window.scrollTo({ top: 0, behavior: reduceMotion ? "auto" : "smooth" });
+    if (window.location.hash) {
+      history.replaceState(null, "", window.location.pathname + window.location.search);
+    }
+  }
+
+  document.querySelectorAll('a[href="#top"]').forEach((link) => {
+    link.addEventListener("click", (event) => {
+      event.preventDefault();
+      scrollToTop();
+      if (menuToggle && mobileMenu && !mobileMenu.hidden) {
+        menuToggle.setAttribute("aria-expanded", "false");
+        menuToggle.setAttribute(
+          "aria-label",
+          window.I18N ? window.I18N.t("aria.menuOpen") : "Abrir menu"
+        );
+        mobileMenu.hidden = true;
+        document.body.style.overflow = "";
+      }
+    });
+  });
+
   if (menuToggle && mobileMenu) {
     menuToggle.addEventListener("click", () => {
       const open = menuToggle.getAttribute("aria-expanded") === "true";

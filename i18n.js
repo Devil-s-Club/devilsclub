@@ -1,14 +1,28 @@
 window.I18N = (function () {
   const STORAGE_KEY = "devilsclub-lang";
   const DEFAULT_LOCALE = "pt-BR";
-  const SUPPORTED = ["pt-BR", "en", "es", "zh", "ja"];
-  const LANG_LABELS = {
-    "pt-BR": "PT",
-    en: "EN",
-    es: "ES",
-    zh: "中文",
-    ja: "JA",
-  };
+  const LANG_OPTIONS = [
+    { value: "pt-BR", code: "PT", name: "Português", flag: "br" },
+    { value: "en", code: "EN", name: "English", flag: "us" },
+    { value: "es", code: "ES", name: "Español", flag: "es" },
+    { value: "fr", code: "FR", name: "Français", flag: "fr" },
+    { value: "de", code: "DE", name: "Deutsch", flag: "de" },
+    { value: "it", code: "IT", name: "Italiano", flag: "it" },
+    { value: "pl", code: "PL", name: "Polski", flag: "pl" },
+    { value: "ru", code: "RU", name: "Русский", flag: "ru" },
+    { value: "tr", code: "TR", name: "Türkçe", flag: "tr" },
+    { value: "zh", code: "简", name: "简体中文", flag: "cn" },
+    { value: "zh-TW", code: "繁", name: "繁體中文", flag: "tw" },
+    { value: "ko", code: "KO", name: "한국어", flag: "kr" },
+    { value: "ja", code: "JA", name: "日本語", flag: "jp" },
+    { value: "th", code: "TH", name: "ไทย", flag: "th" },
+  ];
+  const SUPPORTED = LANG_OPTIONS.map((option) => option.value);
+  const LANG_LABELS = Object.fromEntries(LANG_OPTIONS.map((option) => [option.value, option.code]));
+
+  function getLangOption(locale) {
+    return LANG_OPTIONS.find((option) => option.value === locale) || LANG_OPTIONS[0];
+  }
 
   const messages = {
     "pt-BR": {
@@ -230,6 +244,116 @@ window.I18N = (function () {
       "press.item3": "Studio fact sheet",
       "press.ctaDownload": "Download press kit",
       "footer.rights": "All rights reserved.",
+    },
+    fr: {
+      "meta.description":
+        "Devil's Club — studio indie de jeux et frameworks pour Unity Asset Store. Expériences originales et outils pour les développeurs.",
+      "aria.logo": "Devil's Club — accueil",
+      "aria.nav": "Principal",
+      "aria.menuOpen": "Ouvrir le menu",
+      "aria.menuClose": "Fermer le menu",
+      "aria.scrollProducts": "Défiler vers les produits",
+      "aria.lang": "Choisir la langue",
+      "nav.products": "Produits",
+      "nav.about": "À propos",
+      "nav.team": "Équipe",
+      "nav.contact": "Contact",
+      "hero.eyebrow": "Studio indie · Brésil",
+      "hero.title1": "L'expérience pour le joueur.",
+      "hero.title2": "L'efficacité pour le dev.",
+      "hero.lead":
+        "Nous créons des jeux à identité propre et des frameworks qui accélèrent la production — testés dans nos propres projets avant d'aller en boutique.",
+      "hero.ctaProducts": "Voir les produits",
+      "hero.ctaContact": "Contact",
+      "hero.scroll": "Défiler",
+      "products.tag": "Produits",
+      "products.title": "Ce que nous faisons",
+      "products.desc":
+        "Deux lignes de travail qui se nourrissent mutuellement : des jeux à identité propre et des frameworks qui accélèrent la production — y compris la nôtre.",
+      "games.title": "Jeux",
+      "games.desc": "Titres originaux.",
+      "game.mel.coverAlt": "Couverture de My Eternal Lily",
+      "game.mel.status": "Disponible",
+      "game.mel.genre": "Visual Novel · Romance · LGBTQIA · 2D",
+      "game.mel.desc":
+        "Après un accident de travail qui lui coûte son emploi et endommage son bras mécanique, Conor Spada se rend sur la Praça da República en quête de revenus. Il y trouve un atelier de réparation au bord de la faillite et son propriétaire Nano — silencieux, sérieux et un peu mystérieux.",
+      "game.mel.cta": "Jouer sur itch.io",
+      "game.raizes.coverAlt": "Couverture de Raízes",
+      "game.raizes.status": "Disponible",
+      "game.raizes.genre": "Visual Novel · Point-and-click · Ancestralité amazonienne",
+      "game.raizes.desc":
+        "Une mission académique vous mène à Belém à la recherche d'un artefact. Dialogues, enquête et choix révèlent le conflit entre mémoire culturelle et pouvoir.",
+      "game.raizes.cta": "Jouer sur itch.io",
+      "game.serra.placeholderAlt": "O Caso Serra Vermelha",
+      "game.serra.placeholder": "Art bientôt disponible",
+      "game.serra.status": "En développement",
+      "game.serra.genre": "Visual Novel · Suspense · Enquête · Point-and-click",
+      "game.serra.desc":
+        "Clara Carvalho retourne à Itaipupé, dans la Serra Vermelha (MG), pour enquêter sur la disparition de sa sœur — une journaliste sur le point d'exposer les secrets de la minière Montesa. Cinq jours de dialogues, d'indices et de décisions.",
+      "game.lunaria.placeholderAlt": "Projeto Lunária",
+      "game.lunaria.placeholder": "En prototypage",
+      "game.lunaria.status": "En prototypage",
+      "game.lunaria.genre": "Survival Horror · PSX",
+      "game.lunaria.desc": "Un survival horror à l'esthétique PSX. Détails bientôt disponibles.",
+      "product.note":
+        "Notre framework est né d'un besoin réel — et a été validé dans My Eternal Lily avant d'aller en boutique.",
+      "frameworks.title": "Frameworks",
+      "frameworks.desc":
+        "Outils testés dans nos jeux, documentés et mis à disposition d'autres game devs pour leurs projets.",
+      "fw.vn.placeholderAlt": "Framework de visual novel pour Unity",
+      "fw.vn.placeholder": "Visual Novel",
+      "fw.vn.status": "En développement",
+      "fw.vn.genre": "Visual Novel · Unity · C# · Nom en cours de définition",
+      "fw.vn.desc":
+        "Facilite le développement de visual novels sur Unity : vous vous concentrez sur l'écriture et l'art — le framework s'occupe du reste. Extensible et personnalisable selon chaque projet.",
+      "fw.vn.cta": "Asset Store bientôt disponible",
+      "about.foundation": "Fondation",
+      "about.indieLabel": "Indépendant dans l'âme",
+      "about.tag": "À propos",
+      "about.title": "Devil's Club",
+      "about.p1":
+        "Des jeux originaux pour les joueurs. Des frameworks pour les développeurs. Un studio indie sur les deux fronts — avec la même équipe derrière.",
+      "about.p2":
+        "C'est ce que représente Devil's Club : l'expérience pour le joueur, l'efficacité pour le développeur.",
+      "about.val1":
+        "<strong>Pour les Joueurs</strong> — Chaque décision pensée pour l'expérience, du premier prototype au lancement.",
+      "about.val2":
+        "<strong>Pour les Développeurs</strong> — De game dev à game dev : des outils nés de notre quotidien en production.",
+      "about.val3":
+        "<strong>Tout est Connecté</strong> — Ce que nous utilisons dans nos jeux est ce que nous publions sur les Asset Stores.",
+      "team.tag": "Qui sommes-nous",
+      "team.title": "L'équipe",
+      "team.desc":
+        "Une équipe réduite et pluridisciplinaire — les mêmes personnes qui font les jeux construisent les frameworks.",
+      "team.fabio.role": "Fondateur · Directeur créatif · Lead programmer",
+      "team.fabio.bio":
+        "Direction créative et code — des prototypes de jeux aux frameworks sur l'Asset Store.",
+      "team.camila.role": "Directrice narrative",
+      "team.camila.bio":
+        "Scénario, worldbuilding et voix narrative — de la première idée à l'arc qui définit chaque jeu du studio.",
+      "team.pablo.role": "Directeur artistique",
+      "team.pablo.bio":
+        "Direction visuelle et identité de chaque projet — du concept au langage graphique qui unifie le studio.",
+      "team.ani.role": "Lead artist · Personnages",
+      "team.ani.bio":
+        "Design et art des personnages — du concept au sprite final, avec de la personnalité dans chaque trait.",
+      "reach.tag": "Contactez-nous",
+      "reach.title": "Contact & presse",
+      "reach.desc": "Choisissez le bon canal — nous répondrons le plus vite possible.",
+      "contact.title": "Contact",
+      "contact.desc": "Pour les conversations générales, partenariats et opportunités commerciales.",
+      "contact.general.label": "Général",
+      "contact.general.hint": "Questions, invitations et autres sujets.",
+      "contact.biz.label": "Partenariats & business",
+      "contact.biz.hint": "Publishers, investisseurs et collaborations B2B.",
+      "press.title": "Presse",
+      "press.desc":
+        "Journalistes, créateurs de contenu et curateurs de boutiques — matériel officiel du studio.",
+      "press.item1": "Logos et palette de couleurs",
+      "press.item2": "Captures d'écran et key art",
+      "press.item3": "Fact sheet du studio",
+      "press.ctaDownload": "Télécharger le press kit",
+      "footer.rights": "Tous droits réservés.",
     },
     es: {
       "meta.description":
@@ -561,7 +685,14 @@ window.I18N = (function () {
       "press.ctaDownload": "プレスキットをダウンロード",
       "footer.rights": "無断転載を禁じます。",
     },
+    ...(window.I18N_LOCALES_EXTRA || {}),
   };
+
+  function htmlLang(locale) {
+    if (locale === "zh") return "zh-Hans";
+    if (locale === "zh-TW") return "zh-Hant";
+    return locale;
+  }
 
   function normalizeLocale(raw) {
     if (!raw) return DEFAULT_LOCALE;
@@ -569,6 +700,15 @@ window.I18N = (function () {
     if (lower.startsWith("pt")) return "pt-BR";
     if (lower.startsWith("en")) return "en";
     if (lower.startsWith("es")) return "es";
+    if (lower.startsWith("fr")) return "fr";
+    if (lower.startsWith("de")) return "de";
+    if (lower.startsWith("it")) return "it";
+    if (lower.startsWith("pl")) return "pl";
+    if (lower.startsWith("ru")) return "ru";
+    if (lower.startsWith("tr")) return "tr";
+    if (lower.startsWith("ko")) return "ko";
+    if (lower.startsWith("th")) return "th";
+    if (lower === "zh-tw" || lower === "zh-hk" || lower === "zh-hant") return "zh-TW";
     if (lower.startsWith("zh")) return "zh";
     if (lower.startsWith("ja")) return "ja";
     return DEFAULT_LOCALE;
@@ -590,7 +730,7 @@ window.I18N = (function () {
   function applyLocale(locale) {
     const resolved = SUPPORTED.includes(locale) ? locale : DEFAULT_LOCALE;
     currentLocale = resolved;
-    document.documentElement.lang = resolved === "zh" ? "zh-Hans" : resolved;
+    document.documentElement.lang = htmlLang(resolved);
 
     const desc = document.querySelector('meta[name="description"]');
     if (desc) desc.setAttribute("content", t(resolved, "meta.description"));
@@ -625,9 +765,13 @@ window.I18N = (function () {
   }
 
   function syncLangDropdowns(locale) {
+    const active = getLangOption(locale);
+
     document.querySelectorAll("[data-lang-dropdown]").forEach((dropdown) => {
       const codeEl = dropdown.querySelector(".lang-dropdown-code");
-      if (codeEl) codeEl.textContent = LANG_LABELS[locale] || LANG_LABELS[DEFAULT_LOCALE];
+      const flagEl = dropdown.querySelector(".lang-dropdown-flag");
+      if (codeEl) codeEl.textContent = active.code;
+      if (flagEl) flagEl.className = `lang-dropdown-flag fi fi-${active.flag}`;
 
       dropdown.querySelectorAll(".lang-dropdown-option").forEach((option) => {
         const selected = option.getAttribute("data-lang") === locale;
@@ -657,6 +801,21 @@ window.I18N = (function () {
     dropdown.classList.add("is-open");
     if (btn) btn.setAttribute("aria-expanded", "true");
     if (menu) menu.hidden = false;
+  }
+
+  function buildLangMenus() {
+    document.querySelectorAll("[data-lang-menu]").forEach((menu) => {
+      menu.innerHTML = LANG_OPTIONS.map(
+        ({ value, code, name, flag }) => `
+        <li role="presentation">
+          <button type="button" class="lang-dropdown-option" role="option" data-lang="${value}" aria-selected="false">
+            <span class="lang-dropdown-option-flag fi fi-${flag}" aria-hidden="true"></span>
+            <span class="lang-dropdown-option-code">${code}</span>
+            <span class="lang-dropdown-option-name">${name}</span>
+          </button>
+        </li>`
+      ).join("");
+    });
   }
 
   function initLangDropdowns() {
@@ -692,6 +851,7 @@ window.I18N = (function () {
   }
 
   function init() {
+    buildLangMenus();
     const locale = detectLocale();
     applyLocale(locale);
     initLangDropdowns();
