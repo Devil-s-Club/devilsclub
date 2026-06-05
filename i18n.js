@@ -2,6 +2,13 @@ window.I18N = (function () {
   const STORAGE_KEY = "devilsclub-lang";
   const DEFAULT_LOCALE = "pt-BR";
   const SUPPORTED = ["pt-BR", "en", "es", "zh", "ja"];
+  const LANG_LABELS = {
+    "pt-BR": "PT",
+    en: "EN",
+    es: "ES",
+    zh: "中文",
+    ja: "JA",
+  };
 
   const messages = {
     "pt-BR": {
@@ -18,10 +25,10 @@ window.I18N = (function () {
       "nav.team": "Equipe",
       "nav.contact": "Contato",
       "hero.eyebrow": "Estúdio indie · Brasil",
-      "hero.title1": "Jogos com",
-      "hero.title2": "alma e dentes",
+      "hero.title1": "Experiência para o jogador.",
+      "hero.title2": "Eficiência para o dev.",
       "hero.lead":
-        "Desenvolvemos jogos originais e frameworks para outras equipes — ferramentas vendidas em lojas como Unity Asset Store, itch.io e parceiros do ecossistema.",
+        "Criamos jogos com identidade própria e frameworks que aceleram a produção — testados nos nossos projetos antes de irem para a loja.",
       "hero.ctaProducts": "Ver produtos",
       "hero.ctaContact": "Contato",
       "hero.scroll": "Scroll",
@@ -52,7 +59,8 @@ window.I18N = (function () {
       "game.lunaria.placeholderAlt": "Projeto Lunária",
       "game.lunaria.placeholder": "Em prototipação",
       "game.lunaria.status": "Em prototipação",
-      "game.lunaria.desc": "Detalhes em breve.",
+      "game.lunaria.genre": "Survival Horror · PSX",
+      "game.lunaria.desc": "Um survival horror com estética PSX. Detalhes em breve.",
       "product.note":
         "Nosso framework nasce de necessidade real — e foi validado em My Eternal Lily antes de ir para a loja.",
       "frameworks.title": "Frameworks",
@@ -127,10 +135,10 @@ window.I18N = (function () {
       "nav.team": "Team",
       "nav.contact": "Contact",
       "hero.eyebrow": "Indie studio · Brazil",
-      "hero.title1": "Games with",
-      "hero.title2": "soul and bite",
+      "hero.title1": "Experience for the player.",
+      "hero.title2": "Efficiency for the dev.",
       "hero.lead":
-        "We build original games and frameworks for other teams — tools sold on stores like the Unity Asset Store, itch.io, and ecosystem partners.",
+        "We create games with a distinct identity and frameworks that speed up production — tested in our own projects before heading to the store.",
       "hero.ctaProducts": "View products",
       "hero.ctaContact": "Contact",
       "hero.scroll": "Scroll",
@@ -161,7 +169,8 @@ window.I18N = (function () {
       "game.lunaria.placeholderAlt": "Projeto Lunária",
       "game.lunaria.placeholder": "In prototyping",
       "game.lunaria.status": "In prototyping",
-      "game.lunaria.desc": "Details coming soon.",
+      "game.lunaria.genre": "Survival Horror · PSX",
+      "game.lunaria.desc": "A PSX-style survival horror. Details coming soon.",
       "product.note":
         "Our framework was born from real needs — and was validated in My Eternal Lily before heading to the store.",
       "frameworks.title": "Frameworks",
@@ -236,10 +245,10 @@ window.I18N = (function () {
       "nav.team": "Equipo",
       "nav.contact": "Contacto",
       "hero.eyebrow": "Estudio indie · Brasil",
-      "hero.title1": "Juegos con",
-      "hero.title2": "alma y garra",
+      "hero.title1": "Experiencia para el jugador.",
+      "hero.title2": "Eficiencia para el dev.",
       "hero.lead":
-        "Desarrollamos juegos originales y frameworks para otros equipos — herramientas vendidas en tiendas como Unity Asset Store, itch.io y socios del ecosistema.",
+        "Creamos juegos con identidad propia y frameworks que aceleran la producción — probados en nuestros proyectos antes de llegar a la tienda.",
       "hero.ctaProducts": "Ver productos",
       "hero.ctaContact": "Contacto",
       "hero.scroll": "Scroll",
@@ -270,7 +279,8 @@ window.I18N = (function () {
       "game.lunaria.placeholderAlt": "Projeto Lunária",
       "game.lunaria.placeholder": "En prototipado",
       "game.lunaria.status": "En prototipado",
-      "game.lunaria.desc": "Detalles próximamente.",
+      "game.lunaria.genre": "Survival Horror · PSX",
+      "game.lunaria.desc": "Un survival horror con estética PSX. Detalles próximamente.",
       "product.note":
         "Nuestro framework nace de una necesidad real — y fue validado en My Eternal Lily antes de llegar a la tienda.",
       "frameworks.title": "Frameworks",
@@ -345,10 +355,10 @@ window.I18N = (function () {
       "nav.team": "团队",
       "nav.contact": "联系",
       "hero.eyebrow": "独立工作室 · 巴西",
-      "hero.title1": "有灵魂、",
-      "hero.title2": "有锋芒的游戏",
+      "hero.title1": "为玩家打造体验。",
+      "hero.title2": "为开发者提升效率。",
       "hero.lead":
-        "我们开发原创游戏与框架，供其他团队使用 — 工具上架 Unity Asset Store、itch.io 及生态系统合作伙伴。",
+        "我们创作具有独特身份的游戏，以及加速制作的框架 — 在上架之前已在我们自己的项目中得到验证。",
       "hero.ctaProducts": "查看产品",
       "hero.ctaContact": "联系",
       "hero.scroll": "滚动",
@@ -379,7 +389,8 @@ window.I18N = (function () {
       "game.lunaria.placeholderAlt": "Projeto Lunária",
       "game.lunaria.placeholder": "原型阶段",
       "game.lunaria.status": "原型阶段",
-      "game.lunaria.desc": "详情即将公布。",
+      "game.lunaria.genre": "生存恐怖 · PSX",
+      "game.lunaria.desc": "PSX 风格的生存恐怖游戏。详情即将公布。",
       "product.note":
         "我们的框架源于真实需求 — 在上架商店之前，已在 My Eternal Lily 中得到验证。",
       "frameworks.title": "框架",
@@ -454,10 +465,10 @@ window.I18N = (function () {
       "nav.team": "チーム",
       "nav.contact": "お問い合わせ",
       "hero.eyebrow": "インディースタジオ · ブラジル",
-      "hero.title1": "魂と",
-      "hero.title2": "歯ごたえのあるゲーム",
+      "hero.title1": "プレイヤーへの体験。",
+      "hero.title2": "開発者への効率。",
       "hero.lead":
-        "オリジナルゲームとフレームワークを開発 — Unity Asset Store、itch.io などのストアで提供しています。",
+        "独自のアイデンティティを持つゲームと、制作を加速するフレームワークを創り出す — ストアに出る前に自社プロジェクトで検証。",
       "hero.ctaProducts": "製品を見る",
       "hero.ctaContact": "お問い合わせ",
       "hero.scroll": "スクロール",
@@ -488,7 +499,8 @@ window.I18N = (function () {
       "game.lunaria.placeholderAlt": "Projeto Lunária",
       "game.lunaria.placeholder": "プロトタイプ中",
       "game.lunaria.status": "プロトタイプ中",
-      "game.lunaria.desc": "詳細は近日公開。",
+      "game.lunaria.genre": "サバイバルホラー · PSX",
+      "game.lunaria.desc": "PSX風サバイバルホラー。詳細は近日公開。",
       "product.note":
         "フレームワークは実際のニーズから生まれ — ストアに出る前に My Eternal Lily で検証されました。",
       "frameworks.title": "フレームワーク",
@@ -606,23 +618,83 @@ window.I18N = (function () {
       el.setAttribute("placeholder", t(resolved, key));
     });
 
-    document.querySelectorAll(".lang-select").forEach((select) => {
-      select.value = resolved;
-    });
+    syncLangDropdowns(resolved);
 
     localStorage.setItem(STORAGE_KEY, resolved);
     return resolved;
   }
 
+  function syncLangDropdowns(locale) {
+    document.querySelectorAll("[data-lang-dropdown]").forEach((dropdown) => {
+      const codeEl = dropdown.querySelector(".lang-dropdown-code");
+      if (codeEl) codeEl.textContent = LANG_LABELS[locale] || LANG_LABELS[DEFAULT_LOCALE];
+
+      dropdown.querySelectorAll(".lang-dropdown-option").forEach((option) => {
+        const selected = option.getAttribute("data-lang") === locale;
+        option.setAttribute("aria-selected", String(selected));
+      });
+    });
+  }
+
+  function closeLangDropdown(dropdown) {
+    const btn = dropdown.querySelector(".lang-dropdown-btn");
+    const menu = dropdown.querySelector(".lang-dropdown-menu");
+    dropdown.classList.remove("is-open");
+    if (btn) btn.setAttribute("aria-expanded", "false");
+    if (menu) menu.hidden = true;
+  }
+
+  function closeAllLangDropdowns(except) {
+    document.querySelectorAll("[data-lang-dropdown].is-open").forEach((dropdown) => {
+      if (dropdown !== except) closeLangDropdown(dropdown);
+    });
+  }
+
+  function openLangDropdown(dropdown) {
+    closeAllLangDropdowns(dropdown);
+    const btn = dropdown.querySelector(".lang-dropdown-btn");
+    const menu = dropdown.querySelector(".lang-dropdown-menu");
+    dropdown.classList.add("is-open");
+    if (btn) btn.setAttribute("aria-expanded", "true");
+    if (menu) menu.hidden = false;
+  }
+
+  function initLangDropdowns() {
+    document.querySelectorAll("[data-lang-dropdown]").forEach((dropdown) => {
+      const btn = dropdown.querySelector(".lang-dropdown-btn");
+      const menu = dropdown.querySelector(".lang-dropdown-menu");
+
+      btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        if (dropdown.classList.contains("is-open")) {
+          closeLangDropdown(dropdown);
+        } else {
+          openLangDropdown(dropdown);
+        }
+      });
+
+      menu.querySelectorAll(".lang-dropdown-option").forEach((option) => {
+        option.addEventListener("click", () => {
+          const locale = option.getAttribute("data-lang");
+          if (locale) applyLocale(locale);
+          closeLangDropdown(dropdown);
+        });
+      });
+    });
+
+    document.addEventListener("click", () => {
+      closeAllLangDropdowns();
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") closeAllLangDropdowns();
+    });
+  }
+
   function init() {
     const locale = detectLocale();
     applyLocale(locale);
-
-    document.querySelectorAll(".lang-select").forEach((select) => {
-      select.addEventListener("change", (e) => {
-        applyLocale(e.target.value);
-      });
-    });
+    initLangDropdowns();
   }
 
   return {
