@@ -1,4 +1,8 @@
 (function () {
+  if (window.I18N) {
+    window.I18N.init();
+  }
+
   const header = document.querySelector(".site-header");
   const menuToggle = document.querySelector(".menu-toggle");
   const mobileMenu = document.getElementById("mobile-menu");
@@ -19,7 +23,11 @@
     menuToggle.addEventListener("click", () => {
       const open = menuToggle.getAttribute("aria-expanded") === "true";
       menuToggle.setAttribute("aria-expanded", String(!open));
-      menuToggle.setAttribute("aria-label", open ? "Abrir menu" : "Fechar menu");
+      const labelKey = open ? "aria.menuOpen" : "aria.menuClose";
+      menuToggle.setAttribute(
+        "aria-label",
+        window.I18N ? window.I18N.t(labelKey) : open ? "Abrir menu" : "Fechar menu"
+      );
       mobileMenu.hidden = open;
       document.body.style.overflow = open ? "" : "hidden";
     });

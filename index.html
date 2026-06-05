@@ -8,7 +8,9 @@
       content="Devil's Club — estúdio indie de jogos e frameworks para Unity Asset Store. Experiências originais e ferramentas para outros devs."
     />
     <title>Devil's Club</title>
-    <link rel="icon" href="assets/favicon.ico" sizes="any" />
+    <link rel="icon" href="assets/favicon.ico?v=3" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png?v=3" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png?v=3" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,22 +23,34 @@
     <div class="grain" aria-hidden="true"></div>
 
     <header class="site-header" id="top">
-      <a href="#top" class="logo" aria-label="Devil's Club — início">
+      <a href="#top" class="logo" data-i18n-attr="aria-label:aria.logo">
         <img src="assets/logo-icon.png" alt="" class="logo-icon" width="44" height="44" decoding="async" />
         <img src="assets/logo-wordmark.png" alt="Devil's Club" class="logo-wordmark" width="167" height="32" decoding="async" />
       </a>
-      <nav class="nav" aria-label="Principal">
-        <a href="#produtos">Produtos</a>
-        <a href="#sobre">Sobre</a>
-        <a href="#equipe">Equipe</a>
-        <a href="#contato" class="nav-cta">Contato</a>
+      <nav class="nav" data-i18n-attr="aria-label:aria.nav">
+        <a href="#produtos" data-i18n="nav.products">Produtos</a>
+        <a href="#sobre" data-i18n="nav.about">Sobre</a>
+        <a href="#equipe" data-i18n="nav.team">Equipe</a>
+        <div class="lang-switcher">
+          <label class="lang-switcher-label" for="lang-select">
+            <span class="visually-hidden" data-i18n="aria.lang">Selecionar idioma</span>
+            <select id="lang-select" class="lang-select" data-i18n-attr="aria-label:aria.lang">
+              <option value="pt-BR">PT</option>
+              <option value="en">EN</option>
+              <option value="es">ES</option>
+              <option value="zh">中文</option>
+              <option value="ja">日本語</option>
+            </select>
+          </label>
+        </div>
+        <a href="#contato" class="nav-cta" data-i18n="nav.contact">Contato</a>
       </nav>
       <button
         type="button"
         class="menu-toggle"
         aria-expanded="false"
         aria-controls="mobile-menu"
-        aria-label="Abrir menu"
+        data-i18n-attr="aria-label:aria.menuOpen"
       >
         <span></span>
         <span></span>
@@ -45,10 +59,19 @@
 
     <div class="mobile-menu" id="mobile-menu" hidden>
       <nav aria-label="Menu mobile">
-        <a href="#produtos">Produtos</a>
-        <a href="#sobre">Sobre</a>
-        <a href="#equipe">Equipe</a>
-        <a href="#contato">Contato</a>
+        <a href="#produtos" data-i18n="nav.products">Produtos</a>
+        <a href="#sobre" data-i18n="nav.about">Sobre</a>
+        <a href="#equipe" data-i18n="nav.team">Equipe</a>
+        <a href="#contato" data-i18n="nav.contact">Contato</a>
+        <div class="lang-switcher lang-switcher--mobile">
+          <select class="lang-select" data-i18n-attr="aria-label:aria.lang">
+            <option value="pt-BR">PT</option>
+            <option value="en">EN</option>
+            <option value="es">ES</option>
+            <option value="zh">中文</option>
+            <option value="ja">日本語</option>
+          </select>
+        </div>
       </nav>
     </div>
 
@@ -60,22 +83,22 @@
           <div class="hero-grid"></div>
         </div>
         <div class="hero-content reveal">
-          <p class="hero-eyebrow">Estúdio indie · Brasil</p>
+          <p class="hero-eyebrow" data-i18n="hero.eyebrow">Estúdio indie · Brasil</p>
           <h1 id="hero-title" class="hero-title">
-            Jogos com<br />
-            <span class="hero-accent">alma e dentes</span>
+            <span data-i18n="hero.title1">Jogos com</span><br />
+            <span class="hero-accent" data-i18n="hero.title2">alma e dentes</span>
           </h1>
-          <p class="hero-lead">
+          <p class="hero-lead" data-i18n="hero.lead">
             Desenvolvemos jogos originais e frameworks para outras equipes — ferramentas
             vendidas em lojas como Unity Asset Store, itch.io e parceiros do ecossistema.
           </p>
           <div class="hero-actions">
-            <a href="#produtos" class="btn btn-primary">Ver produtos</a>
-            <a href="#contato" class="btn btn-ghost">Contato</a>
+            <a href="#produtos" class="btn btn-primary" data-i18n="hero.ctaProducts">Ver produtos</a>
+            <a href="#contato" class="btn btn-ghost" data-i18n="hero.ctaContact">Contato</a>
           </div>
         </div>
-        <a href="#produtos" class="hero-scroll" aria-label="Rolar para produtos">
-          <span>Scroll</span>
+        <a href="#produtos" class="hero-scroll" data-i18n-attr="aria-label:aria.scrollProducts">
+          <span data-i18n="hero.scroll">Scroll</span>
           <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
             <path d="M10 3v14M4 11l6 6 6-6" stroke="currentColor" stroke-width="1.5" />
           </svg>
@@ -85,9 +108,9 @@
       <section class="section games" id="produtos" aria-labelledby="products-title">
         <div class="container">
           <header class="section-header reveal">
-            <span class="section-tag">Produtos</span>
-            <h2 id="products-title" class="section-title">O que fazemos</h2>
-            <p class="section-desc">
+            <span class="section-tag" data-i18n="products.tag">Produtos</span>
+            <h2 id="products-title" class="section-title" data-i18n="products.title">O que fazemos</h2>
+            <p class="section-desc" data-i18n="products.desc">
               Duas linhas de trabalho que se alimentam: jogos com identidade própria e frameworks
               que aceleram a produção — inclusive a nossa.
             </p>
@@ -95,90 +118,111 @@
 
           <div class="product-line reveal">
             <div class="product-line-header">
-              <h3 class="product-line-title">Jogos</h3>
-              <p class="product-line-desc">
+              <h3 class="product-line-title" data-i18n="games.title">Jogos</h3>
+              <p class="product-line-desc" data-i18n="games.desc">
                 Títulos autorais.
               </p>
             </div>
 
             <article class="game-card game-card--featured">
               <div class="game-card-media">
-                <div class="game-placeholder game-placeholder--alt2" role="img" aria-label="O Caso Serra Vermelha">
-                  <span class="game-placeholder-label">Arte em breve</span>
-                </div>
-                <span class="game-status">Em destaque</span>
+                <img
+                  class="game-cover"
+                  src="assets/jogos/my-eternal-lily-cover.jpg"
+                  alt="Capa de My Eternal Lily"
+                  data-i18n-attr="alt:game.mel.coverAlt"
+                  width="1080"
+                  height="1080"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <span class="game-status game-status--available" data-i18n="game.mel.status">Disponível</span>
               </div>
               <div class="game-card-body">
-                <h4 class="game-title">O Caso Serra Vermelha</h4>
-                <p class="game-genre">Visual Novel · Suspense · Investigação · Point-and-click</p>
-                <p class="game-desc">
-                  Clara Carvalho volta a Itaipupé, na Serra Vermelha (MG), para investigar o
-                  desaparecimento da irmã — uma jornalista perto de expor os segredos da mineradora
-                  Montesa. Cinco dias de diálogos, pistas e decisões.
+                <h4 class="game-title">My Eternal Lily</h4>
+                <p class="game-genre" data-i18n="game.mel.genre">Visual Novel · Romance · LGBTQIA · 2D</p>
+                <p class="game-desc" data-i18n="game.mel.desc">
+                  Após um acidente de trabalho que tira seu emprego e compromete seu braço mecânico,
+                  Conor Spada vai até a Praça da República em busca de renda. Lá encontra uma loja
+                  de assistência à beira da falência e seu dono Nano, silencioso, sério e um pouco
+                  misterioso.
                 </p>
+                <div class="game-actions">
+                  <a href="https://devilmaydev.itch.io/my-eternal-lily" class="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer" data-i18n="game.mel.cta">Jogar no itch.io</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="game-card game-card--featured">
+              <div class="game-card-media game-card-media--raizes">
+                <img
+                  class="game-cover"
+                  src="assets/jogos/raizes-cover.png"
+                  alt="Capa de Raízes"
+                  data-i18n-attr="alt:game.raizes.coverAlt"
+                  width="1400"
+                  height="640"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <span class="game-status game-status--available" data-i18n="game.raizes.status">Disponível</span>
+              </div>
+              <div class="game-card-body">
+                <h4 class="game-title">Raízes</h4>
+                <p class="game-genre" data-i18n="game.raizes.genre">Visual Novel · Point-and-click · Ancestralidade amazônica</p>
+                <p class="game-desc" data-i18n="game.raizes.desc">
+                  Uma missão acadêmica leva você até Belém na busca por um artefato.
+                  Diálogos, investigação e escolhas revelam o conflito entre memória cultural
+                  e poder.
+                </p>
+                <div class="game-actions">
+                  <a href="#" class="btn btn-primary btn-sm" data-i18n="game.raizes.cta">Jogar no itch.io</a>
+                </div>
               </div>
             </article>
 
             <div class="games-grid">
               <article class="game-card game-card--compact">
                 <div class="game-card-media game-card-media--sm">
-                  <div class="game-placeholder" role="img" aria-label="My Eternal Lily">
-                    <span class="game-placeholder-label">Arte em breve</span>
+                  <div class="game-placeholder game-placeholder--alt2" role="img" data-i18n-attr="aria-label:game.serra.placeholderAlt">
+                    <span class="game-placeholder-label" data-i18n="game.serra.placeholder">Arte em breve</span>
                   </div>
-                  <span class="game-status game-status--available">Disponível</span>
+                  <span class="game-status game-status--proto" data-i18n="game.serra.status">Em desenvolvimento</span>
                 </div>
                 <div class="game-card-body">
-                  <h4 class="game-title">My Eternal Lily</h4>
-                  <p class="game-genre">Visual Novel</p>
-                  <p class="game-desc">
-                    Disponível no itch.io — desenvolvido com nosso framework de visual novel.
+                  <h4 class="game-title">O Caso Serra Vermelha</h4>
+                  <p class="game-genre" data-i18n="game.serra.genre">Visual Novel · Suspense · Investigação · Point-and-click</p>
+                  <p class="game-desc" data-i18n="game.serra.desc">
+                    Clara Carvalho volta a Itaipupé, na Serra Vermelha (MG), para investigar o
+                    desaparecimento da irmã — uma jornalista perto de expor os segredos da mineradora
+                    Montesa. Cinco dias de diálogos, pistas e decisões.
                   </p>
-                  <div class="game-actions">
-                    <a href="https://devilmaydev.itch.io/my-eternal-lily" class="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer">Jogar no itch.io</a>
-                  </div>
                 </div>
               </article>
 
               <article class="game-card game-card--compact">
                 <div class="game-card-media game-card-media--sm">
-                  <div class="game-placeholder game-placeholder--alt" role="img" aria-label="Raízes">
-                    <span class="game-placeholder-label">Arte em breve</span>
+                  <div class="game-placeholder game-placeholder--alt" role="img" data-i18n-attr="aria-label:game.lunaria.placeholderAlt">
+                    <span class="game-placeholder-label" data-i18n="game.lunaria.placeholder">Em prototipação</span>
                   </div>
-                  <span class="game-status game-status--available">Disponível</span>
+                  <span class="game-status game-status--proto" data-i18n="game.lunaria.status">Em prototipação</span>
                 </div>
                 <div class="game-card-body">
-                  <h4 class="game-title">Raízes</h4>
-                  <p class="game-genre">Visual Novel</p>
-                  <p class="game-desc">Disponível no itch.io.</p>
-                  <div class="game-actions">
-                    <a href="#" class="btn btn-primary btn-sm">Jogar no itch.io</a>
-                  </div>
-                </div>
-              </article>
-
-              <article class="game-card game-card--compact">
-                <div class="game-card-media game-card-media--sm">
-                  <div class="game-placeholder game-placeholder--alt" role="img" aria-label="The Selene Palace: The Fatal Performance">
-                    <span class="game-placeholder-label">Arte em breve</span>
-                  </div>
-                  <span class="game-status game-status--proto">Em prototipação</span>
-                </div>
-                <div class="game-card-body">
-                  <h4 class="game-title">The Selene Palace: The Fatal Performance</h4>
-                  <p class="game-desc game-desc--pending">Detalhes em breve.</p>
+                  <h4 class="game-title">Projeto Lunária</h4>
+                  <p class="game-desc game-desc--pending" data-i18n="game.lunaria.desc">Detalhes em breve.</p>
                 </div>
               </article>
             </div>
           </div>
 
-          <p class="product-note reveal">
+          <p class="product-note reveal" data-i18n="product.note">
             Nosso framework nasce de necessidade real — e foi validado em My Eternal Lily antes de ir para a loja.
           </p>
 
           <div class="product-line reveal">
             <div class="product-line-header">
-              <h3 class="product-line-title">Frameworks</h3>
-              <p class="product-line-desc">
+              <h3 class="product-line-title" data-i18n="frameworks.title">Frameworks</h3>
+              <p class="product-line-desc" data-i18n="frameworks.desc">
                 Ferramentas testadas nos nossos jogos, documentadas e disponibilizadas para outros
                 Game Devs usarem em seus projetos.
               </p>
@@ -186,21 +230,21 @@
 
             <article class="game-card game-card--featured">
               <div class="game-card-media">
-                <div class="game-placeholder game-placeholder--alt" role="img" aria-label="Framework de visual novel para Unity">
-                  <span class="game-placeholder-label">Visual Novel</span>
+                <div class="game-placeholder game-placeholder--alt" role="img" data-i18n-attr="aria-label:fw.vn.placeholderAlt">
+                  <span class="game-placeholder-label" data-i18n="fw.vn.placeholder">Visual Novel</span>
                 </div>
-                <span class="game-status game-status--proto">Em desenvolvimento</span>
+                <span class="game-status game-status--proto" data-i18n="fw.vn.status">Em desenvolvimento</span>
               </div>
               <div class="game-card-body">
-                <h4 class="game-title">Framework de Visual Novel</h4>
-                <p class="game-genre">Visual Novel · Unity · C# · Nome em definição</p>
-                <p class="game-desc">
+                <h4 class="game-title">Unity Visual Novel Framework</h4>
+                <p class="game-genre" data-i18n="fw.vn.genre">Visual Novel · Unity · C# · Nome em definição</p>
+                <p class="game-desc" data-i18n="fw.vn.desc">
                   Facilita o desenvolvimento de visual novels na Unity: você foca em escrever a história
                   e fazer as artes — o framework cuida do resto. Expansível e customizável para a
                   necessidade de cada projeto.
                 </p>
                 <div class="game-actions">
-                  <a href="#" class="btn btn-ghost btn-sm">Asset Store em breve</a>
+                  <a href="#" class="btn btn-ghost btn-sm" data-i18n="fw.vn.cta">Asset Store em breve</a>
                 </div>
               </div>
             </article>
@@ -214,35 +258,35 @@
             <div class="about-frame">
               <div class="about-stat">
                 <span class="about-stat-num">2024</span>
-                <span class="about-stat-label">Fundação</span>
+                <span class="about-stat-label" data-i18n="about.foundation">Fundação</span>
               </div>
               <div class="about-stat">
                 <span class="about-stat-num">Indie</span>
-                <span class="about-stat-label">De coração</span>
+                <span class="about-stat-label" data-i18n="about.indieLabel">De coração</span>
               </div>
             </div>
           </div>
           <div class="about-copy reveal">
-            <span class="section-tag">Sobre</span>
-            <h2 id="about-title" class="section-title">O Devil's Club</h2>
-            <p>
+            <span class="section-tag" data-i18n="about.tag">Sobre</span>
+            <h2 id="about-title" class="section-title" data-i18n="about.title">O Devil's Club</h2>
+            <p data-i18n="about.p1">
               Jogos autorais para players. Frameworks para desenvolvedores. Um estúdio indie com as
               duas frentes — e o mesmo time por trás.
             </p>
-            <p>
+            <p data-i18n="about.p2">
               É isso que o Devil's Club representa: experiência para o jogador, eficiência para o
               desenvolvedor.
             </p>
             <ul class="about-values">
-              <li>
+              <li data-i18n-html="about.val1">
                 <strong>Para Quem Joga</strong>
                 — Cada decisão pensada na experiência, do primeiro protótipo ao lançamento.
               </li>
-              <li>
+              <li data-i18n-html="about.val2">
                 <strong>Para Quem Desenvolve</strong>
                 — De Game Dev para Game Dev: ferramentas que nascem do nosso dia a dia em produção.
               </li>
-              <li>
+              <li data-i18n-html="about.val3">
                 <strong>Tudo Conectado</strong>
                 — O que a gente usa nos nossos jogos é o que publicamos nas Asset Stores.
               </li>
@@ -254,9 +298,9 @@
       <section class="section team" id="equipe" aria-labelledby="team-title">
         <div class="container">
           <header class="section-header reveal">
-            <span class="section-tag">Quem faz</span>
-            <h2 id="team-title" class="section-title">A equipe</h2>
-            <p class="section-desc">
+            <span class="section-tag" data-i18n="team.tag">Quem faz</span>
+            <h2 id="team-title" class="section-title" data-i18n="team.title">A equipe</h2>
+            <p class="section-desc" data-i18n="team.desc">
               Time enxuto, multidisciplinar — as mesmas pessoas que fazem os jogos constroem os frameworks.
             </p>
           </header>
@@ -276,8 +320,8 @@
                 />
               </div>
               <h3 class="team-name">Fabio Ferro <span class="team-alias">(Devil)</span></h3>
-              <p class="team-role">Fundador · Diretor criativo · Lead programmer</p>
-              <p class="team-bio">
+              <p class="team-role" data-i18n="team.fabio.role">Fundador · Diretor criativo · Lead programmer</p>
+              <p class="team-bio" data-i18n="team.fabio.bio">
                 Direção criativa e código — dos protótipos dos jogos aos frameworks que saem da Asset Store.
               </p>
             </article>
@@ -296,8 +340,8 @@
                 />
               </div>
               <h3 class="team-name">Camila Segatto</h3>
-              <p class="team-role">Diretora de narrativa</p>
-              <p class="team-bio">
+              <p class="team-role" data-i18n="team.camila.role">Diretora de narrativa</p>
+              <p class="team-bio" data-i18n="team.camila.bio">
                 Roteiro, worldbuilding e voz narrativa — da primeira ideia ao arco que define cada jogo do estúdio.
               </p>
             </article>
@@ -307,8 +351,8 @@
                 <span>PG</span>
               </div>
               <h3 class="team-name">Pablo Gutierrez <span class="team-alias">(PG Ninja)</span></h3>
-              <p class="team-role">Diretor de arte</p>
-              <p class="team-bio">
+              <p class="team-role" data-i18n="team.pablo.role">Diretor de arte</p>
+              <p class="team-bio" data-i18n="team.pablo.bio">
                 Direção visual e identidade de cada projeto — do conceito à linguagem gráfica que unifica o estúdio.
               </p>
             </article>
@@ -318,8 +362,8 @@
                 <span>AK</span>
               </div>
               <h3 class="team-name">Ani Kaori</h3>
-              <p class="team-role">Lead artist · Personagens</p>
-              <p class="team-bio">
+              <p class="team-role" data-i18n="team.ani.role">Lead artist · Personagens</p>
+              <p class="team-bio" data-i18n="team.ani.bio">
                 Design e arte de personagens — do conceito ao sprite final, com personalidade em cada traço.
               </p>
             </article>
@@ -330,47 +374,47 @@
       <section class="section reach" aria-labelledby="reach-title">
         <div class="container">
           <header class="section-header reveal">
-            <span class="section-tag">Fale conosco</span>
-            <h2 id="reach-title" class="section-title">Contato & imprensa</h2>
-            <p class="section-desc">
+            <span class="section-tag" data-i18n="reach.tag">Fale conosco</span>
+            <h2 id="reach-title" class="section-title" data-i18n="reach.title">Contato & imprensa</h2>
+            <p class="section-desc" data-i18n="reach.desc">
               Escolha o canal certo — respondemos o mais rápido possível.
             </p>
           </header>
 
           <div class="reach-grid reveal">
             <div class="reach-panel" id="contato" aria-labelledby="contact-title">
-              <h3 id="contact-title" class="reach-panel-title">Contato</h3>
-              <p class="reach-panel-desc">Para conversas gerais, parcerias e oportunidades comerciais.</p>
+              <h3 id="contact-title" class="reach-panel-title" data-i18n="contact.title">Contato</h3>
+              <p class="reach-panel-desc" data-i18n="contact.desc">Para conversas gerais, parcerias e oportunidades comerciais.</p>
 
               <div class="contact-cards">
                 <article class="contact-card">
-                  <span class="contact-label">Geral</span>
-                  <p class="contact-hint">Dúvidas, convites e assuntos diversos.</p>
+                  <span class="contact-label" data-i18n="contact.general.label">Geral</span>
+                  <p class="contact-hint" data-i18n="contact.general.hint">Dúvidas, convites e assuntos diversos.</p>
                   <a href="mailto:contato@devilsclub.com.br" class="contact-email">contato@devilsclub.com.br</a>
                 </article>
                 <article class="contact-card">
-                  <span class="contact-label">Parcerias & negócios</span>
-                  <p class="contact-hint">Publishers, investidores e colaborações B2B.</p>
+                  <span class="contact-label" data-i18n="contact.biz.label">Parcerias & negócios</span>
+                  <p class="contact-hint" data-i18n="contact.biz.hint">Publishers, investidores e colaborações B2B.</p>
                   <a href="mailto:biz@devilsclub.com.br" class="contact-email">biz@devilsclub.com.br</a>
                 </article>
               </div>
             </div>
 
             <div class="reach-panel reach-panel--press" id="imprensa" aria-labelledby="press-title">
-              <h3 id="press-title" class="reach-panel-title">Imprensa</h3>
-              <p class="reach-panel-desc">
+              <h3 id="press-title" class="reach-panel-title" data-i18n="press.title">Imprensa</h3>
+              <p class="reach-panel-desc" data-i18n="press.desc">
                 Jornalistas, criadores de conteúdo e curadores de lojas — material oficial do estúdio.
               </p>
 
               <ul class="press-includes">
-                <li>Logos e paleta de cores</li>
-                <li>Screenshots e key art</li>
-                <li>Fact sheet do estúdio</li>
+                <li data-i18n="press.item1">Logos e paleta de cores</li>
+                <li data-i18n="press.item2">Screenshots e key art</li>
+                <li data-i18n="press.item3">Fact sheet do estúdio</li>
               </ul>
 
               <div class="press-actions">
                 <a href="mailto:press@devilsclub.com.br" class="btn btn-ghost">press@devilsclub.com.br</a>
-                <a href="#" class="btn btn-primary">Baixar press kit</a>
+                <a href="#" class="btn btn-primary" data-i18n="press.ctaDownload">Baixar press kit</a>
               </div>
             </div>
           </div>
@@ -384,10 +428,11 @@
           <img src="assets/logo-icon.png" alt="" class="logo-icon" width="36" height="36" decoding="async" />
           <img src="assets/logo-wordmark.png" alt="Devil's Club" class="logo-wordmark" width="140" height="27" decoding="async" />
         </a>
-        <p class="footer-copy">© <span id="year"></span> Devils Club. Todos os direitos reservados.</p>
+        <p class="footer-copy">© <span id="year"></span> Devils Club. <span data-i18n="footer.rights">Todos os direitos reservados.</span></p>
       </div>
     </footer>
 
+    <script src="i18n.js"></script>
     <script src="main.js"></script>
   </body>
 </html>

@@ -1,4 +1,4 @@
-"""Favicon with only the red flower head (no stem)."""
+"""Build favicon from official logo part icone-01.png."""
 from __future__ import annotations
 
 from pathlib import Path
@@ -6,49 +6,39 @@ from pathlib import Path
 import numpy as np
 from PIL import Image
 
-SRC = Path(r"C:\Stuff\Devil's Club\devils-club-logo\devils-club-logo-icon-transparent.png")
+SRC = Path(r"C:\Stuff\Devil's Club\devils-club-logo\parts\icone-01.png")
 ASSETS = Path(__file__).resolve().parent.parent / "assets"
-ALPHA_MIN = 8
-WIDTH_RATIO = 0.55
-MIN_FLOWER_ROWS = 30
+PAD_RATIO = 0.1
+BG = (8, 8, 10, 255)
 
 
-def flower_crop(im: Image.Image) -> Image.Image:
-    rgba = im.convert("RGBA")
-    alpha = np.array(rgba)[:, :, 3]
-    mask = alpha > ALPHA_MIN
+def load_icon(path: Path) -> Image.Image:
+    rgba = Image.open(path).convert("RGBA")
+    data = np.array(rgba)
+    dark = (data[:, :, 0] < 24) & (data[:, :, 1] < 24) & (data[:, :, 2] < 24)
+    data[dark, 3] = 0
+    return Image.fromarray(data)
+
+
+def trim_rgba(im: Image.Image) -> Image.Image:
+    alpha = np.array(im)[:, :, 3]
+    mask = alpha > 8
     ys, xs = np.where(mask)
     if len(xs) == 0:
-        raise ValueError("empty icon")
+        return im
+    return im.crop((int(xs.min()), int(ys.min()), int(xs.max()) + 1, int(ys.max()) + 1))
 
-    x0, x1 = int(xs.min()), int(xs.max()) + 1
-    y0, y1 = int(ys.min()), int(ys.max()) + 1
 
-    row_widths: list[tuple[int, int]] = []
-    for y in range(y0, y1):
-        row = mask[y, x0:x1]
-        if not row.any():
-            continue
-        idx = np.where(row)[0]
-        row_widths.append((y, int(idx.max() - idx.min() + 1)))
-
-    max_w = max(w for _, w in row_widths)
-    threshold = max_w * WIDTH_RATIO
-    flower_bottom = y1 - 1
-    passed_peak = False
-    for y, w in row_widths:
-        if w >= max_w * 0.9:
-            passed_peak = True
-        if passed_peak and w < threshold and y > y0 + MIN_FLOWER_ROWS:
-            flower_bottom = y - 1
-            break
-
-    crop = rgba.crop((x0, y0, x1, flower_bottom + 1))
-    cw, ch = crop.size
-    side = max(cw, ch)
-    square = Image.new("RGBA", (side, side), (0, 0, 0, 0))
-    square.paste(crop, ((side - cw) // 2, (side - ch) // 2))
-    return square
+def fit_square(im: Image.Image) -> Image.Image:
+    trimmed = trim_rgba(im)
+    cw, ch = trimmed.size
+    side = int(max(cw, ch) * (1 + PAD_RATIO * 2))
+    canvas = Image.new("RGBA", (side, side), BG)
+    scale = (side * (1 - PAD_RATIO * 2)) / max(cw, ch)
+    nw, nh = max(1, int(cw * scale)), max(1, int(ch * scale))
+    resized = trimmed.resize((nw, nh), Image.Resampling.LANCZOS)
+    canvas.paste(resized, ((side - nw) // 2, (side - nh) // 2), resized)
+    return canvas
 
 
 def main() -> None:
@@ -56,17 +46,19 @@ def main() -> None:
         raise SystemExit(f"Missing source: {SRC}")
 
     ASSETS.mkdir(parents=True, exist_ok=True)
-    flower = flower_crop(Image.open(SRC))
+    icon = fit_square(load_icon(SRC))
     sizes = [(16, 16), (32, 32), (48, 48), (64, 64), (128, 128), (256, 256)]
-    icons = [flower.resize(size, Image.Resampling.LANCZOS) for size in sizes]
+    icons = [icon.resize(size, Image.Resampling.LANCZOS) for size in sizes]
     icons[0].save(
         ASSETS / "favicon.ico",
         format="ICO",
         sizes=sizes,
         append_images=icons[1:],
     )
-    flower.resize((512, 512), Image.Resampling.LANCZOS).save(ASSETS / "favicon-flower.png")
-    print(f"Wrote {ASSETS / 'favicon.ico'} (flower crop {flower.size})")
+    icons[0].save(ASSETS / "favicon-16.png")
+    icons[1].save(ASSETS / "favicon-32.png")
+    icon.resize((512, 512), Image.Resampling.LANCZOS).save(ASSETS / "favicon-flower.png")
+    print(f"Wrote favicon.ico from {SRC.name} ({icon.size})")
 
 
 if __name__ == "__main__":
