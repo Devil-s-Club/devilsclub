@@ -3,9 +3,6 @@
   const menuToggle = document.querySelector(".menu-toggle");
   const mobileMenu = document.getElementById("mobile-menu");
   const yearEl = document.getElementById("year");
-  const form = document.querySelector(".newsletter-form");
-  const formSuccess = document.getElementById("form-success");
-
   if (yearEl) {
     yearEl.textContent = String(new Date().getFullYear());
   }
@@ -54,13 +51,4 @@
     revealEls.forEach((el) => el.classList.add("is-visible"));
   }
 
-  if (form) {
-    form.addEventListener("submit", (e) => {
-      e.preventDefault();
-      if (formSuccess) {
-        formSuccess.hidden = false;
-      }
-      form.reset();
-    });
-  }
 })();
