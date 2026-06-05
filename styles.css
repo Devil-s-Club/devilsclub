@@ -516,7 +516,8 @@ a {
   min-height: 100dvh;
   display: flex;
   align-items: center;
-  padding: calc(var(--header-h) + 3rem) clamp(1.25rem, 4vw, 2.5rem) 4rem;
+  justify-content: center;
+  padding: var(--header-h) clamp(1.25rem, 4vw, 2.5rem) 5rem;
 }
 
 .hero-bg {
@@ -564,7 +565,9 @@ a {
 
 .hero-content {
   position: relative;
-  max-width: 720px;
+  width: 100%;
+  max-width: var(--container);
+  text-align: center;
 }
 
 .hero-eyebrow {
@@ -594,14 +597,15 @@ a {
 .hero-lead {
   font-size: clamp(1rem, 2.5vw, 1.2rem);
   color: var(--text-muted);
-  max-width: 32rem;
-  margin: 0 0 2rem;
+  max-width: 36rem;
+  margin: 0 auto 2rem;
 }
 
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+  justify-content: center;
 }
 
 .hero-scroll {
