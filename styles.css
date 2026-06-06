@@ -1029,27 +1029,61 @@ a {
 .team-grid {
   display: grid;
   gap: 1.25rem;
+  width: 100%;
+  max-width: var(--container);
+  margin-inline: auto;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 560px) {
   .team-grid {
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 52rem;
-    margin-inline: auto;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.35rem;
+  }
+}
+
+@media (min-width: 560px) and (max-width: 959px) {
+  .team-card:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+    width: min(100%, 20rem);
+    justify-self: center;
+  }
+}
+
+@media (min-width: 960px) {
+  .team-grid {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 1.5rem;
+  }
+
+  .team-card {
+    grid-column: span 2;
+  }
+
+  .team-card:nth-child(4) {
+    grid-column: 2 / span 2;
+  }
+
+  .team-card:nth-child(5) {
+    grid-column: 4 / span 2;
   }
 }
 
 .team-card {
-  padding: 1.75rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding: 1.75rem 1.35rem;
   background: var(--bg-card);
   border: 1px solid var(--border);
-  border-radius: 8px;
+  border-radius: 10px;
   text-align: center;
-  transition: border-color 0.3s, transform 0.35s var(--ease);
+  transition: border-color 0.3s, transform 0.35s var(--ease), box-shadow 0.35s var(--ease);
 }
 
 .team-card:hover {
   border-color: rgba(153, 15, 21, 0.3);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.22);
   transform: translateY(-4px);
 }
 
@@ -1118,6 +1152,7 @@ a {
   color: var(--text-muted);
   line-height: 1.55;
   margin: 0;
+  max-width: 22rem;
 }
 
 /* Reach — contact & press */

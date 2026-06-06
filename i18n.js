@@ -108,6 +108,9 @@ window.I18N = (function () {
       "team.fabio.role": "Fundador · Diretor criativo · Lead programmer",
       "team.fabio.bio":
         "Direção criativa e código — dos protótipos dos jogos aos frameworks que saem da Asset Store.",
+      "team.arthur.role": "Programador",
+      "team.arthur.bio":
+        "Código e sistemas — do gameplay às ferramentas que sustentam os projetos do estúdio.",
       "team.camila.role": "Diretora de narrativa",
       "team.camila.bio":
         "Roteiro, worldbuilding e voz narrativa — da primeira ideia ao arco que define cada jogo do estúdio.",
@@ -218,6 +221,9 @@ window.I18N = (function () {
       "team.fabio.role": "Founder · Creative director · Lead programmer",
       "team.fabio.bio":
         "Creative direction and code — from game prototypes to frameworks on the Asset Store.",
+      "team.arthur.role": "Programmer",
+      "team.arthur.bio":
+        "Code and systems — from gameplay to the tools that power the studio's projects.",
       "team.camila.role": "Narrative director",
       "team.camila.bio":
         "Writing, worldbuilding, and narrative voice — from the first idea to the arc that defines each studio game.",
@@ -328,6 +334,9 @@ window.I18N = (function () {
       "team.fabio.role": "Fondateur · Directeur créatif · Lead programmer",
       "team.fabio.bio":
         "Direction créative et code — des prototypes de jeux aux frameworks sur l'Asset Store.",
+      "team.arthur.role": "Programmeur",
+      "team.arthur.bio":
+        "Code et systèmes — du gameplay aux outils qui soutiennent les projets du studio.",
       "team.camila.role": "Directrice narrative",
       "team.camila.bio":
         "Scénario, worldbuilding et voix narrative — de la première idée à l'arc qui définit chaque jeu du studio.",
@@ -438,6 +447,9 @@ window.I18N = (function () {
       "team.fabio.role": "Fundador · Director creativo · Lead programmer",
       "team.fabio.bio":
         "Dirección creativa y código — de los prototipos de juegos a los frameworks en la Asset Store.",
+      "team.arthur.role": "Programador",
+      "team.arthur.bio":
+        "Código y sistemas — del gameplay a las herramientas que sustentan los proyectos del estudio.",
       "team.camila.role": "Directora de narrativa",
       "team.camila.bio":
         "Guion, worldbuilding y voz narrativa — de la primera idea al arco que define cada juego del estúdio.",
@@ -548,6 +560,8 @@ window.I18N = (function () {
       "team.fabio.role": "创始人 · 创意总监 · 首席程序员",
       "team.fabio.bio":
         "创意方向与代码 — 从游戏原型到 Asset Store 上的框架。",
+      "team.arthur.role": "程序员",
+      "team.arthur.bio": "代码与系统 — 从玩法到支撑工作室项目的工具。",
       "team.camila.role": "叙事总监",
       "team.camila.bio":
         "剧本、世界观与叙事声音 — 从最初创意到定义每款游戏的叙事弧线。",
@@ -658,6 +672,9 @@ window.I18N = (function () {
       "team.fabio.role": "創設者 · クリエイティブディレクター · リードプログラマー",
       "team.fabio.bio":
         "クリエイティブディレクションとコード — ゲームのプロトタイプから Asset Store のフレームワークまで。",
+      "team.arthur.role": "プログラマー",
+      "team.arthur.bio":
+        "コードとシステム — ゲームプレイからスタジオのプロジェクトを支えるツールまで。",
       "team.camila.role": "ナラティブディレクター",
       "team.camila.bio":
         "脚本、ワールドビルディング、ナラティブの声 — 最初のアイデアから各ゲームを定義する物語の弧まで。",

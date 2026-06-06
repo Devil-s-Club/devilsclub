@@ -82,6 +82,9 @@ window.I18N_LOCALES_EXTRA = {
     "team.fabio.role": "Gründer · Creative Director · Lead Programmer",
     "team.fabio.bio":
       "Kreative Leitung und Code — von Spielprototypen bis zu Frameworks im Asset Store.",
+    "team.arthur.role": "Programmierer",
+    "team.arthur.bio":
+      "Code und Systeme — vom Gameplay bis zu den Tools, die die Projekte des Studios tragen.",
     "team.camila.role": "Narrative Director",
     "team.camila.bio":
       "Drehbuch, Worldbuilding und narrative Stimme — von der ersten Idee bis zum Bogen, der jedes Studio-Spiel definiert.",
@@ -192,6 +195,9 @@ window.I18N_LOCALES_EXTRA = {
     "team.fabio.role": "Fondatore · Direttore creativo · Lead programmer",
     "team.fabio.bio":
       "Direzione creativa e codice — dai prototipi di gioco ai framework sull'Asset Store.",
+    "team.arthur.role": "Programmatore",
+    "team.arthur.bio":
+      "Codice e sistemi — dal gameplay agli strumenti che sostengono i progetti dello studio.",
     "team.camila.role": "Direttrice narrativa",
     "team.camila.bio":
       "Sceneggiatura, worldbuilding e voce narrativa — dalla prima idea all'arco che definisce ogni gioco dello studio.",
@@ -302,6 +308,9 @@ window.I18N_LOCALES_EXTRA = {
     "team.fabio.role": "Założyciel · Dyrektor kreatywny · Lead programmer",
     "team.fabio.bio":
       "Kierunek kreatywny i kod — od prototypów gier po frameworki w Asset Store.",
+    "team.arthur.role": "Programista",
+    "team.arthur.bio":
+      "Kod i systemy — od rozgrywki po narzędzia wspierające projekty studia.",
     "team.camila.role": "Dyrektor narracji",
     "team.camila.bio":
       "Scenariusz, worldbuilding i głos narracji — od pierwszego pomysłu po łuk definiujący każdą grę studia.",
@@ -412,6 +421,9 @@ window.I18N_LOCALES_EXTRA = {
     "team.fabio.role": "Основатель · Креативный директор · Lead programmer",
     "team.fabio.bio":
       "Креативное руководство и код — от прототипов игр до фреймворков в Asset Store.",
+    "team.arthur.role": "Программист",
+    "team.arthur.bio":
+      "Код и системы — от геймплея до инструментов, на которых держатся проекты студии.",
     "team.camila.role": "Директор по нарративу",
     "team.camila.bio":
       "Сценарий, worldbuilding и нарративный голос — от первой идеи до арки, определяющей каждую игру студии.",
@@ -522,6 +534,9 @@ window.I18N_LOCALES_EXTRA = {
     "team.fabio.role": "Kurucu · Yaratıcı yönetmen · Lead programmer",
     "team.fabio.bio":
       "Yaratıcı yönetim ve kod — oyun prototiplerinden Asset Store'daki framework'lere.",
+    "team.arthur.role": "Programcı",
+    "team.arthur.bio":
+      "Kod ve sistemler — oynanıştan stüdyonun projelerini taşıyan araçlara.",
     "team.camila.role": "Anlatı yönetmeni",
     "team.camila.bio":
       "Senaryo, worldbuilding ve anlatı sesi — ilk fikirden stüdyonun her oyununu tanımlayan yola.",
@@ -632,6 +647,8 @@ window.I18N_LOCALES_EXTRA = {
     "team.fabio.role": "創辦人 · 創意總監 · 首席程式設計師",
     "team.fabio.bio":
       "創意方向與程式 — 從遊戲原型到 Asset Store 上的框架。",
+    "team.arthur.role": "程式設計師",
+    "team.arthur.bio": "程式與系統 — 從玩法到支撐工作室專案的工具。",
     "team.camila.role": "敘事總監",
     "team.camila.bio":
       "劇本、世界觀與敘事聲音 — 從最初創意到定義每款遊戲的敘事弧線。",
@@ -742,6 +759,9 @@ window.I18N_LOCALES_EXTRA = {
     "team.fabio.role": "창립자 · 크리에이티브 디렉터 · 리드 프로그래머",
     "team.fabio.bio":
       "크리에이티브 디렉션과 코드 — 게임 프로토타입부터 Asset Store 프레임워크까지.",
+    "team.arthur.role": "프로그래머",
+    "team.arthur.bio":
+      "코드와 시스템 — 게임플레이부터 스튜디오 프로젝트를 지탱하는 도구까지.",
     "team.camila.role": "내러티브 디렉터",
     "team.camila.bio":
       "시나리오, 월드빌딩, 내러티브 보이스 — 첫 아이디어부터 각 게임을 정의하는 서사 아크까지.",
@@ -852,6 +872,9 @@ window.I18N_LOCALES_EXTRA = {
     "team.fabio.role": "ผู้ก่อตั้ง · ผู้อำนวยการสร้างสรรค์ · Lead programmer",
     "team.fabio.bio":
       "ทิศทางสร้างสรรค์และโค้ด — จากต้นแบบเกมถึงเฟรมเวิร์กบน Asset Store",
+    "team.arthur.role": "โปรแกรมเมอร์",
+    "team.arthur.bio":
+      "โค้ดและระบบ — จากเกมเพลย์ไปจนถึงเครื่องมือที่หนุนโปรเจกต์ของสตูดิโอ",
     "team.camila.role": "ผู้อำนวยการเนื้อเรื่อง",
     "team.camila.bio":
       "บท โลก และเสียงเล่าเรื่อง — จากไอเดียแรกถึงเส้นทางที่กำหนดเกมแต่ละเกมของสตูดิโอ",
