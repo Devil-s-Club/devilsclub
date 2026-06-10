@@ -57,7 +57,7 @@ window.I18N_LOCALES_EXTRA = {
     "fw.vn.placeholderAlt": "Visual-Novel-Framework für Unity",
     "fw.vn.placeholder": "Visual Novel",
     "fw.vn.status": "In Entwicklung",
-    "fw.vn.genre": "Visual Novel · Unity · C# · Name noch offen",
+    "fw.vn.genre": "Visual Novel · Unity · C#",
     "fw.vn.desc":
       "Beschleunigt die Entwicklung von Visual Novels in Unity: Du konzentrierst dich auf Story und Art — das Framework erledigt den Rest. Erweiterbar und anpassbar für jedes Projekt.",
     "fw.vn.cta": "Asset Store demnächst",
@@ -88,6 +88,9 @@ window.I18N_LOCALES_EXTRA = {
     "team.camila.role": "Narrative Director",
     "team.camila.bio":
       "Drehbuch, Worldbuilding und narrative Stimme — von der ersten Idee bis zum Bogen, der jedes Studio-Spiel definiert.",
+    "team.thadeu.role": "Drehbuchautor · Character Artist",
+    "team.thadeu.bio":
+      "Drehbuch und Charakterdesign — von der Geschichte bis zu den Linien, die jeden Protagonisten zum Leben erwecken.",
     "team.pablo.role": "Art Director",
     "team.pablo.bio":
       "Visuelle Leitung und Identität jedes Projekts — vom Konzept bis zur Grafiksprache, die das Studio verbindet.",
@@ -170,7 +173,7 @@ window.I18N_LOCALES_EXTRA = {
     "fw.vn.placeholderAlt": "Framework di visual novel per Unity",
     "fw.vn.placeholder": "Visual Novel",
     "fw.vn.status": "In sviluppo",
-    "fw.vn.genre": "Visual Novel · Unity · C# · Nome da definire",
+    "fw.vn.genre": "Visual Novel · Unity · C#",
     "fw.vn.desc":
       "Semplifica lo sviluppo di visual novel in Unity: tu ti concentri sulla storia e sull'arte — il framework fa il resto. Espandibile e personalizzabile per ogni progetto.",
     "fw.vn.cta": "Asset Store in arrivo",
@@ -201,6 +204,9 @@ window.I18N_LOCALES_EXTRA = {
     "team.camila.role": "Direttrice narrativa",
     "team.camila.bio":
       "Sceneggiatura, worldbuilding e voce narrativa — dalla prima idea all'arco che definisce ogni gioco dello studio.",
+    "team.thadeu.role": "Sceneggiatore · Character artist",
+    "team.thadeu.bio":
+      "Sceneggiatura e character design — dalla storia ai tratti che danno vita a ogni protagonista.",
     "team.pablo.role": "Direttore artistico",
     "team.pablo.bio":
       "Direzione visiva e identità di ogni progetto — dal concept al linguaggio grafico che unifica lo studio.",
@@ -283,7 +289,7 @@ window.I18N_LOCALES_EXTRA = {
     "fw.vn.placeholderAlt": "Framework visual novel dla Unity",
     "fw.vn.placeholder": "Visual Novel",
     "fw.vn.status": "W produkcji",
-    "fw.vn.genre": "Visual Novel · Unity · C# · Nazwa do ustalenia",
+    "fw.vn.genre": "Visual Novel · Unity · C#",
     "fw.vn.desc":
       "Upraszcza tworzenie visual novel w Unity: ty skupiasz się na pisaniu historii i tworzeniu grafiki — framework zajmuje się resztą. Rozszerzalny i konfigurowalny pod każdy projekt.",
     "fw.vn.cta": "Asset Store wkrótce",
@@ -314,6 +320,9 @@ window.I18N_LOCALES_EXTRA = {
     "team.camila.role": "Dyrektor narracji",
     "team.camila.bio":
       "Scenariusz, worldbuilding i głos narracji — od pierwszego pomysłu po łuk definiujący każdą grę studia.",
+    "team.thadeu.role": "Scenarzysta · Artysta postaci",
+    "team.thadeu.bio":
+      "Scenariusz i design postaci — od historii po linie, które ożywiają każdego protagonista.",
     "team.pablo.role": "Dyrektor artystyczny",
     "team.pablo.bio":
       "Kierunek wizualny i tożsamość każdego projektu — od koncepcji po język graficzny jednoczący studio.",
@@ -396,7 +405,7 @@ window.I18N_LOCALES_EXTRA = {
     "fw.vn.placeholderAlt": "Фреймворк визуальных новелл для Unity",
     "fw.vn.placeholder": "Visual Novel",
     "fw.vn.status": "В разработке",
-    "fw.vn.genre": "Visual Novel · Unity · C# · Название уточняется",
+    "fw.vn.genre": "Visual Novel · Unity · C#",
     "fw.vn.desc":
       "Упрощает разработку визуальных новелл в Unity: вы сосредотачиваетесь на сюжете и арте — фреймворк берёт на себя остальное. Расширяемый и настраиваемый под каждый проект.",
     "fw.vn.cta": "Asset Store скоро",
@@ -427,6 +436,9 @@ window.I18N_LOCALES_EXTRA = {
     "team.camila.role": "Директор по нарративу",
     "team.camila.bio":
       "Сценарий, worldbuilding и нарративный голос — от первой идеи до арки, определяющей каждую игру студии.",
+    "team.thadeu.role": "Сценарист · Художник по персонажам",
+    "team.thadeu.bio":
+      "Сценарий и дизайн персонажей — от истории до штрихов, которые оживляют каждого героя.",
     "team.pablo.role": "Арт-директор",
     "team.pablo.bio":
       "Визуальное руководство и идентичность каждого проекта — от концепции до графического языка, объединяющего студию.",
@@ -509,7 +521,7 @@ window.I18N_LOCALES_EXTRA = {
     "fw.vn.placeholderAlt": "Unity için visual novel framework'ü",
     "fw.vn.placeholder": "Visual Novel",
     "fw.vn.status": "Geliştiriliyor",
-    "fw.vn.genre": "Visual Novel · Unity · C# · İsim belirlenecek",
+    "fw.vn.genre": "Visual Novel · Unity · C#",
     "fw.vn.desc":
       "Unity'de visual novel geliştirmeyi kolaylaştırır: hikayeyi yazmaya ve sanata odaklanırsınız — framework geri kalanını halleder. Her proje için genişletilebilir ve özelleştirilebilir.",
     "fw.vn.cta": "Asset Store yakında",
@@ -540,6 +552,9 @@ window.I18N_LOCALES_EXTRA = {
     "team.camila.role": "Anlatı yönetmeni",
     "team.camila.bio":
       "Senaryo, worldbuilding ve anlatı sesi — ilk fikirden stüdyonun her oyununu tanımlayan yola.",
+    "team.thadeu.role": "Senaryo yazarı · Karakter sanatçısı",
+    "team.thadeu.bio":
+      "Senaryo ve karakter tasarımı — hikâyeden her protagonisti hayata geçiren çizgilere.",
     "team.pablo.role": "Sanat yönetmeni",
     "team.pablo.bio":
       "Her projenin görsel yönetimi ve kimliği — konseptten stüdyoyu birleştiren grafik diline.",
@@ -622,7 +637,7 @@ window.I18N_LOCALES_EXTRA = {
     "fw.vn.placeholderAlt": "Unity 視覺小說框架",
     "fw.vn.placeholder": "視覺小說",
     "fw.vn.status": "開發中",
-    "fw.vn.genre": "視覺小說 · Unity · C# · 名稱待定",
+    "fw.vn.genre": "視覺小說 · Unity · C#",
     "fw.vn.desc":
       "簡化 Unity 視覺小說開發：你專注於撰寫故事與製作美術 — 框架負責其餘部分。可擴充、可自訂，適應每個專案的需求。",
     "fw.vn.cta": "Asset Store 即將上線",
@@ -652,6 +667,8 @@ window.I18N_LOCALES_EXTRA = {
     "team.camila.role": "敘事總監",
     "team.camila.bio":
       "劇本、世界觀與敘事聲音 — 從最初創意到定義每款遊戲的敘事弧線。",
+    "team.thadeu.role": "編劇 · 角色藝術家",
+    "team.thadeu.bio": "劇本與角色設計 — 從故事到賦予每位主角生命的每一筆。",
     "team.pablo.role": "美術總監",
     "team.pablo.bio":
       "每個專案的視覺方向與品牌識別 — 從概念到統一工作室的視覺語言。",
@@ -734,7 +751,7 @@ window.I18N_LOCALES_EXTRA = {
     "fw.vn.placeholderAlt": "Unity용 비주얼 노벨 프레임워크",
     "fw.vn.placeholder": "비주얼 노벨",
     "fw.vn.status": "개발 중",
-    "fw.vn.genre": "비주얼 노벨 · Unity · C# · 이름 미정",
+    "fw.vn.genre": "비주얼 노벨 · Unity · C#",
     "fw.vn.desc":
       "Unity에서 비주얼 노벨 개발을 간소화합니다: 스토리 작성과 아트에 집중하세요 — 프레임워크가 나머지를 처리합니다. 프로젝트별로 확장·커스터마이즈 가능.",
     "fw.vn.cta": "Asset Store 출시 예정",
@@ -765,6 +782,9 @@ window.I18N_LOCALES_EXTRA = {
     "team.camila.role": "내러티브 디렉터",
     "team.camila.bio":
       "시나리오, 월드빌딩, 내러티브 보이스 — 첫 아이디어부터 각 게임을 정의하는 서사 아크까지.",
+    "team.thadeu.role": "시나리오 작가 · 캐릭터 아티스트",
+    "team.thadeu.bio":
+      "시나리오와 캐릭터 디자인 — 스토리부터 각 주인공에 생명을 불어넣는 선까지.",
     "team.pablo.role": "아트 디렉터",
     "team.pablo.bio":
       "각 프로젝트의 비주얼 디렉션과 아이덴티티 — 컨셉부터 스튜디오를 통합하는 그래픽 언어까지.",
@@ -847,7 +867,7 @@ window.I18N_LOCALES_EXTRA = {
     "fw.vn.placeholderAlt": "เฟรมเวิร์ก visual novel สำหรับ Unity",
     "fw.vn.placeholder": "Visual Novel",
     "fw.vn.status": "กำลังพัฒนา",
-    "fw.vn.genre": "Visual Novel · Unity · C# · ชื่อยังไม่กำหนด",
+    "fw.vn.genre": "Visual Novel · Unity · C#",
     "fw.vn.desc":
       "ทำให้การพัฒนา visual novel บน Unity ง่ายขึ้น: คุณโฟกัสการเขียนเรื่องและสร้างศิลป์ — เฟรมเวิร์กจัดการส่วนที่เหลือ ขยายและปรับแต่งได้ตามความต้องการของแต่ละโปรเจกต์",
     "fw.vn.cta": "Asset Store เร็วๆ นี้",
@@ -878,6 +898,9 @@ window.I18N_LOCALES_EXTRA = {
     "team.camila.role": "ผู้อำนวยการเนื้อเรื่อง",
     "team.camila.bio":
       "บท โลก และเสียงเล่าเรื่อง — จากไอเดียแรกถึงเส้นทางที่กำหนดเกมแต่ละเกมของสตูดิโอ",
+    "team.thadeu.role": "นักเขียนบท · ศิลปินตัวละคร",
+    "team.thadeu.bio":
+      "บทและการออกแบบตัวละคร — จากเรื่องราวสู่เส้นที่ทำให้ตัวเอกมีชีวิต",
     "team.pablo.role": "ผู้อำนวยการศิลป์",
     "team.pablo.bio":
       "ทิศทางภาพและเอกลักษณ์ของแต่ละโปรเจกต์ — จากคอนเซปต์ถึงภาษากราฟิกที่รวมสตูดิโอ",

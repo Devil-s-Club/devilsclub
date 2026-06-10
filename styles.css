@@ -738,7 +738,7 @@ a {
   .game-card--featured {
     grid-template-columns: 1.1fr 1fr;
     align-items: stretch;
-    height: clamp(22rem, 32vw, 25rem);
+    min-height: clamp(22rem, 32vw, 25rem);
   }
 
   .game-card--featured .game-card-media {
@@ -747,7 +747,8 @@ a {
     min-height: 0;
   }
 
-  .game-card--featured .game-cover {
+  .game-card--featured .game-cover,
+  .game-card--featured .game-placeholder {
     position: absolute;
     inset: 0;
     width: 100%;
@@ -755,6 +756,11 @@ a {
     object-fit: cover;
     object-position: center;
   }
+}
+
+.game-card-media .game-placeholder {
+  position: absolute;
+  inset: 0;
 }
 
 .game-card-media {
@@ -873,6 +879,17 @@ a {
   justify-content: center;
 }
 
+.game-card--featured .game-card-body {
+  justify-content: flex-start;
+}
+
+@media (min-width: 900px) {
+  .game-card--featured .game-title {
+    font-size: clamp(1.35rem, 2.1vw, 1.75rem);
+    line-height: 1.15;
+  }
+}
+
 .game-title {
   font-family: var(--font-display);
   font-size: 2rem;
@@ -894,10 +911,16 @@ a {
   flex: 1;
 }
 
+.game-card--featured .game-desc {
+  flex: 0 1 auto;
+}
+
 .game-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
+  flex-shrink: 0;
+  margin-top: auto;
 }
 
 .games-grid {
@@ -1057,14 +1080,6 @@ a {
 
   .team-card {
     grid-column: span 2;
-  }
-
-  .team-card:nth-child(4) {
-    grid-column: 2 / span 2;
-  }
-
-  .team-card:nth-child(5) {
-    grid-column: 4 / span 2;
   }
 }
 

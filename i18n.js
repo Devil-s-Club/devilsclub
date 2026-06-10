@@ -83,7 +83,7 @@ window.I18N = (function () {
       "fw.vn.placeholderAlt": "Framework de visual novel para Unity",
       "fw.vn.placeholder": "Visual Novel",
       "fw.vn.status": "Em desenvolvimento",
-      "fw.vn.genre": "Visual Novel · Unity · C# · Nome em definição",
+      "fw.vn.genre": "Visual Novel · Unity · C#",
       "fw.vn.desc":
         "Facilita o desenvolvimento de visual novels na Unity: você foca em escrever a história e fazer as artes — o framework cuida do resto. Expansível e customizável para a necessidade de cada projeto.",
       "fw.vn.cta": "Asset Store em breve",
@@ -114,6 +114,9 @@ window.I18N = (function () {
       "team.camila.role": "Diretora de narrativa",
       "team.camila.bio":
         "Roteiro, worldbuilding e voz narrativa — da primeira ideia ao arco que define cada jogo do estúdio.",
+      "team.thadeu.role": "Roteirista · Artista de personagem",
+      "team.thadeu.bio":
+        "Roteiro e design de personagens — da história aos traços que dão vida a cada protagonista.",
       "team.pablo.role": "Diretor de arte",
       "team.pablo.bio":
         "Direção visual e identidade de cada projeto — do conceito à linguagem gráfica que unifica o estúdio.",
@@ -196,7 +199,7 @@ window.I18N = (function () {
       "fw.vn.placeholderAlt": "Visual novel framework for Unity",
       "fw.vn.placeholder": "Visual Novel",
       "fw.vn.status": "In development",
-      "fw.vn.genre": "Visual Novel · Unity · C# · Name TBD",
+      "fw.vn.genre": "Visual Novel · Unity · C#",
       "fw.vn.desc":
         "Streamlines visual novel development in Unity: you focus on writing the story and creating the art — the framework handles the rest. Expandable and customizable for each project's needs.",
       "fw.vn.cta": "Asset Store coming soon",
@@ -227,6 +230,9 @@ window.I18N = (function () {
       "team.camila.role": "Narrative director",
       "team.camila.bio":
         "Writing, worldbuilding, and narrative voice — from the first idea to the arc that defines each studio game.",
+      "team.thadeu.role": "Screenwriter · Character artist",
+      "team.thadeu.bio":
+        "Writing and character design — from story to the lines that bring each protagonist to life.",
       "team.pablo.role": "Art director",
       "team.pablo.bio":
         "Visual direction and identity for each project — from concept to the graphic language that unifies the studio.",
@@ -309,7 +315,7 @@ window.I18N = (function () {
       "fw.vn.placeholderAlt": "Framework de visual novel pour Unity",
       "fw.vn.placeholder": "Visual Novel",
       "fw.vn.status": "En développement",
-      "fw.vn.genre": "Visual Novel · Unity · C# · Nom en cours de définition",
+      "fw.vn.genre": "Visual Novel · Unity · C#",
       "fw.vn.desc":
         "Facilite le développement de visual novels sur Unity : vous vous concentrez sur l'écriture et l'art — le framework s'occupe du reste. Extensible et personnalisable selon chaque projet.",
       "fw.vn.cta": "Asset Store bientôt disponible",
@@ -340,6 +346,9 @@ window.I18N = (function () {
       "team.camila.role": "Directrice narrative",
       "team.camila.bio":
         "Scénario, worldbuilding et voix narrative — de la première idée à l'arc qui définit chaque jeu du studio.",
+      "team.thadeu.role": "Scénariste · Artiste personnages",
+      "team.thadeu.bio":
+        "Écriture et design de personnages — de l'histoire aux traits qui donnent vie à chaque protagoniste.",
       "team.pablo.role": "Directeur artistique",
       "team.pablo.bio":
         "Direction visuelle et identité de chaque projet — du concept au langage graphique qui unifie le studio.",
@@ -422,7 +431,7 @@ window.I18N = (function () {
       "fw.vn.placeholderAlt": "Framework de visual novel para Unity",
       "fw.vn.placeholder": "Visual Novel",
       "fw.vn.status": "En desarrollo",
-      "fw.vn.genre": "Visual Novel · Unity · C# · Nombre por definir",
+      "fw.vn.genre": "Visual Novel · Unity · C#",
       "fw.vn.desc":
         "Facilita el desarrollo de visual novels en Unity: tú te enfocas en escribir la historia y crear el arte — el framework se encarga del resto. Expandible y personalizable según cada proyecto.",
       "fw.vn.cta": "Asset Store próximamente",
@@ -453,6 +462,9 @@ window.I18N = (function () {
       "team.camila.role": "Directora de narrativa",
       "team.camila.bio":
         "Guion, worldbuilding y voz narrativa — de la primera idea al arco que define cada juego del estúdio.",
+      "team.thadeu.role": "Guionista · Artista de personajes",
+      "team.thadeu.bio":
+        "Guion y diseño de personajes — de la historia a los trazos que dan vida a cada protagonista.",
       "team.pablo.role": "Director de arte",
       "team.pablo.bio":
         "Dirección visual e identidad de cada proyecto — del concepto al lenguaje gráfico que unifica el estúdio.",
@@ -535,7 +547,7 @@ window.I18N = (function () {
       "fw.vn.placeholderAlt": "Unity 视觉小说框架",
       "fw.vn.placeholder": "视觉小说",
       "fw.vn.status": "开发中",
-      "fw.vn.genre": "视觉小说 · Unity · C# · 名称待定",
+      "fw.vn.genre": "视觉小说 · Unity · C#",
       "fw.vn.desc":
         "简化 Unity 视觉小说开发：你专注于撰写故事与制作美术 — 框架负责其余部分。可扩展、可定制，适应每个项目的需求。",
       "fw.vn.cta": "Asset Store 即将上线",
@@ -565,6 +577,8 @@ window.I18N = (function () {
       "team.camila.role": "叙事总监",
       "team.camila.bio":
         "剧本、世界观与叙事声音 — 从最初创意到定义每款游戏的叙事弧线。",
+      "team.thadeu.role": "编剧 · 角色艺术家",
+      "team.thadeu.bio": "剧本与角色设计 — 从故事到赋予每位主角生命的每一笔。",
       "team.pablo.role": "艺术总监",
       "team.pablo.bio":
         "每个项目的视觉方向与品牌识别 — 从概念到统一工作室的视觉语言。",
@@ -647,7 +661,7 @@ window.I18N = (function () {
       "fw.vn.placeholderAlt": "Unity 向けビジュアルノベルフレームワーク",
       "fw.vn.placeholder": "ビジュアルノベル",
       "fw.vn.status": "開発中",
-      "fw.vn.genre": "ビジュアルノベル · Unity · C# · 名称未定",
+      "fw.vn.genre": "ビジュアルノベル · Unity · C#",
       "fw.vn.desc":
         "Unity でのビジュアルノベル開発を効率化：ストーリー執筆とアート制作に集中 — フレームワークが残りを担当。プロジェクトごとに拡張・カスタマイズ可能。",
       "fw.vn.cta": "Asset Store 近日公開",
@@ -678,6 +692,9 @@ window.I18N = (function () {
       "team.camila.role": "ナラティブディレクター",
       "team.camila.bio":
         "脚本、ワールドビルディング、ナラティブの声 — 最初のアイデアから各ゲームを定義する物語の弧まで。",
+      "team.thadeu.role": "シナリオライター · キャラクターアーティスト",
+      "team.thadeu.bio":
+        "脚本とキャラクターデザイン — 物語から各主人公に命を吹き込む一筆一筆まで。",
       "team.pablo.role": "アートディレクター",
       "team.pablo.bio":
         "各プロジェクトのビジュアルディレクションとアイデンティティ — コンセプトからスタジオを統一するグラフィック言語まで。",
