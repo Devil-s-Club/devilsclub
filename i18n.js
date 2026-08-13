@@ -27,8 +27,8 @@ window.I18N = (function () {
   const messages = {
     "pt-BR": {
       "meta.description":
-        "Devil's Club — estúdio indie de jogos e frameworks para Unity Asset Store. Experiências originais e ferramentas para outros devs.",
-      "aria.logo": "Devil's Club — início",
+        "Devil's Club: estúdio indie de jogos e frameworks para Unity Asset Store. Experiências originais e ferramentas para outros devs.",
+      "aria.logo": "Devil's Club: início",
       "aria.nav": "Principal",
       "aria.menuOpen": "Abrir menu",
       "aria.menuClose": "Fechar menu",
@@ -42,14 +42,14 @@ window.I18N = (function () {
       "hero.title1": "Experiência para o jogador.",
       "hero.title2": "Eficiência para o dev.",
       "hero.lead":
-        "Criamos jogos com identidade própria e frameworks que aceleram a produção — testados nos nossos projetos antes de irem para a loja.",
+        "Criamos jogos com identidade própria e frameworks que aceleram a produção, testados nos nossos projetos antes de irem para a loja.",
       "hero.ctaProducts": "Ver produtos",
       "hero.ctaContact": "Contato",
       "hero.scroll": "Scroll",
       "products.tag": "Produtos",
       "products.title": "O que fazemos",
       "products.desc":
-        "Duas linhas de trabalho que se alimentam: jogos com identidade própria e frameworks que aceleram a produção — inclusive a nossa.",
+        "Duas linhas de trabalho que se alimentam: jogos com identidade própria e frameworks que aceleram a produção, inclusive a nossa.",
       "games.title": "Jogos",
       "games.desc": "Títulos autorais.",
       "game.mel.coverAlt": "Capa de My Eternal Lily",
@@ -69,14 +69,14 @@ window.I18N = (function () {
       "game.serra.status": "Em desenvolvimento",
       "game.serra.genre": "Visual Novel · Suspense · Investigação · Point-and-click",
       "game.serra.desc":
-        "Clara Carvalho volta a Itaipupé, na Serra Vermelha (MG), para investigar o desaparecimento da irmã — uma jornalista perto de expor os segredos da mineradora Montesa. Cinco dias de diálogos, pistas e decisões.",
+        "Clara Carvalho volta a Itaipupé, na Serra Vermelha (MG), para investigar o desaparecimento da irmã, uma jornalista perto de expor os segredos da mineradora Montesa. Cinco dias de diálogos, pistas e decisões.",
       "game.lunaria.placeholderAlt": "Projeto Lunária",
       "game.lunaria.placeholder": "Em prototipação",
       "game.lunaria.status": "Em prototipação",
       "game.lunaria.genre": "Survival Horror · PSX",
       "game.lunaria.desc": "Um survival horror com estética PSX. Detalhes em breve.",
       "product.note":
-        "Nosso framework nasce de necessidade real — e foi validado em My Eternal Lily antes de ir para a loja.",
+        "Nosso framework nasce de necessidade real e foi validado em My Eternal Lily antes de ir para a loja.",
       "frameworks.title": "Frameworks",
       "frameworks.desc":
         "Ferramentas testadas nos nossos jogos, documentadas e disponibilizadas para outros Game Devs usarem em seus projetos.",
@@ -85,47 +85,47 @@ window.I18N = (function () {
       "fw.vn.status": "Em desenvolvimento",
       "fw.vn.genre": "Visual Novel · Unity · C#",
       "fw.vn.desc":
-        "Facilita o desenvolvimento de visual novels na Unity: você foca em escrever a história e fazer as artes — o framework cuida do resto. Expansível e customizável para a necessidade de cada projeto.",
+        "Facilita o desenvolvimento de visual novels na Unity: você foca em escrever a história e fazer as artes. O framework cuida do resto. Expansível e customizável para a necessidade de cada projeto.",
       "fw.vn.cta": "Asset Store em breve",
       "about.foundation": "Fundação",
       "about.indieLabel": "De coração",
       "about.tag": "Sobre",
       "about.title": "O Devil's Club",
       "about.p1":
-        "Jogos autorais para players. Frameworks para desenvolvedores. Um estúdio indie com as duas frentes — e o mesmo time por trás.",
+        "Jogos autorais para players. Frameworks para desenvolvedores. Um estúdio indie com as duas frentes e o mesmo time por trás.",
       "about.p2":
         "É isso que o Devil's Club representa: experiência para o jogador, eficiência para o desenvolvedor.",
       "about.val1":
-        "<strong>Para Quem Joga</strong> — Cada decisão pensada na experiência, do primeiro protótipo ao lançamento.",
+        "<strong>Para Quem Joga</strong>: Cada decisão pensada na experiência, do primeiro protótipo ao lançamento.",
       "about.val2":
-        "<strong>Para Quem Desenvolve</strong> — De Game Dev para Game Dev: ferramentas que nascem do nosso dia a dia em produção.",
+        "<strong>Para Quem Desenvolve</strong>: De Game Dev para Game Dev: ferramentas que nascem do nosso dia a dia em produção.",
       "about.val3":
-        "<strong>Tudo Conectado</strong> — O que a gente usa nos nossos jogos é o que publicamos nas Asset Stores.",
+        "<strong>Tudo Conectado</strong>: O que a gente usa nos nossos jogos é o que publicamos nas Asset Stores.",
       "team.tag": "Quem faz",
       "team.title": "A equipe",
       "team.desc":
-        "Time enxuto, multidisciplinar — as mesmas pessoas que fazem os jogos constroem os frameworks.",
+        "Time enxuto e multidisciplinar. As mesmas pessoas que fazem os jogos constroem os frameworks.",
       "team.fabio.role": "Fundador · Diretor criativo · Lead programmer",
       "team.fabio.bio":
-        "Direção criativa e código — dos protótipos dos jogos aos frameworks que saem da Asset Store.",
+        "Direção criativa e código, dos protótipos dos jogos aos frameworks que saem da Asset Store.",
       "team.arthur.role": "Programador",
       "team.arthur.bio":
-        "Código e sistemas — do gameplay às ferramentas que sustentam os projetos do estúdio.",
+        "Código e sistemas, do gameplay às ferramentas que sustentam os projetos do estúdio.",
       "team.camila.role": "Diretora de narrativa",
       "team.camila.bio":
-        "Roteiro, worldbuilding e voz narrativa — da primeira ideia ao arco que define cada jogo do estúdio.",
+        "Roteiro, worldbuilding e voz narrativa, da primeira ideia ao arco que define cada jogo do estúdio.",
       "team.thadeu.role": "Roteirista · Artista de personagem",
       "team.thadeu.bio":
-        "Roteiro e design de personagens — da história aos traços que dão vida a cada protagonista.",
+        "Roteiro e design de personagens, da história aos traços que dão vida a cada protagonista.",
       "team.pablo.role": "Diretor de arte",
       "team.pablo.bio":
-        "Direção visual e identidade de cada projeto — do conceito à linguagem gráfica que unifica o estúdio.",
+        "Direção visual e identidade de cada projeto, do conceito à linguagem gráfica que unifica o estúdio.",
       "team.ani.role": "Lead artist · Personagens",
       "team.ani.bio":
-        "Design e arte de personagens — do conceito ao sprite final, com personalidade em cada traço.",
+        "Design e arte de personagens, do conceito ao sprite final, com personalidade em cada traço.",
       "reach.tag": "Fale conosco",
       "reach.title": "Contato & imprensa",
-      "reach.desc": "Escolha o canal certo — respondemos o mais rápido possível.",
+      "reach.desc": "Escolha o canal certo. Respondemos o mais rápido possível.",
       "contact.title": "Contato",
       "contact.desc": "Para conversas gerais, parcerias e oportunidades comerciais.",
       "contact.general.label": "Geral",
@@ -134,7 +134,7 @@ window.I18N = (function () {
       "contact.biz.hint": "Publishers, investidores e colaborações B2B.",
       "press.title": "Imprensa",
       "press.desc":
-        "Jornalistas, criadores de conteúdo e curadores de lojas — material oficial do estúdio.",
+        "Jornalistas, criadores de conteúdo e curadores de lojas. Material oficial do estúdio.",
       "press.item1": "Logos e paleta de cores",
       "press.item2": "Screenshots e key art",
       "press.item3": "Fact sheet do estúdio",
@@ -143,8 +143,8 @@ window.I18N = (function () {
     },
     en: {
       "meta.description":
-        "Devil's Club — indie game studio and frameworks for the Unity Asset Store. Original experiences and tools for fellow developers.",
-      "aria.logo": "Devil's Club — home",
+        "Devil's Club: indie game studio and frameworks for the Unity Asset Store. Original experiences and tools for fellow developers.",
+      "aria.logo": "Devil's Club: home",
       "aria.nav": "Main",
       "aria.menuOpen": "Open menu",
       "aria.menuClose": "Close menu",
@@ -158,21 +158,21 @@ window.I18N = (function () {
       "hero.title1": "Experience for the player.",
       "hero.title2": "Efficiency for the dev.",
       "hero.lead":
-        "We create games with a distinct identity and frameworks that speed up production — tested in our own projects before heading to the store.",
+        "We create games with a distinct identity and frameworks that speed up production, tested in our own projects before heading to the store.",
       "hero.ctaProducts": "View products",
       "hero.ctaContact": "Contact",
       "hero.scroll": "Scroll",
       "products.tag": "Products",
       "products.title": "What we do",
       "products.desc":
-        "Two lines of work that feed each other: games with a distinct identity and frameworks that speed up production — including our own.",
+        "Two lines of work that feed each other: games with a distinct identity and frameworks that speed up production, including our own.",
       "games.title": "Games",
       "games.desc": "Original titles.",
       "game.mel.coverAlt": "My Eternal Lily cover",
       "game.mel.status": "Available",
       "game.mel.genre": "Visual Novel · Romance · LGBTQIA · 2D",
       "game.mel.desc":
-        "After a workplace accident costs him his job and damages his mechanical arm, Conor Spada heads to Praça da República looking for income. There he finds a repair shop on the brink of bankruptcy and its owner Nano — quiet, serious, and a little mysterious.",
+        "After a workplace accident costs him his job and damages his mechanical arm, Conor Spada heads to Praça da República looking for income. There he finds a repair shop on the brink of bankruptcy and its owner Nano, quiet, serious, and a little mysterious.",
       "game.mel.cta": "Play on itch.io",
       "game.raizes.coverAlt": "Raízes cover",
       "game.raizes.status": "Available",
@@ -185,14 +185,14 @@ window.I18N = (function () {
       "game.serra.status": "In development",
       "game.serra.genre": "Visual Novel · Suspense · Investigation · Point-and-click",
       "game.serra.desc":
-        "Clara Carvalho returns to Itaipupé, in Serra Vermelha (MG), to investigate her sister's disappearance — a journalist close to exposing mining company Montesa's secrets. Five days of dialogue, clues, and decisions.",
+        "Clara Carvalho returns to Itaipupé, in Serra Vermelha (MG), to investigate her sister's disappearance, a journalist close to exposing mining company Montesa's secrets. Five days of dialogue, clues, and decisions.",
       "game.lunaria.placeholderAlt": "Projeto Lunária",
       "game.lunaria.placeholder": "In prototyping",
       "game.lunaria.status": "In prototyping",
       "game.lunaria.genre": "Survival Horror · PSX",
       "game.lunaria.desc": "A PSX-style survival horror. Details coming soon.",
       "product.note":
-        "Our framework was born from real needs — and was validated in My Eternal Lily before heading to the store.",
+        "Our framework was born from real needs and was validated in My Eternal Lily before heading to the store.",
       "frameworks.title": "Frameworks",
       "frameworks.desc":
         "Tools tested in our games, documented and made available for other game developers to use in their projects.",
@@ -201,47 +201,47 @@ window.I18N = (function () {
       "fw.vn.status": "In development",
       "fw.vn.genre": "Visual Novel · Unity · C#",
       "fw.vn.desc":
-        "Streamlines visual novel development in Unity: you focus on writing the story and creating the art — the framework handles the rest. Expandable and customizable for each project's needs.",
+        "Streamlines visual novel development in Unity: you focus on writing the story and creating the art. The framework handles the rest. Expandable and customizable for each project's needs.",
       "fw.vn.cta": "Asset Store coming soon",
       "about.foundation": "Founded",
       "about.indieLabel": "At heart",
       "about.tag": "About",
       "about.title": "Devil's Club",
       "about.p1":
-        "Original games for players. Frameworks for developers. An indie studio on both fronts — with the same team behind them.",
+        "Original games for players. Frameworks for developers. An indie studio on both fronts, with the same team behind them.",
       "about.p2":
         "That's what Devil's Club stands for: experience for the player, efficiency for the developer.",
       "about.val1":
-        "<strong>For Players</strong> — Every decision shaped around the experience, from first prototype to launch.",
+        "<strong>For Players</strong>: Every decision shaped around the experience, from first prototype to launch.",
       "about.val2":
-        "<strong>For Developers</strong> — By game devs, for game devs: tools born from our day-to-day production.",
+        "<strong>For Developers</strong>: By game devs, for game devs: tools born from our day-to-day production.",
       "about.val3":
-        "<strong>All Connected</strong> — What we use in our games is what we publish on the Asset Stores.",
+        "<strong>All Connected</strong>: What we use in our games is what we publish on the Asset Stores.",
       "team.tag": "Who we are",
       "team.title": "The team",
       "team.desc":
-        "A lean, multidisciplinary crew — the same people who make the games build the frameworks.",
+        "A lean, multidisciplinary crew. The same people who make the games build the frameworks.",
       "team.fabio.role": "Founder · Creative director · Lead programmer",
       "team.fabio.bio":
-        "Creative direction and code — from game prototypes to frameworks on the Asset Store.",
+        "Creative direction and code, from game prototypes to frameworks on the Asset Store.",
       "team.arthur.role": "Programmer",
       "team.arthur.bio":
-        "Code and systems — from gameplay to the tools that power the studio's projects.",
+        "Code and systems, from gameplay to the tools that power the studio's projects.",
       "team.camila.role": "Narrative director",
       "team.camila.bio":
-        "Writing, worldbuilding, and narrative voice — from the first idea to the arc that defines each studio game.",
+        "Writing, worldbuilding, and narrative voice, from the first idea to the arc that defines each studio game.",
       "team.thadeu.role": "Screenwriter · Character artist",
       "team.thadeu.bio":
-        "Writing and character design — from story to the lines that bring each protagonist to life.",
+        "Writing and character design, from story to the lines that bring each protagonist to life.",
       "team.pablo.role": "Art director",
       "team.pablo.bio":
-        "Visual direction and identity for each project — from concept to the graphic language that unifies the studio.",
+        "Visual direction and identity for each project, from concept to the graphic language that unifies the studio.",
       "team.ani.role": "Lead artist · Characters",
       "team.ani.bio":
-        "Character design and art — from concept to final sprite, with personality in every line.",
+        "Character design and art, from concept to final sprite, with personality in every line.",
       "reach.tag": "Get in touch",
       "reach.title": "Contact & press",
-      "reach.desc": "Choose the right channel — we'll respond as quickly as we can.",
+      "reach.desc": "Choose the right channel. We'll respond as quickly as we can.",
       "contact.title": "Contact",
       "contact.desc": "For general conversations, partnerships, and business opportunities.",
       "contact.general.label": "General",
@@ -250,7 +250,7 @@ window.I18N = (function () {
       "contact.biz.hint": "Publishers, investors, and B2B collaborations.",
       "press.title": "Press",
       "press.desc":
-        "Journalists, content creators, and store curators — official studio materials.",
+        "Journalists, content creators and store curators. Official studio materials.",
       "press.item1": "Logos and color palette",
       "press.item2": "Screenshots and key art",
       "press.item3": "Studio fact sheet",
@@ -259,8 +259,8 @@ window.I18N = (function () {
     },
     fr: {
       "meta.description":
-        "Devil's Club — studio indie de jeux et frameworks pour Unity Asset Store. Expériences originales et outils pour les développeurs.",
-      "aria.logo": "Devil's Club — accueil",
+        "Devil's Club: studio indie de jeux et frameworks pour Unity Asset Store. Expériences originales et outils pour les développeurs.",
+      "aria.logo": "Devil's Club: accueil",
       "aria.nav": "Principal",
       "aria.menuOpen": "Ouvrir le menu",
       "aria.menuClose": "Fermer le menu",
@@ -274,21 +274,21 @@ window.I18N = (function () {
       "hero.title1": "L'expérience pour le joueur.",
       "hero.title2": "L'efficacité pour le dev.",
       "hero.lead":
-        "Nous créons des jeux à identité propre et des frameworks qui accélèrent la production — testés dans nos propres projets avant d'aller en boutique.",
+        "Nous créons des jeux à identité propre et des frameworks qui accélèrent la production, testés dans nos propres projets avant d'aller en boutique.",
       "hero.ctaProducts": "Voir les produits",
       "hero.ctaContact": "Contact",
       "hero.scroll": "Défiler",
       "products.tag": "Produits",
       "products.title": "Ce que nous faisons",
       "products.desc":
-        "Deux lignes de travail qui se nourrissent mutuellement : des jeux à identité propre et des frameworks qui accélèrent la production — y compris la nôtre.",
+        "Deux lignes de travail qui se nourrissent mutuellement : des jeux à identité propre et des frameworks qui accélèrent la production, y compris la nôtre.",
       "games.title": "Jeux",
       "games.desc": "Titres originaux.",
       "game.mel.coverAlt": "Couverture de My Eternal Lily",
       "game.mel.status": "Disponible",
       "game.mel.genre": "Visual Novel · Romance · LGBTQIA · 2D",
       "game.mel.desc":
-        "Après un accident de travail qui lui coûte son emploi et endommage son bras mécanique, Conor Spada se rend sur la Praça da República en quête de revenus. Il y trouve un atelier de réparation au bord de la faillite et son propriétaire Nano — silencieux, sérieux et un peu mystérieux.",
+        "Après un accident de travail qui lui coûte son emploi et endommage son bras mécanique, Conor Spada se rend sur la Praça da República en quête de revenus. Il y trouve un atelier de réparation au bord de la faillite et son propriétaire Nano, silencieux, sérieux et un peu mystérieux.",
       "game.mel.cta": "Jouer sur itch.io",
       "game.raizes.coverAlt": "Couverture de Raízes",
       "game.raizes.status": "Disponible",
@@ -301,14 +301,14 @@ window.I18N = (function () {
       "game.serra.status": "En développement",
       "game.serra.genre": "Visual Novel · Suspense · Enquête · Point-and-click",
       "game.serra.desc":
-        "Clara Carvalho retourne à Itaipupé, dans la Serra Vermelha (MG), pour enquêter sur la disparition de sa sœur — une journaliste sur le point d'exposer les secrets de la minière Montesa. Cinq jours de dialogues, d'indices et de décisions.",
+        "Clara Carvalho retourne à Itaipupé, dans la Serra Vermelha (MG), pour enquêter sur la disparition de sa sœur, une journaliste sur le point d'exposer les secrets de la minière Montesa. Cinq jours de dialogues, d'indices et de décisions.",
       "game.lunaria.placeholderAlt": "Projeto Lunária",
       "game.lunaria.placeholder": "En prototypage",
       "game.lunaria.status": "En prototypage",
       "game.lunaria.genre": "Survival Horror · PSX",
       "game.lunaria.desc": "Un survival horror à l'esthétique PSX. Détails bientôt disponibles.",
       "product.note":
-        "Notre framework est né d'un besoin réel — et a été validé dans My Eternal Lily avant d'aller en boutique.",
+        "Notre framework est né d'un besoin réel et a été validé dans My Eternal Lily avant d'aller en boutique."
       "frameworks.title": "Frameworks",
       "frameworks.desc":
         "Outils testés dans nos jeux, documentés et mis à disposition d'autres game devs pour leurs projets.",
@@ -317,47 +317,47 @@ window.I18N = (function () {
       "fw.vn.status": "En développement",
       "fw.vn.genre": "Visual Novel · Unity · C#",
       "fw.vn.desc":
-        "Facilite le développement de visual novels sur Unity : vous vous concentrez sur l'écriture et l'art — le framework s'occupe du reste. Extensible et personnalisable selon chaque projet.",
+        "Facilite le développement de visual novels sur Unity : vous vous concentrez sur l'écriture et l'art. Le framework s'occupe du reste. Extensible et personnalisable selon chaque projet."
       "fw.vn.cta": "Asset Store bientôt disponible",
       "about.foundation": "Fondation",
       "about.indieLabel": "Indépendant dans l'âme",
       "about.tag": "À propos",
       "about.title": "Devil's Club",
       "about.p1":
-        "Des jeux originaux pour les joueurs. Des frameworks pour les développeurs. Un studio indie sur les deux fronts — avec la même équipe derrière.",
+        "Des jeux originaux pour les joueurs. Des frameworks pour les développeurs. Un studio indie sur les deux fronts, avec la même équipe derrière.",
       "about.p2":
         "C'est ce que représente Devil's Club : l'expérience pour le joueur, l'efficacité pour le développeur.",
       "about.val1":
-        "<strong>Pour les Joueurs</strong> — Chaque décision pensée pour l'expérience, du premier prototype au lancement.",
+        "<strong>Pour les Joueurs</strong>: Chaque décision pensée pour l'expérience, du premier prototype au lancement.",
       "about.val2":
-        "<strong>Pour les Développeurs</strong> — De game dev à game dev : des outils nés de notre quotidien en production.",
+        "<strong>Pour les Développeurs</strong>: De game dev à game dev : des outils nés de notre quotidien en production.",
       "about.val3":
-        "<strong>Tout est Connecté</strong> — Ce que nous utilisons dans nos jeux est ce que nous publions sur les Asset Stores.",
+        "<strong>Tout est Connecté</strong>: Ce que nous utilisons dans nos jeux est ce que nous publions sur les Asset Stores.",
       "team.tag": "Qui sommes-nous",
       "team.title": "L'équipe",
       "team.desc":
-        "Une équipe réduite et pluridisciplinaire — les mêmes personnes qui font les jeux construisent les frameworks.",
+        "Une équipe réduite et pluridisciplinaire. Les mêmes personnes qui font les jeux construisent les frameworks."
       "team.fabio.role": "Fondateur · Directeur créatif · Lead programmer",
       "team.fabio.bio":
-        "Direction créative et code — des prototypes de jeux aux frameworks sur l'Asset Store.",
+        "Direction créative et code, des prototypes de jeux aux frameworks sur l'Asset Store.",
       "team.arthur.role": "Programmeur",
       "team.arthur.bio":
-        "Code et systèmes — du gameplay aux outils qui soutiennent les projets du studio.",
+        "Code et systèmes, du gameplay aux outils qui soutiennent les projets du studio.",
       "team.camila.role": "Directrice narrative",
       "team.camila.bio":
-        "Scénario, worldbuilding et voix narrative — de la première idée à l'arc qui définit chaque jeu du studio.",
+        "Scénario, worldbuilding et voix narrative, de la première idée à l'arc qui définit chaque jeu du studio.",
       "team.thadeu.role": "Scénariste · Artiste personnages",
       "team.thadeu.bio":
-        "Écriture et design de personnages — de l'histoire aux traits qui donnent vie à chaque protagoniste.",
+        "Écriture et design de personnages, de l'histoire aux traits qui donnent vie à chaque protagoniste.",
       "team.pablo.role": "Directeur artistique",
       "team.pablo.bio":
-        "Direction visuelle et identité de chaque projet — du concept au langage graphique qui unifie le studio.",
+        "Direction visuelle et identité de chaque projet, du concept au langage graphique qui unifie le studio.",
       "team.ani.role": "Lead artist · Personnages",
       "team.ani.bio":
-        "Design et art des personnages — du concept au sprite final, avec de la personnalité dans chaque trait.",
+        "Design et art des personnages, du concept au sprite final, avec de la personnalité dans chaque trait.",
       "reach.tag": "Contactez-nous",
       "reach.title": "Contact & presse",
-      "reach.desc": "Choisissez le bon canal — nous répondrons le plus vite possible.",
+      "reach.desc": "Choisissez le bon canal. Nous répondrons le plus vite possible."
       "contact.title": "Contact",
       "contact.desc": "Pour les conversations générales, partenariats et opportunités commerciales.",
       "contact.general.label": "Général",
@@ -366,7 +366,7 @@ window.I18N = (function () {
       "contact.biz.hint": "Publishers, investisseurs et collaborations B2B.",
       "press.title": "Presse",
       "press.desc":
-        "Journalistes, créateurs de contenu et curateurs de boutiques — matériel officiel du studio.",
+        "Journalistes, créateurs de contenu et curateurs de boutiques. Matériel officiel du studio."
       "press.item1": "Logos et palette de couleurs",
       "press.item2": "Captures d'écran et key art",
       "press.item3": "Fact sheet du studio",
@@ -375,8 +375,8 @@ window.I18N = (function () {
     },
     es: {
       "meta.description":
-        "Devil's Club — estudio indie de juegos y frameworks para Unity Asset Store. Experiencias originales y herramientas para otros desarrolladores.",
-      "aria.logo": "Devil's Club — inicio",
+        "Devil's Club: estudio indie de juegos y frameworks para Unity Asset Store. Experiencias originales y herramientas para otros desarrolladores.",
+      "aria.logo": "Devil's Club: inicio",
       "aria.nav": "Principal",
       "aria.menuOpen": "Abrir menú",
       "aria.menuClose": "Cerrar menú",
@@ -390,21 +390,21 @@ window.I18N = (function () {
       "hero.title1": "Experiencia para el jugador.",
       "hero.title2": "Eficiencia para el dev.",
       "hero.lead":
-        "Creamos juegos con identidad propia y frameworks que aceleran la producción — probados en nuestros proyectos antes de llegar a la tienda.",
+        "Creamos juegos con identidad propia y frameworks que aceleran la producción, probados en nuestros proyectos antes de llegar a la tienda.",
       "hero.ctaProducts": "Ver productos",
       "hero.ctaContact": "Contacto",
       "hero.scroll": "Scroll",
       "products.tag": "Productos",
       "products.title": "Qué hacemos",
       "products.desc":
-        "Dos líneas de trabajo que se alimentan mutuamente: juegos con identidad propia y frameworks que aceleran la producción — incluida la nuestra.",
+        "Dos líneas de trabajo que se alimentan mutuamente: juegos con identidad propia y frameworks que aceleran la producción, incluida la nuestra.",
       "games.title": "Juegos",
       "games.desc": "Títulos originales.",
       "game.mel.coverAlt": "Portada de My Eternal Lily",
       "game.mel.status": "Disponible",
       "game.mel.genre": "Visual Novel · Romance · LGBTQIA · 2D",
       "game.mel.desc":
-        "Tras un accidente laboral que le cuesta el empleo y daña su brazo mecánico, Conor Spada va a la Praça da República en busca de ingresos. Allí encuentra una tienda de reparaciones al borde de la quiebra y su dueño Nano — callado, serio y un poco misterioso.",
+        "Tras un accidente laboral que le cuesta el empleo y daña su brazo mecánico, Conor Spada va a la Praça da República en busca de ingresos. Allí encuentra una tienda de reparaciones al borde de la quiebra y su dueño Nano, callado, serio y un poco misterioso.",
       "game.mel.cta": "Jugar en itch.io",
       "game.raizes.coverAlt": "Portada de Raízes",
       "game.raizes.status": "Disponible",
@@ -417,14 +417,14 @@ window.I18N = (function () {
       "game.serra.status": "En desarrollo",
       "game.serra.genre": "Visual Novel · Suspenso · Investigación · Point-and-click",
       "game.serra.desc":
-        "Clara Carvalho regresa a Itaipupé, en Serra Vermelha (MG), para investigar la desaparición de su hermana — una periodista a punto de exponer los secretos de la minera Montesa. Cinco días de diálogos, pistas y decisiones.",
+        "Clara Carvalho regresa a Itaipupé, en Serra Vermelha (MG), para investigar la desaparición de su hermana, una periodista a punto de exponer los secretos de la minera Montesa. Cinco días de diálogos, pistas y decisiones.",
       "game.lunaria.placeholderAlt": "Projeto Lunária",
       "game.lunaria.placeholder": "En prototipado",
       "game.lunaria.status": "En prototipado",
       "game.lunaria.genre": "Survival Horror · PSX",
       "game.lunaria.desc": "Un survival horror con estética PSX. Detalles próximamente.",
       "product.note":
-        "Nuestro framework nace de una necesidad real — y fue validado en My Eternal Lily antes de llegar a la tienda.",
+        "Nuestro framework nace de una necesidad real y fue validado en My Eternal Lily antes de llegar a la tienda."
       "frameworks.title": "Frameworks",
       "frameworks.desc":
         "Herramientas probadas en nuestros juegos, documentadas y disponibles para que otros game devs las usen en sus proyectos.",
@@ -433,47 +433,47 @@ window.I18N = (function () {
       "fw.vn.status": "En desarrollo",
       "fw.vn.genre": "Visual Novel · Unity · C#",
       "fw.vn.desc":
-        "Facilita el desarrollo de visual novels en Unity: tú te enfocas en escribir la historia y crear el arte — el framework se encarga del resto. Expandible y personalizable según cada proyecto.",
+        "Facilita el desarrollo de visual novels en Unity: tú te enfocas en escribir la historia y crear el arte. El framework se encarga del resto. Expandible y personalizable según cada proyecto."
       "fw.vn.cta": "Asset Store próximamente",
       "about.foundation": "Fundación",
       "about.indieLabel": "De corazón",
       "about.tag": "Sobre nosotros",
       "about.title": "Devil's Club",
       "about.p1":
-        "Juegos autorais para jugadores. Frameworks para desarrolladores. Un estudio indie en ambas frentes — con el mismo equipo detrás.",
+        "Juegos autorais para jugadores. Frameworks para desarrolladores. Un estudio indie en ambas frentes, con el mismo equipo detrás.",
       "about.p2":
         "Eso es lo que representa Devil's Club: experiencia para el jugador, eficiencia para el desarrollador.",
       "about.val1":
-        "<strong>Para Quien Juega</strong> — Cada decisión pensada en la experiencia, del primer prototipo al lanzamiento.",
+        "<strong>Para Quien Juega</strong>: Cada decisión pensada en la experiencia, del primer prototipo al lanzamiento.",
       "about.val2":
-        "<strong>Para Quien Desarrolla</strong> — De game dev para game dev: herramientas nacidas de nuestro día a día en producción.",
+        "<strong>Para Quien Desarrolla</strong>: De game dev para game dev: herramientas nacidas de nuestro día a día en producción.",
       "about.val3":
-        "<strong>Todo Conectado</strong> — Lo que usamos en nuestros juegos es lo que publicamos en las Asset Stores.",
+        "<strong>Todo Conectado</strong>: Lo que usamos en nuestros juegos es lo que publicamos en las Asset Stores.",
       "team.tag": "Quiénes somos",
       "team.title": "El equipo",
       "team.desc":
-        "Equipo reducido y multidisciplinar — las mismas personas que hacen los juegos construyen los frameworks.",
+        "Equipo reducido y multidisciplinar. Las mismas personas que hacen los juegos construyen los frameworks."
       "team.fabio.role": "Fundador · Director creativo · Lead programmer",
       "team.fabio.bio":
-        "Dirección creativa y código — de los prototipos de juegos a los frameworks en la Asset Store.",
+        "Dirección creativa y código, de los prototipos de juegos a los frameworks en la Asset Store.",
       "team.arthur.role": "Programador",
       "team.arthur.bio":
-        "Código y sistemas — del gameplay a las herramientas que sustentan los proyectos del estudio.",
+        "Código y sistemas, del gameplay a las herramientas que sustentan los proyectos del estudio.",
       "team.camila.role": "Directora de narrativa",
       "team.camila.bio":
-        "Guion, worldbuilding y voz narrativa — de la primera idea al arco que define cada juego del estúdio.",
+        "Guion, worldbuilding y voz narrativa, de la primera idea al arco que define cada juego del estúdio.",
       "team.thadeu.role": "Guionista · Artista de personajes",
       "team.thadeu.bio":
-        "Guion y diseño de personajes — de la historia a los trazos que dan vida a cada protagonista.",
+        "Guion y diseño de personajes, de la historia a los trazos que dan vida a cada protagonista.",
       "team.pablo.role": "Director de arte",
       "team.pablo.bio":
-        "Dirección visual e identidad de cada proyecto — del concepto al lenguaje gráfico que unifica el estúdio.",
+        "Dirección visual e identidad de cada proyecto, del concepto al lenguaje gráfico que unifica el estúdio.",
       "team.ani.role": "Lead artist · Personajes",
       "team.ani.bio":
-        "Diseño y arte de personajes — del concepto al sprite final, con personalidad en cada trazo.",
+        "Diseño y arte de personajes, del concepto al sprite final, con personalidad en cada trazo.",
       "reach.tag": "Hable con nosotros",
       "reach.title": "Contacto y prensa",
-      "reach.desc": "Elija el canal adecuado — respondemos lo antes posible.",
+      "reach.desc": "Elija el canal adecuado. Respondemos lo antes posible."
       "contact.title": "Contacto",
       "contact.desc": "Para conversaciones generales, alianzas y oportunidades comerciales.",
       "contact.general.label": "General",
@@ -482,7 +482,7 @@ window.I18N = (function () {
       "contact.biz.hint": "Publishers, inversores y colaboraciones B2B.",
       "press.title": "Prensa",
       "press.desc":
-        "Periodistas, creadores de contenido y curadores de tiendas — material oficial del estúdio.",
+        "Periodistas, creadores de contenido y curadores de tiendas. Material oficial del estúdio."
       "press.item1": "Logos y paleta de colores",
       "press.item2": "Capturas y key art",
       "press.item3": "Fact sheet del estúdio",
@@ -491,8 +491,8 @@ window.I18N = (function () {
     },
     zh: {
       "meta.description":
-        "Devil's Club — 独立游戏工作室，为 Unity Asset Store 提供游戏与框架。原创体验与开发者工具。",
-      "aria.logo": "Devil's Club — 首页",
+        "Devil's Club: 独立游戏工作室，为 Unity Asset Store 提供游戏与框架。原创体验与开发者工具。",
+      "aria.logo": "Devil's Club: 首页",
       "aria.nav": "主导航",
       "aria.menuOpen": "打开菜单",
       "aria.menuClose": "关闭菜单",
@@ -506,7 +506,7 @@ window.I18N = (function () {
       "hero.title1": "为玩家打造体验。",
       "hero.title2": "为开发者提升效率。",
       "hero.lead":
-        "我们创作具有独特身份的游戏，以及加速制作的框架 — 在上架之前已在我们自己的项目中得到验证。",
+        "我们创作具有独特身份的游戏，以及加速制作的框架, 在上架之前已在我们自己的项目中得到验证。",
       "hero.ctaProducts": "查看产品",
       "hero.ctaContact": "联系",
       "hero.scroll": "滚动",
@@ -520,7 +520,7 @@ window.I18N = (function () {
       "game.mel.status": "现已推出",
       "game.mel.genre": "视觉小说 · 恋爱 · LGBTQIA · 2D",
       "game.mel.desc":
-        "一场工伤让他失去工作，机械臂也受了损伤。Conor Spada 前往共和国广场寻找收入，在那里他发现一家濒临倒闭的维修店，以及店主 Nano — 沉默、严肃，略带神秘。",
+        "一场工伤让他失去工作，机械臂也受了损伤。Conor Spada 前往共和国广场寻找收入，在那里他发现一家濒临倒闭的维修店，以及店主 Nano, 沉默、严肃，略带神秘。",
       "game.mel.cta": "在 itch.io 游玩",
       "game.raizes.coverAlt": "Raízes 封面",
       "game.raizes.status": "现已推出",
@@ -533,14 +533,14 @@ window.I18N = (function () {
       "game.serra.status": "开发中",
       "game.serra.genre": "视觉小说 · 悬疑 · 调查 · 点击解谜",
       "game.serra.desc":
-        "Clara Carvalho 回到米纳斯吉拉斯州 Serra Vermelha 的 Itaipupé，调查妹妹的失踪 — 一名记者即将揭露矿业公司 Montesa 的秘密。五天对话、线索与抉择。",
+        "Clara Carvalho 回到米纳斯吉拉斯州 Serra Vermelha 的 Itaipupé，调查妹妹的失踪, 一名记者即将揭露矿业公司 Montesa 的秘密。五天对话、线索与抉择。",
       "game.lunaria.placeholderAlt": "Projeto Lunária",
       "game.lunaria.placeholder": "原型阶段",
       "game.lunaria.status": "原型阶段",
       "game.lunaria.genre": "生存恐怖 · PSX",
       "game.lunaria.desc": "PSX 风格的生存恐怖游戏。详情即将公布。",
       "product.note":
-        "我们的框架源于真实需求 — 在上架商店之前，已在 My Eternal Lily 中得到验证。",
+        "我们的框架源于真实需求。在上架商店之前，已在 My Eternal Lily 中得到验证。"
       "frameworks.title": "框架",
       "frameworks.desc":
         "在我们游戏中经过测试、编写文档并开放给其他游戏开发者使用的工具。",
@@ -549,45 +549,45 @@ window.I18N = (function () {
       "fw.vn.status": "开发中",
       "fw.vn.genre": "视觉小说 · Unity · C#",
       "fw.vn.desc":
-        "简化 Unity 视觉小说开发：你专注于撰写故事与制作美术 — 框架负责其余部分。可扩展、可定制，适应每个项目的需求。",
+        "简化 Unity 视觉小说开发：你专注于撰写故事与制作美术。框架负责其余部分。可扩展、可定制，适应每个项目的需求。"
       "fw.vn.cta": "Asset Store 即将上线",
       "about.foundation": "成立",
       "about.indieLabel": "发自内心",
       "about.tag": "关于",
       "about.title": "Devil's Club",
       "about.p1":
-        "为玩家打造原创游戏。为开发者打造框架。独立工作室，双线并行 — 同一支团队。",
+        "为玩家打造原创游戏。为开发者打造框架。独立工作室，双线并行。同一支团队。"
       "about.p2":
         "这就是 Devil's Club 的意义：为玩家带来体验，为开发者带来效率。",
       "about.val1":
-        "<strong>为玩家</strong> — 每个决定都围绕体验，从首个原型到正式发布。",
+        "<strong>为玩家</strong>: 每个决定都围绕体验，从首个原型到正式发布。",
       "about.val2":
-        "<strong>为开发者</strong> — 游戏开发者做给游戏开发者：源于我们日常制作的工具。",
+        "<strong>为开发者</strong>: 游戏开发者做给游戏开发者：源于我们日常制作的工具。",
       "about.val3":
-        "<strong>一脉相连</strong> — 我们在游戏中使用的，就是我们在 Asset Store 上发布的。",
+        "<strong>一脉相连</strong>: 我们在游戏中使用的，就是我们在 Asset Store 上发布的。",
       "team.tag": "团队介绍",
       "team.title": "团队",
       "team.desc":
-        "精简而多学科的团队 — 制作游戏的人，也在构建框架。",
+        "精简而多学科的团队。制作游戏的人，也在构建框架。"
       "team.fabio.role": "创始人 · 创意总监 · 首席程序员",
       "team.fabio.bio":
-        "创意方向与代码 — 从游戏原型到 Asset Store 上的框架。",
+        "创意方向与代码, 从游戏原型到 Asset Store 上的框架。",
       "team.arthur.role": "程序员",
-      "team.arthur.bio": "代码与系统 — 从玩法到支撑工作室项目的工具。",
+      "team.arthur.bio": "代码与系统, 从玩法到支撑工作室项目的工具。",
       "team.camila.role": "叙事总监",
       "team.camila.bio":
-        "剧本、世界观与叙事声音 — 从最初创意到定义每款游戏的叙事弧线。",
+        "剧本、世界观与叙事声音, 从最初创意到定义每款游戏的叙事弧线。",
       "team.thadeu.role": "编剧 · 角色艺术家",
-      "team.thadeu.bio": "剧本与角色设计 — 从故事到赋予每位主角生命的每一笔。",
+      "team.thadeu.bio": "剧本与角色设计, 从故事到赋予每位主角生命的每一笔。",
       "team.pablo.role": "艺术总监",
       "team.pablo.bio":
-        "每个项目的视觉方向与品牌识别 — 从概念到统一工作室的视觉语言。",
+        "每个项目的视觉方向与品牌识别, 从概念到统一工作室的视觉语言。",
       "team.ani.role": "首席美术 · 角色",
       "team.ani.bio":
-        "角色设计与美术 — 从概念到最终立绘，每一笔都充满个性。",
+        "角色设计与美术, 从概念到最终立绘，每一笔都充满个性。",
       "reach.tag": "联系我们",
       "reach.title": "联系与媒体",
-      "reach.desc": "选择合适渠道 — 我们会尽快回复。",
+      "reach.desc": "选择合适渠道。我们会尽快回复。"
       "contact.title": "联系",
       "contact.desc": "一般咨询、合作与商业机会。",
       "contact.general.label": "综合",
@@ -596,7 +596,7 @@ window.I18N = (function () {
       "contact.biz.hint": "发行商、投资人与 B2B 合作。",
       "press.title": "媒体",
       "press.desc":
-        "记者、内容创作者与商店策展人 — 工作室官方资料。",
+        "记者、内容创作者与商店策展人。工作室官方资料。"
       "press.item1": "标志与配色",
       "press.item2": "截图与主视觉",
       "press.item3": "工作室资料页",
@@ -605,8 +605,8 @@ window.I18N = (function () {
     },
     ja: {
       "meta.description":
-        "Devil's Club — インディーゲームスタジオ。Unity Asset Store向けのゲームとフレームワーク。独自の体験と開発者向けツール。",
-      "aria.logo": "Devil's Club — ホーム",
+        "Devil's Club: インディーゲームスタジオ。Unity Asset Store向けのゲームとフレームワーク。独自の体験と開発者向けツール。",
+      "aria.logo": "Devil's Club: ホーム",
       "aria.nav": "メイン",
       "aria.menuOpen": "メニューを開く",
       "aria.menuClose": "メニューを閉じる",
@@ -620,7 +620,7 @@ window.I18N = (function () {
       "hero.title1": "プレイヤーへの体験。",
       "hero.title2": "開発者への効率。",
       "hero.lead":
-        "独自のアイデンティティを持つゲームと、制作を加速するフレームワークを創り出す — ストアに出る前に自社プロジェクトで検証。",
+        "独自のアイデンティティを持つゲームと、制作を加速するフレームワークを創り出す, ストアに出る前に自社プロジェクトで検証。",
       "hero.ctaProducts": "製品を見る",
       "hero.ctaContact": "お問い合わせ",
       "hero.scroll": "スクロール",
@@ -634,7 +634,7 @@ window.I18N = (function () {
       "game.mel.status": "配信中",
       "game.mel.genre": "ビジュアルノベル · ロマンス · LGBTQIA · 2D",
       "game.mel.desc":
-        "職場の事故で仕事を失い、機械腕を損傷した Conor Spada は収入を求めて共和国広場へ。そこで倒産寸前の修理店と、その店主 Nano — 物静かで真面目、少しミステリアスな人物 — に出会う。",
+        "職場の事故で仕事を失い、機械腕を損傷した Conor Spada は収入を求めて共和国広場へ。そこで倒産寸前の修理店と、その店主 Nano, 物静かで真面目、少しミステリアスな人物, に出会う。",
       "game.mel.cta": "itch.io でプレイ",
       "game.raizes.coverAlt": "Raízes カバー",
       "game.raizes.status": "配信中",
@@ -647,14 +647,14 @@ window.I18N = (function () {
       "game.serra.status": "開発中",
       "game.serra.genre": "ビジュアルノベル · サスペンス · 捜査 · ポイント＆クリック",
       "game.serra.desc":
-        "Clara Carvalho はミナスジェライス州 Serra Vermelha の Itaipupé に戻り、妹の失踪を調査する — 鉱山会社 Montesa の秘密を暴こうとしていたジャーナリスト。5日間の対話、手がかり、決断。",
+        "Clara Carvalho はミナスジェライス州 Serra Vermelha の Itaipupé に戻り、妹の失踪を調査する, 鉱山会社 Montesa の秘密を暴こうとしていたジャーナリスト。5日間の対話、手がかり、決断。",
       "game.lunaria.placeholderAlt": "Projeto Lunária",
       "game.lunaria.placeholder": "プロトタイプ中",
       "game.lunaria.status": "プロトタイプ中",
       "game.lunaria.genre": "サバイバルホラー · PSX",
       "game.lunaria.desc": "PSX風サバイバルホラー。詳細は近日公開。",
       "product.note":
-        "フレームワークは実際のニーズから生まれ — ストアに出る前に My Eternal Lily で検証されました。",
+        "フレームワークは実際のニーズから生まれ、ストアに出る前に My Eternal Lily で検証されました。"
       "frameworks.title": "フレームワーク",
       "frameworks.desc":
         "自社ゲームでテストし、文書化して他のゲーム開発者がプロジェクトで使えるように公開したツール。",
@@ -663,47 +663,47 @@ window.I18N = (function () {
       "fw.vn.status": "開発中",
       "fw.vn.genre": "ビジュアルノベル · Unity · C#",
       "fw.vn.desc":
-        "Unity でのビジュアルノベル開発を効率化：ストーリー執筆とアート制作に集中 — フレームワークが残りを担当。プロジェクトごとに拡張・カスタマイズ可能。",
+        "Unity でのビジュアルノベル開発を効率化：ストーリー執筆とアート制作に集中。フレームワークが残りを担当。プロジェクトごとに拡張・カスタマイズ可能。"
       "fw.vn.cta": "Asset Store 近日公開",
       "about.foundation": "設立",
       "about.indieLabel": "インディーの心",
       "about.tag": "概要",
       "about.title": "Devil's Club",
       "about.p1":
-        "プレイヤー向けのオリジナルゲーム。開発者向けのフレームワーク。両方に取り組むインディースタジオ — 同じチームが支える。",
+        "プレイヤー向けのオリジナルゲーム。開発者向けのフレームワーク。両方に取り組むインディースタジオ。同じチームが支える。"
       "about.p2":
         "それが Devil's Club の意味：プレイヤーへの体験、開発者への効率。",
       "about.val1":
-        "<strong>プレイヤーのために</strong> — 最初のプロトタイプからリリースまで、体験を念頭に置いたすべての判断。",
+        "<strong>プレイヤーのために</strong>: 最初のプロトタイプからリリースまで、体験を念頭に置いたすべての判断。",
       "about.val2":
-        "<strong>開発者のために</strong> — ゲーム開発者による、ゲーム開発者のためのツール：日々の制作から生まれた。",
+        "<strong>開発者のために</strong>: ゲーム開発者による、ゲーム開発者のためのツール：日々の制作から生まれた。",
       "about.val3":
-        "<strong>すべてがつながる</strong> — ゲームで使うものが、Asset Store で公開するもの。",
+        "<strong>すべてがつながる</strong>: ゲームで使うものが、Asset Store で公開するもの。",
       "team.tag": "メンバー",
       "team.title": "チーム",
       "team.desc":
-        "少数精鋭の多能工チーム — ゲームを作る人々がフレームワークも構築する。",
+        "少数精鋭の多能工チーム。ゲームを作る人々がフレームワークも構築する。"
       "team.fabio.role": "創設者 · クリエイティブディレクター · リードプログラマー",
       "team.fabio.bio":
-        "クリエイティブディレクションとコード — ゲームのプロトタイプから Asset Store のフレームワークまで。",
+        "クリエイティブディレクションとコード, ゲームのプロトタイプから Asset Store のフレームワークまで。",
       "team.arthur.role": "プログラマー",
       "team.arthur.bio":
-        "コードとシステム — ゲームプレイからスタジオのプロジェクトを支えるツールまで。",
+        "コードとシステム, ゲームプレイからスタジオのプロジェクトを支えるツールまで。",
       "team.camila.role": "ナラティブディレクター",
       "team.camila.bio":
-        "脚本、ワールドビルディング、ナラティブの声 — 最初のアイデアから各ゲームを定義する物語の弧まで。",
+        "脚本、ワールドビルディング、ナラティブの声, 最初のアイデアから各ゲームを定義する物語の弧まで。",
       "team.thadeu.role": "シナリオライター · キャラクターアーティスト",
       "team.thadeu.bio":
-        "脚本とキャラクターデザイン — 物語から各主人公に命を吹き込む一筆一筆まで。",
+        "脚本とキャラクターデザイン, 物語から各主人公に命を吹き込む一筆一筆まで。",
       "team.pablo.role": "アートディレクター",
       "team.pablo.bio":
-        "各プロジェクトのビジュアルディレクションとアイデンティティ — コンセプトからスタジオを統一するグラフィック言語まで。",
+        "各プロジェクトのビジュアルディレクションとアイデンティティ, コンセプトからスタジオを統一するグラフィック言語まで。",
       "team.ani.role": "リードアーティスト · キャラクター",
       "team.ani.bio":
-        "キャラクターデザインとアート — コンセプトから最終スプライトまで、一線一線に個性を。",
+        "キャラクターデザインとアート, コンセプトから最終スプライトまで、一線一線に個性を。",
       "reach.tag": "お問い合わせ",
       "reach.title": "連絡先とプレス",
-      "reach.desc": "適切なチャンネルをお選びください — できるだけ早く返信します。",
+      "reach.desc": "適切なチャンネルをお選びください。できるだけ早く返信します。"
       "contact.title": "お問い合わせ",
       "contact.desc": "一般的な会話、パートナーシップ、ビジネス機会について。",
       "contact.general.label": "一般",
@@ -712,7 +712,7 @@ window.I18N = (function () {
       "contact.biz.hint": "パブリッシャー、投資家、B2B コラボレーション。",
       "press.title": "プレス",
       "press.desc":
-        "ジャーナリスト、コンテンツクリエイター、ストアキュレーター — スタジオ公式素材。",
+        "ジャーナリスト、コンテンツクリエイター、ストアキュレーター。スタジオ公式素材。"
       "press.item1": "ロゴとカラーパレット",
       "press.item2": "スクリーンショットとキーアート",
       "press.item3": "スタジオファクトシート",
