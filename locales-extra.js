@@ -50,7 +50,7 @@ window.I18N_LOCALES_EXTRA = {
     "game.lunaria.genre": "Survival Horror · PSX",
     "game.lunaria.desc": "Ein Survival Horror im PSX-Stil. Details folgen.",
     "product.note":
-      "Unser Framework entstand aus echtem Bedarf und wurde in My Eternal Lily validiert, bevor es in den Store ging."
+      "Unser Framework entstand aus echtem Bedarf und wurde in My Eternal Lily validiert, bevor es in den Store ging.",
     "frameworks.title": "Frameworks",
     "frameworks.desc":
       "In unseren Spielen getestete Tools, dokumentiert und für andere Game Devs in ihren Projekten verfügbar gemacht.",
@@ -59,7 +59,7 @@ window.I18N_LOCALES_EXTRA = {
     "fw.vn.status": "In Entwicklung",
     "fw.vn.genre": "Visual Novel · Unity · C#",
     "fw.vn.desc":
-      "Beschleunigt die Entwicklung von Visual Novels in Unity: Du konzentrierst dich auf Story und Art. Das Framework erledigt den Rest. Erweiterbar und anpassbar für jedes Projekt."
+      "Beschleunigt die Entwicklung von Visual Novels in Unity: Du konzentrierst dich auf Story und Art. Das Framework erledigt den Rest. Erweiterbar und anpassbar für jedes Projekt.",
     "fw.vn.cta": "Asset Store demnächst",
     "about.foundation": "Gründung",
     "about.indieLabel": "Mit Leidenschaft",
@@ -78,7 +78,7 @@ window.I18N_LOCALES_EXTRA = {
     "team.tag": "Wer wir sind",
     "team.title": "Das Team",
     "team.desc":
-      "Ein schlankes, multidisziplinäres Team. Dieselben Leute, die die Spiele machen, bauen auch die Frameworks."
+      "Ein schlankes, multidisziplinäres Team. Dieselben Leute, die die Spiele machen, bauen auch die Frameworks.",
     "team.fabio.role": "Gründer · Creative Director · Lead Programmer",
     "team.fabio.bio":
       "Kreative Leitung und Code, von Spielprototypen bis zu Frameworks im Asset Store.",
@@ -99,7 +99,7 @@ window.I18N_LOCALES_EXTRA = {
       "Charakterdesign und Art, vom Konzept bis zum finalen Sprite, mit Persönlichkeit in jeder Linie.",
     "reach.tag": "Kontakt aufnehmen",
     "reach.title": "Kontakt & Presse",
-    "reach.desc": "Wähle den richtigen Kanal. Wir antworten so schnell wie möglich."
+    "reach.desc": "Wähle den richtigen Kanal. Wir antworten so schnell wie möglich.",
     "contact.title": "Kontakt",
     "contact.desc": "Für allgemeine Anfragen, Partnerschaften und Geschäftsmöglichkeiten.",
     "contact.general.label": "Allgemein",
@@ -108,7 +108,7 @@ window.I18N_LOCALES_EXTRA = {
     "contact.biz.hint": "Publisher, Investoren und B2B-Kooperationen.",
     "press.title": "Presse",
     "press.desc":
-      "Journalisten, Content Creator und Store-Kuratoren. Offizielles Studiomaterial."
+      "Journalisten, Content Creator und Store-Kuratoren. Offizielles Studiomaterial.",
     "press.item1": "Logos und Farbpalette",
     "press.item2": "Screenshots und Key Art",
     "press.item3": "Studio-Fact-Sheet",
@@ -166,7 +166,7 @@ window.I18N_LOCALES_EXTRA = {
     "game.lunaria.genre": "Survival Horror · PSX",
     "game.lunaria.desc": "Un survival horror in stile PSX. Dettagli in arrivo.",
     "product.note":
-      "Il nostro framework nasce da un'esigenza reale ed è stato validato in My Eternal Lily prima di arrivare nello store."
+      "Il nostro framework nasce da un'esigenza reale ed è stato validato in My Eternal Lily prima di arrivare nello store.",
     "frameworks.title": "Framework",
     "frameworks.desc":
       "Strumenti testati nei nostri giochi, documentati e resi disponibili ad altri game dev per i loro progetti.",
@@ -175,7 +175,7 @@ window.I18N_LOCALES_EXTRA = {
     "fw.vn.status": "In sviluppo",
     "fw.vn.genre": "Visual Novel · Unity · C#",
     "fw.vn.desc":
-      "Semplifica lo sviluppo di visual novel in Unity: tu ti concentri sulla storia e sull'arte. Il framework fa il resto. Espandibile e personalizzabile per ogni progetto."
+      "Semplifica lo sviluppo di visual novel in Unity: tu ti concentri sulla storia e sull'arte. Il framework fa il resto. Espandibile e personalizzabile per ogni progetto.",
     "fw.vn.cta": "Asset Store in arrivo",
     "about.foundation": "Fondazione",
     "about.indieLabel": "Con il cuore",
@@ -194,7 +194,7 @@ window.I18N_LOCALES_EXTRA = {
     "team.tag": "Chi siamo",
     "team.title": "Il team",
     "team.desc":
-      "Un team snello e multidisciplinare. Le stesse persone che fanno i giochi costruiscono i framework."
+      "Un team snello e multidisciplinare. Le stesse persone che fanno i giochi costruiscono i framework.",
     "team.fabio.role": "Fondatore · Direttore creativo · Lead programmer",
     "team.fabio.bio":
       "Direzione creativa e codice, dai prototipi di gioco ai framework sull'Asset Store.",
@@ -215,7 +215,7 @@ window.I18N_LOCALES_EXTRA = {
       "Design e arte dei personaggi, dal concept allo sprite finale, con personalità in ogni tratto.",
     "reach.tag": "Contattaci",
     "reach.title": "Contatti e stampa",
-    "reach.desc": "Scegli il canale giusto. Risponderemo il prima possibile."
+    "reach.desc": "Scegli il canale giusto. Risponderemo il prima possibile.",
     "contact.title": "Contatti",
     "contact.desc": "Per conversazioni generali, partnership e opportunità commerciali.",
     "contact.general.label": "Generale",
@@ -224,7 +224,7 @@ window.I18N_LOCALES_EXTRA = {
     "contact.biz.hint": "Publisher, investitori e collaborazioni B2B.",
     "press.title": "Stampa",
     "press.desc":
-      "Giornalisti, content creator e curatori di store. Materiale ufficiale dello studio."
+      "Giornalisti, content creator e curatori di store. Materiale ufficiale dello studio.",
     "press.item1": "Loghi e palette colori",
     "press.item2": "Screenshot e key art",
     "press.item3": "Fact sheet dello studio",
@@ -282,7 +282,7 @@ window.I18N_LOCALES_EXTRA = {
     "game.lunaria.genre": "Survival Horror · PSX",
     "game.lunaria.desc": "Survival horror w stylu PSX. Szczegóły wkrótce.",
     "product.note":
-      "Nasz framework powstał z realnej potrzeby i został zweryfikowany w My Eternal Lily, zanim trafił do sklepu."
+      "Nasz framework powstał z realnej potrzeby i został zweryfikowany w My Eternal Lily, zanim trafił do sklepu.",
     "frameworks.title": "Frameworki",
     "frameworks.desc":
       "Narzędzia przetestowane w naszych grach, udokumentowane i udostępnione innym game devom do ich projektów.",
@@ -291,7 +291,7 @@ window.I18N_LOCALES_EXTRA = {
     "fw.vn.status": "W produkcji",
     "fw.vn.genre": "Visual Novel · Unity · C#",
     "fw.vn.desc":
-      "Upraszcza tworzenie visual novel w Unity: ty skupiasz się na pisaniu historii i tworzeniu grafiki. Framework zajmuje się resztą. Rozszerzalny i konfigurowalny pod każdy projekt."
+      "Upraszcza tworzenie visual novel w Unity: ty skupiasz się na pisaniu historii i tworzeniu grafiki. Framework zajmuje się resztą. Rozszerzalny i konfigurowalny pod każdy projekt.",
     "fw.vn.cta": "Asset Store wkrótce",
     "about.foundation": "Założenie",
     "about.indieLabel": "Z serca",
@@ -310,7 +310,7 @@ window.I18N_LOCALES_EXTRA = {
     "team.tag": "Kim jesteśmy",
     "team.title": "Zespół",
     "team.desc":
-      "Zwinny, wielodyscyplinarny zespół. Ci sami ludzie, którzy tworzą gry, budują też frameworki."
+      "Zwinny, wielodyscyplinarny zespół. Ci sami ludzie, którzy tworzą gry, budują też frameworki.",
     "team.fabio.role": "Założyciel · Dyrektor kreatywny · Lead programmer",
     "team.fabio.bio":
       "Kierunek kreatywny i kod, od prototypów gier po frameworki w Asset Store.",
@@ -331,7 +331,7 @@ window.I18N_LOCALES_EXTRA = {
       "Projekt i grafika postaci, od koncepcji do finalnego sprite'a, z osobowością w każdej kresce.",
     "reach.tag": "Skontaktuj się",
     "reach.title": "Kontakt i prasa",
-    "reach.desc": "Wybierz właściwy kanał. Odpowiemy tak szybko, jak to możliwe."
+    "reach.desc": "Wybierz właściwy kanał. Odpowiemy tak szybko, jak to możliwe.",
     "contact.title": "Kontakt",
     "contact.desc": "W sprawach ogólnych, partnerstw i możliwości biznesowych.",
     "contact.general.label": "Ogólne",
@@ -340,7 +340,7 @@ window.I18N_LOCALES_EXTRA = {
     "contact.biz.hint": "Wydawcy, inwestorzy i współpraca B2B.",
     "press.title": "Prasa",
     "press.desc":
-      "Dziennikarze, twórcy treści i kuratorzy sklepów. Oficjalne materiały studia."
+      "Dziennikarze, twórcy treści i kuratorzy sklepów. Oficjalne materiały studia.",
     "press.item1": "Logotypy i paleta kolorów",
     "press.item2": "Zrzuty ekranu i key art",
     "press.item3": "Fact sheet studia",
@@ -398,7 +398,7 @@ window.I18N_LOCALES_EXTRA = {
     "game.lunaria.genre": "Survival Horror · PSX",
     "game.lunaria.desc": "Survival horror в стиле PSX. Подробности скоро.",
     "product.note":
-      "Наш фреймворк родился из реальной потребности и был проверен в My Eternal Lily до выхода в магазин."
+      "Наш фреймворк родился из реальной потребности и был проверен в My Eternal Lily до выхода в магазин.",
     "frameworks.title": "Фреймворки",
     "frameworks.desc":
       "Инструменты, протестированные в наших играх, задокументированные и доступные другим разработчикам для их проектов.",
@@ -407,7 +407,7 @@ window.I18N_LOCALES_EXTRA = {
     "fw.vn.status": "В разработке",
     "fw.vn.genre": "Visual Novel · Unity · C#",
     "fw.vn.desc":
-      "Упрощает разработку визуальных новелл в Unity: вы сосредотачиваетесь на сюжете и арте. Фреймворк берёт на себя остальное. Расширяемый и настраиваемый под каждый проект."
+      "Упрощает разработку визуальных новелл в Unity: вы сосредотачиваетесь на сюжете и арте. Фреймворк берёт на себя остальное. Расширяемый и настраиваемый под каждый проект.",
     "fw.vn.cta": "Asset Store скоро",
     "about.foundation": "Основание",
     "about.indieLabel": "От души",
@@ -426,7 +426,7 @@ window.I18N_LOCALES_EXTRA = {
     "team.tag": "Кто мы",
     "team.title": "Команда",
     "team.desc":
-      "Компактная мультидисциплинарная команда. Те же люди, что делают игры, создают и фреймворки."
+      "Компактная мультидисциплинарная команда. Те же люди, что делают игры, создают и фреймворки.",
     "team.fabio.role": "Основатель · Креативный директор · Lead programmer",
     "team.fabio.bio":
       "Креативное руководство и код, от прототипов игр до фреймворков в Asset Store.",
@@ -447,7 +447,7 @@ window.I18N_LOCALES_EXTRA = {
       "Дизайн и арт персонажей, от концепции до финального спрайта, с характером в каждой линии.",
     "reach.tag": "Связаться с нами",
     "reach.title": "Контакты и пресса",
-    "reach.desc": "Выберите подходящий канал. Ответим как можно скорее."
+    "reach.desc": "Выберите подходящий канал. Ответим как можно скорее.",
     "contact.title": "Контакты",
     "contact.desc": "Для общих вопросов, партнёрств и деловых предложений.",
     "contact.general.label": "Общие",
@@ -456,7 +456,7 @@ window.I18N_LOCALES_EXTRA = {
     "contact.biz.hint": "Издатели, инвесторы и B2B-сотрудничество.",
     "press.title": "Пресса",
     "press.desc":
-      "Журналисты, контент-мейкеры и кураторы магазинов. Официальные материалы студии."
+      "Журналисты, контент-мейкеры и кураторы магазинов. Официальные материалы студии.",
     "press.item1": "Логотипы и цветовая палитра",
     "press.item2": "Скриншоты и key art",
     "press.item3": "Fact sheet студии",
@@ -514,7 +514,7 @@ window.I18N_LOCALES_EXTRA = {
     "game.lunaria.genre": "Survival Horror · PSX",
     "game.lunaria.desc": "PSX tarzı bir survival horror. Detaylar yakında.",
     "product.note":
-      "Framework'ümüz gerçek bir ihtiyaçtan doğdu ve mağazaya gitmeden önce My Eternal Lily'de doğrulandı."
+      "Framework'ümüz gerçek bir ihtiyaçtan doğdu ve mağazaya gitmeden önce My Eternal Lily'de doğrulandı.",
     "frameworks.title": "Framework'ler",
     "frameworks.desc":
       "Oyunlarımızda test edilmiş, belgelenmiş ve diğer game dev'lerin projelerinde kullanması için sunulan araçlar.",
@@ -523,7 +523,7 @@ window.I18N_LOCALES_EXTRA = {
     "fw.vn.status": "Geliştiriliyor",
     "fw.vn.genre": "Visual Novel · Unity · C#",
     "fw.vn.desc":
-      "Unity'de visual novel geliştirmeyi kolaylaştırır: hikayeyi yazmaya ve sanata odaklanırsınız. Framework geri kalanını halleder. Her proje için genişletilebilir ve özelleştirilebilir."
+      "Unity'de visual novel geliştirmeyi kolaylaştırır: hikayeyi yazmaya ve sanata odaklanırsınız. Framework geri kalanını halleder. Her proje için genişletilebilir ve özelleştirilebilir.",
     "fw.vn.cta": "Asset Store yakında",
     "about.foundation": "Kuruluş",
     "about.indieLabel": "İçten gelen",
@@ -542,7 +542,7 @@ window.I18N_LOCALES_EXTRA = {
     "team.tag": "Biz kimiz",
     "team.title": "Ekip",
     "team.desc":
-      "Yalın, çok disiplinli bir ekip. Oyunları yapan kişiler framework'leri de inşa ediyor."
+      "Yalın, çok disiplinli bir ekip. Oyunları yapan kişiler framework'leri de inşa ediyor.",
     "team.fabio.role": "Kurucu · Yaratıcı yönetmen · Lead programmer",
     "team.fabio.bio":
       "Yaratıcı yönetim ve kod, oyun prototiplerinden Asset Store'daki framework'lere.",
@@ -563,7 +563,7 @@ window.I18N_LOCALES_EXTRA = {
       "Karakter tasarımı ve sanatı, konseptten son sprite'a, her çizgide kişilik.",
     "reach.tag": "Bize ulaşın",
     "reach.title": "İletişim ve basın",
-    "reach.desc": "Doğru kanalı seçin. Mümkün olan en kısa sürede yanıt vereceğiz."
+    "reach.desc": "Doğru kanalı seçin. Mümkün olan en kısa sürede yanıt vereceğiz.",
     "contact.title": "İletişim",
     "contact.desc": "Genel görüşmeler, ortaklıklar ve iş fırsatları için.",
     "contact.general.label": "Genel",
@@ -572,7 +572,7 @@ window.I18N_LOCALES_EXTRA = {
     "contact.biz.hint": "Yayıncılar, yatırımcılar ve B2B iş birlikleri.",
     "press.title": "Basın",
     "press.desc":
-      "Gazeteciler, içerik üreticileri ve mağaza küratörleri. Stüdyonun resmi materyalleri."
+      "Gazeteciler, içerik üreticileri ve mağaza küratörleri. Stüdyonun resmi materyalleri.",
     "press.item1": "Logolar ve renk paleti",
     "press.item2": "Ekran görüntüleri ve key art",
     "press.item3": "Stüdyo fact sheet",
@@ -630,7 +630,7 @@ window.I18N_LOCALES_EXTRA = {
     "game.lunaria.genre": "Survival Horror · PSX",
     "game.lunaria.desc": "PSX 風格的生存恐怖遊戲。詳情即將公布。",
     "product.note":
-      "我們的框架源於真實需求。在上架商店之前，已在 My Eternal Lily 中經過驗證。"
+      "我們的框架源於真實需求。在上架商店之前，已在 My Eternal Lily 中經過驗證。",
     "frameworks.title": "框架",
     "frameworks.desc":
       "在我們遊戲中經過測試、編寫文件並開放給其他遊戲開發者使用的工具。",
@@ -639,14 +639,14 @@ window.I18N_LOCALES_EXTRA = {
     "fw.vn.status": "開發中",
     "fw.vn.genre": "視覺小說 · Unity · C#",
     "fw.vn.desc":
-      "簡化 Unity 視覺小說開發：你專注於撰寫故事與製作美術。框架負責其餘部分。可擴充、可自訂，適應每個專案的需求。"
+      "簡化 Unity 視覺小說開發：你專注於撰寫故事與製作美術。框架負責其餘部分。可擴充、可自訂，適應每個專案的需求。",
     "fw.vn.cta": "Asset Store 即將上線",
     "about.foundation": "成立",
     "about.indieLabel": "發自內心",
     "about.tag": "關於",
     "about.title": "Devil's Club",
     "about.p1":
-      "為玩家打造原創遊戲。為開發者打造框架。獨立工作室，雙線並行。同一支團隊。"
+      "為玩家打造原創遊戲。為開發者打造框架。獨立工作室，雙線並行。同一支團隊。",
     "about.p2":
       "這就是 Devil's Club 的意義：為玩家帶來體驗，為開發者帶來效率。",
     "about.val1":
@@ -658,7 +658,7 @@ window.I18N_LOCALES_EXTRA = {
     "team.tag": "團隊介紹",
     "team.title": "團隊",
     "team.desc":
-      "精簡而多學科的團隊。製作遊戲的人，也在構建框架。"
+      "精簡而多學科的團隊。製作遊戲的人，也在構建框架。",
     "team.fabio.role": "創辦人 · 創意總監 · 首席程式設計師",
     "team.fabio.bio":
       "創意方向與程式, 從遊戲原型到 Asset Store 上的框架。",
@@ -677,7 +677,7 @@ window.I18N_LOCALES_EXTRA = {
       "角色設計與美術, 從概念到最終立繪，每一筆都充滿個性。",
     "reach.tag": "聯絡我們",
     "reach.title": "聯絡與媒體",
-    "reach.desc": "選擇合適管道。我們會盡快回覆。"
+    "reach.desc": "選擇合適管道。我們會盡快回覆。",
     "contact.title": "聯絡",
     "contact.desc": "一般諮詢、合作與商業機會。",
     "contact.general.label": "綜合",
@@ -686,7 +686,7 @@ window.I18N_LOCALES_EXTRA = {
     "contact.biz.hint": "發行商、投資人與 B2B 合作。",
     "press.title": "媒體",
     "press.desc":
-      "記者、內容創作者與商店策展人。工作室官方資料。"
+      "記者、內容創作者與商店策展人。工作室官方資料。",
     "press.item1": "標誌與配色",
     "press.item2": "截圖與主視覺",
     "press.item3": "工作室資料頁",
@@ -744,7 +744,7 @@ window.I18N_LOCALES_EXTRA = {
     "game.lunaria.genre": "Survival Horror · PSX",
     "game.lunaria.desc": "PSX 스타일 서바이벌 호러. 자세한 내용은 곧 공개.",
     "product.note":
-      "프레임워크는 실제 필요에서 탄생했습니다. 스토어에 출시되기 전 My Eternal Lily에서 검증되었습니다."
+      "프레임워크는 실제 필요에서 탄생했습니다. 스토어에 출시되기 전 My Eternal Lily에서 검증되었습니다.",
     "frameworks.title": "프레임워크",
     "frameworks.desc":
       "우리 게임에서 테스트하고 문서화하여 다른 게임 개발자가 프로젝트에서 사용할 수 있도록 공개한 도구.",
@@ -753,7 +753,7 @@ window.I18N_LOCALES_EXTRA = {
     "fw.vn.status": "개발 중",
     "fw.vn.genre": "비주얼 노벨 · Unity · C#",
     "fw.vn.desc":
-      "Unity에서 비주얼 노벨 개발을 간소화합니다: 스토리 작성과 아트에 집중하세요. 프레임워크가 나머지를 처리합니다. 프로젝트별로 확장·커스터마이즈 가능."
+      "Unity에서 비주얼 노벨 개발을 간소화합니다: 스토리 작성과 아트에 집중하세요. 프레임워크가 나머지를 처리합니다. 프로젝트별로 확장·커스터마이즈 가능.",
     "fw.vn.cta": "Asset Store 출시 예정",
     "about.foundation": "설립",
     "about.indieLabel": "진심으로",
@@ -772,7 +772,7 @@ window.I18N_LOCALES_EXTRA = {
     "team.tag": "팀 소개",
     "team.title": "팀",
     "team.desc":
-      "소수 정예의 다학제 팀. 게임을 만드는 사람들이 프레임워크도 구축합니다."
+      "소수 정예의 다학제 팀. 게임을 만드는 사람들이 프레임워크도 구축합니다.",
     "team.fabio.role": "창립자 · 크리에이티브 디렉터 · 리드 프로그래머",
     "team.fabio.bio":
       "크리에이티브 디렉션과 코드, 게임 프로토타입부터 Asset Store 프레임워크까지.",
@@ -793,7 +793,7 @@ window.I18N_LOCALES_EXTRA = {
       "캐릭터 디자인과 아트, 컨셉부터 최종 스프라이트까지, 한 줄 한 줄에 개성을.",
     "reach.tag": "문의하기",
     "reach.title": "문의 및 보도",
-    "reach.desc": "적절한 채널을 선택하세요. 최대한 빨리 답변드리겠습니다."
+    "reach.desc": "적절한 채널을 선택하세요. 최대한 빨리 답변드리겠습니다.",
     "contact.title": "문의",
     "contact.desc": "일반 문의, 파트너십, 비즈니스 기회.",
     "contact.general.label": "일반",
@@ -860,7 +860,7 @@ window.I18N_LOCALES_EXTRA = {
     "game.lunaria.genre": "Survival Horror · PSX",
     "game.lunaria.desc": "เกม survival horror สไตล์ PSX รายละเอียดเร็วๆ นี้",
     "product.note":
-      "เฟรมเวิร์กของเราเกิดจากความต้องการจริง และได้รับการตรวจสอบใน My Eternal Lily ก่อนลงสโตร์"
+      "เฟรมเวิร์กของเราเกิดจากความต้องการจริง และได้รับการตรวจสอบใน My Eternal Lily ก่อนลงสโตร์",
     "frameworks.title": "เฟรมเวิร์ก",
     "frameworks.desc":
       "เครื่องมือที่ทดสอบในเกมของเรา จัดทำเอกสาร และเปิดให้ game dev คนอื่นใช้ในโปรเจกต์ของพวกเขา",
@@ -869,7 +869,7 @@ window.I18N_LOCALES_EXTRA = {
     "fw.vn.status": "กำลังพัฒนา",
     "fw.vn.genre": "Visual Novel · Unity · C#",
     "fw.vn.desc":
-      "ทำให้การพัฒนา visual novel บน Unity ง่ายขึ้น: คุณโฟกัสการเขียนเรื่องและสร้างศิลป์ เฟรมเวิร์กจัดการส่วนที่เหลือ ขยายและปรับแต่งได้ตามความต้องการของแต่ละโปรเจกต์"
+      "ทำให้การพัฒนา visual novel บน Unity ง่ายขึ้น: คุณโฟกัสการเขียนเรื่องและสร้างศิลป์ เฟรมเวิร์กจัดการส่วนที่เหลือ ขยายและปรับแต่งได้ตามความต้องการของแต่ละโปรเจกต์",
     "fw.vn.cta": "Asset Store เร็วๆ นี้",
     "about.foundation": "ก่อตั้ง",
     "about.indieLabel": "จากใจ",
@@ -888,7 +888,7 @@ window.I18N_LOCALES_EXTRA = {
     "team.tag": "เราเป็นใคร",
     "team.title": "ทีม",
     "team.desc":
-      "ทีมกะทัดรัดหลายสาขา คนเดียวกันที่ทำเกมก็สร้างเฟรมเวิร์กด้วย"
+      "ทีมกะทัดรัดหลายสาขา คนเดียวกันที่ทำเกมก็สร้างเฟรมเวิร์กด้วย",
     "team.fabio.role": "ผู้ก่อตั้ง · ผู้อำนวยการสร้างสรรค์ · Lead programmer",
     "team.fabio.bio":
       "ทิศทางสร้างสรรค์และโค้ด, จากต้นแบบเกมถึงเฟรมเวิร์กบน Asset Store",
@@ -909,7 +909,7 @@ window.I18N_LOCALES_EXTRA = {
       "ออกแบบและศิลป์ตัวละคร, จากคอนเซปต์ถึงสไปรต์สุดท้าย มีบุคลิกในทุกเส้น",
     "reach.tag": "ติดต่อเรา",
     "reach.title": "ติดต่อและสื่อ",
-    "reach.desc": "เลือกช่องทางที่เหมาะสม เราจะตอบกลับโดยเร็วที่สุด"
+    "reach.desc": "เลือกช่องทางที่เหมาะสม เราจะตอบกลับโดยเร็วที่สุด",
     "contact.title": "ติดต่อ",
     "contact.desc": "สำหรับการสนทนาทั่วไป พันธมิตร และโอกาสทางธุรกิจ",
     "contact.general.label": "ทั่วไป",
@@ -918,7 +918,7 @@ window.I18N_LOCALES_EXTRA = {
     "contact.biz.hint": "ผู้จัดพิมพ์ นักลงทุน และความร่วมมือ B2B",
     "press.title": "สื่อ",
     "press.desc":
-      "นักข่าว ครีเอเตอร์เนื้อหา และผู้คัดสรรสโตร์ สื่อทางการของสตูดิโอ"
+      "นักข่าว ครีเอเตอร์เนื้อหา และผู้คัดสรรสโตร์ สื่อทางการของสตูดิโอ",
     "press.item1": "โลโก้และจานสี",
     "press.item2": "ภาพหน้าจอและ key art",
     "press.item3": "Fact sheet ของสตูดิโอ",
