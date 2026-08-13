@@ -96,11 +96,11 @@ window.I18N = (function () {
       "about.p2":
         "É isso que o Devil's Club representa: experiência para o jogador, eficiência para o desenvolvedor.",
       "about.val1":
-        "<strong>Para Quem Joga</strong>: Cada decisão pensada na experiência, do primeiro protótipo ao lançamento.",
+        "<strong>Para Quem Joga</strong> Cada decisão pensada na experiência, do primeiro protótipo ao lançamento.",
       "about.val2":
-        "<strong>Para Quem Desenvolve</strong>: De Game Dev para Game Dev: ferramentas que nascem do nosso dia a dia em produção.",
+        "<strong>Para Quem Desenvolve</strong> De Game Dev para Game Dev: ferramentas que nascem do nosso dia a dia em produção.",
       "about.val3":
-        "<strong>Tudo Conectado</strong>: O que a gente usa nos nossos jogos é o que publicamos nas Asset Stores.",
+        "<strong>Tudo Conectado</strong> O que a gente usa nos nossos jogos é o que publicamos nas Asset Stores.",
       "team.tag": "Quem faz",
       "team.title": "A equipe",
       "team.desc":
@@ -212,11 +212,11 @@ window.I18N = (function () {
       "about.p2":
         "That's what Devil's Club stands for: experience for the player, efficiency for the developer.",
       "about.val1":
-        "<strong>For Players</strong>: Every decision shaped around the experience, from first prototype to launch.",
+        "<strong>For Players</strong> Every decision shaped around the experience, from first prototype to launch.",
       "about.val2":
-        "<strong>For Developers</strong>: By game devs, for game devs: tools born from our day-to-day production.",
+        "<strong>For Developers</strong> By game devs, for game devs: tools born from our day-to-day production.",
       "about.val3":
-        "<strong>All Connected</strong>: What we use in our games is what we publish on the Asset Stores.",
+        "<strong>All Connected</strong> What we use in our games is what we publish on the Asset Stores.",
       "team.tag": "Who we are",
       "team.title": "The team",
       "team.desc":
@@ -328,11 +328,11 @@ window.I18N = (function () {
       "about.p2":
         "C'est ce que représente Devil's Club : l'expérience pour le joueur, l'efficacité pour le développeur.",
       "about.val1":
-        "<strong>Pour les Joueurs</strong>: Chaque décision pensée pour l'expérience, du premier prototype au lancement.",
+        "<strong>Pour les Joueurs</strong> Chaque décision pensée pour l'expérience, du premier prototype au lancement.",
       "about.val2":
-        "<strong>Pour les Développeurs</strong>: De game dev à game dev : des outils nés de notre quotidien en production.",
+        "<strong>Pour les Développeurs</strong> De game dev à game dev : des outils nés de notre quotidien en production.",
       "about.val3":
-        "<strong>Tout est Connecté</strong>: Ce que nous utilisons dans nos jeux est ce que nous publions sur les Asset Stores.",
+        "<strong>Tout est Connecté</strong> Ce que nous utilisons dans nos jeux est ce que nous publions sur les Asset Stores.",
       "team.tag": "Qui sommes-nous",
       "team.title": "L'équipe",
       "team.desc":
@@ -444,11 +444,11 @@ window.I18N = (function () {
       "about.p2":
         "Eso es lo que representa Devil's Club: experiencia para el jugador, eficiencia para el desarrollador.",
       "about.val1":
-        "<strong>Para Quien Juega</strong>: Cada decisión pensada en la experiencia, del primer prototipo al lanzamiento.",
+        "<strong>Para Quien Juega</strong> Cada decisión pensada en la experiencia, del primer prototipo al lanzamiento.",
       "about.val2":
-        "<strong>Para Quien Desarrolla</strong>: De game dev para game dev: herramientas nacidas de nuestro día a día en producción.",
+        "<strong>Para Quien Desarrolla</strong> De game dev para game dev: herramientas nacidas de nuestro día a día en producción.",
       "about.val3":
-        "<strong>Todo Conectado</strong>: Lo que usamos en nuestros juegos es lo que publicamos en las Asset Stores.",
+        "<strong>Todo Conectado</strong> Lo que usamos en nuestros juegos es lo que publicamos en las Asset Stores.",
       "team.tag": "Quiénes somos",
       "team.title": "El equipo",
       "team.desc":
@@ -560,11 +560,11 @@ window.I18N = (function () {
       "about.p2":
         "这就是 Devil's Club 的意义：为玩家带来体验，为开发者带来效率。",
       "about.val1":
-        "<strong>为玩家</strong>: 每个决定都围绕体验，从首个原型到正式发布。",
+        "<strong>为玩家</strong> 每个决定都围绕体验，从首个原型到正式发布。",
       "about.val2":
-        "<strong>为开发者</strong>: 游戏开发者做给游戏开发者：源于我们日常制作的工具。",
+        "<strong>为开发者</strong> 游戏开发者做给游戏开发者：源于我们日常制作的工具。",
       "about.val3":
-        "<strong>一脉相连</strong>: 我们在游戏中使用的，就是我们在 Asset Store 上发布的。",
+        "<strong>一脉相连</strong> 我们在游戏中使用的，就是我们在 Asset Store 上发布的。",
       "team.tag": "团队介绍",
       "team.title": "团队",
       "team.desc":
@@ -674,11 +674,11 @@ window.I18N = (function () {
       "about.p2":
         "それが Devil's Club の意味：プレイヤーへの体験、開発者への効率。",
       "about.val1":
-        "<strong>プレイヤーのために</strong>: 最初のプロトタイプからリリースまで、体験を念頭に置いたすべての判断。",
+        "<strong>プレイヤーのために</strong> 最初のプロトタイプからリリースまで、体験を念頭に置いたすべての判断。",
       "about.val2":
-        "<strong>開発者のために</strong>: ゲーム開発者による、ゲーム開発者のためのツール：日々の制作から生まれた。",
+        "<strong>開発者のために</strong> ゲーム開発者による、ゲーム開発者のためのツール：日々の制作から生まれた。",
       "about.val3":
-        "<strong>すべてがつながる</strong>: ゲームで使うものが、Asset Store で公開するもの。",
+        "<strong>すべてがつながる</strong> ゲームで使うものが、Asset Store で公開するもの。",
       "team.tag": "メンバー",
       "team.title": "チーム",
       "team.desc":

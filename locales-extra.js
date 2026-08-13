@@ -70,11 +70,11 @@ window.I18N_LOCALES_EXTRA = {
     "about.p2":
       "Dafür steht Devil's Club: Erlebnis für den Spieler, Effizienz für den Entwickler.",
     "about.val1":
-      "<strong>Für Spieler</strong>: Jede Entscheidung am Erlebnis ausgerichtet, vom ersten Prototyp bis zum Release.",
+      "<strong>Für Spieler</strong> Jede Entscheidung am Erlebnis ausgerichtet, vom ersten Prototyp bis zum Release.",
     "about.val2":
-      "<strong>Für Entwickler</strong>: Von Game Devs für Game Devs: Tools aus unserem täglichen Produktionsalltag.",
+      "<strong>Für Entwickler</strong> Von Game Devs für Game Devs: Tools aus unserem täglichen Produktionsalltag.",
     "about.val3":
-      "<strong>Alles verbunden</strong>: Was wir in unseren Spielen nutzen, veröffentlichen wir in den Asset Stores.",
+      "<strong>Alles verbunden</strong> Was wir in unseren Spielen nutzen, veröffentlichen wir in den Asset Stores.",
     "team.tag": "Wer wir sind",
     "team.title": "Das Team",
     "team.desc":
@@ -186,11 +186,11 @@ window.I18N_LOCALES_EXTRA = {
     "about.p2":
       "Questo è ciò che rappresenta Devil's Club: esperienza per il giocatore, efficienza per lo sviluppatore.",
     "about.val1":
-      "<strong>Per chi gioca</strong>: Ogni decisione pensata per l'esperienza, dal primo prototipo al lancio.",
+      "<strong>Per chi gioca</strong> Ogni decisione pensata per l'esperienza, dal primo prototipo al lancio.",
     "about.val2":
-      "<strong>Per chi sviluppa</strong>: Da game dev a game dev: strumenti nati dalla nostra produzione quotidiana.",
+      "<strong>Per chi sviluppa</strong> Da game dev a game dev: strumenti nati dalla nostra produzione quotidiana.",
     "about.val3":
-      "<strong>Tutto connesso</strong>: Ciò che usiamo nei nostri giochi è ciò che pubblichiamo sugli Asset Store.",
+      "<strong>Tutto connesso</strong> Ciò che usiamo nei nostri giochi è ciò che pubblichiamo sugli Asset Store.",
     "team.tag": "Chi siamo",
     "team.title": "Il team",
     "team.desc":
@@ -302,11 +302,11 @@ window.I18N_LOCALES_EXTRA = {
     "about.p2":
       "O to chodzi w Devil's Club: doświadczenie dla gracza, efektywność dla dewelopera.",
     "about.val1":
-      "<strong>Dla graczy</strong>: Każda decyzja ukierunkowana na doświadczenie, od pierwszego prototypu po premierę.",
+      "<strong>Dla graczy</strong> Każda decyzja ukierunkowana na doświadczenie, od pierwszego prototypu po premierę.",
     "about.val2":
-      "<strong>Dla deweloperów</strong>: Od game devów dla game devów: narzędzia z naszej codziennej produkcji.",
+      "<strong>Dla deweloperów</strong> Od game devów dla game devów: narzędzia z naszej codziennej produkcji.",
     "about.val3":
-      "<strong>Wszystko połączone</strong>: To, czego używamy w grach, publikujemy w Asset Store.",
+      "<strong>Wszystko połączone</strong> To, czego używamy w grach, publikujemy w Asset Store.",
     "team.tag": "Kim jesteśmy",
     "team.title": "Zespół",
     "team.desc":
@@ -418,11 +418,11 @@ window.I18N_LOCALES_EXTRA = {
     "about.p2":
       "В этом суть Devil's Club: опыт для игрока, эффективность для разработчика.",
     "about.val1":
-      "<strong>Для игроков</strong>: Каждое решение продиктовано опытом, от первого прототипа до релиза.",
+      "<strong>Для игроков</strong> Каждое решение продиктовано опытом, от первого прототипа до релиза.",
     "about.val2":
-      "<strong>Для разработчиков</strong>: От разработчиков для разработчиков: инструменты из нашей ежедневной практики.",
+      "<strong>Для разработчиков</strong> От разработчиков для разработчиков: инструменты из нашей ежедневной практики.",
     "about.val3":
-      "<strong>Всё связано</strong>: То, что мы используем в играх, мы публикуем в Asset Store.",
+      "<strong>Всё связано</strong> То, что мы используем в играх, мы публикуем в Asset Store.",
     "team.tag": "Кто мы",
     "team.title": "Команда",
     "team.desc":
@@ -534,11 +534,11 @@ window.I18N_LOCALES_EXTRA = {
     "about.p2":
       "Devil's Club bunu temsil eder: oyuncu için deneyim, geliştirici için verimlilik.",
     "about.val1":
-      "<strong>Oyuncular İçin</strong>: İlk prototipten lansmana kadar her karar deneyim odaklı.",
+      "<strong>Oyuncular İçin</strong> İlk prototipten lansmana kadar her karar deneyim odaklı.",
     "about.val2":
-      "<strong>Geliştiriciler İçin</strong>: Game dev'ten game dev'e: günlük üretim pratiğimizden doğan araçlar.",
+      "<strong>Geliştiriciler İçin</strong> Game dev'ten game dev'e: günlük üretim pratiğimizden doğan araçlar.",
     "about.val3":
-      "<strong>Her Şey Bağlantılı</strong>: Oyunlarımızda kullandığımız şey, Asset Store'da yayınladığımız şeydir.",
+      "<strong>Her Şey Bağlantılı</strong> Oyunlarımızda kullandığımız şey, Asset Store'da yayınladığımız şeydir.",
     "team.tag": "Biz kimiz",
     "team.title": "Ekip",
     "team.desc":
@@ -650,11 +650,11 @@ window.I18N_LOCALES_EXTRA = {
     "about.p2":
       "這就是 Devil's Club 的意義：為玩家帶來體驗，為開發者帶來效率。",
     "about.val1":
-      "<strong>為玩家</strong>: 每個決定都圍繞體驗，從首個原型到正式發布。",
+      "<strong>為玩家</strong> 每個決定都圍繞體驗，從首個原型到正式發布。",
     "about.val2":
-      "<strong>為開發者</strong>: 遊戲開發者做給遊戲開發者：源於我們日常製作的工具。",
+      "<strong>為開發者</strong> 遊戲開發者做給遊戲開發者：源於我們日常製作的工具。",
     "about.val3":
-      "<strong>一脈相連</strong>: 我們在遊戲中使用的，就是我們在 Asset Store 上發布的。",
+      "<strong>一脈相連</strong> 我們在遊戲中使用的，就是我們在 Asset Store 上發布的。",
     "team.tag": "團隊介紹",
     "team.title": "團隊",
     "team.desc":
@@ -764,11 +764,11 @@ window.I18N_LOCALES_EXTRA = {
     "about.p2":
       "이것이 Devil's Club의 의미입니다: 플레이어를 위한 경험, 개발자를 위한 효율.",
     "about.val1":
-      "<strong>플레이어를 위해</strong>: 첫 프로토타입부터 출시까지, 모든 결정이 경험을 중심으로.",
+      "<strong>플레이어를 위해</strong> 첫 프로토타입부터 출시까지, 모든 결정이 경험을 중심으로.",
     "about.val2":
-      "<strong>개발자를 위해</strong>: 게임 개발자가 게임 개발자를 위해: 일상적인 제작에서 탄생한 도구.",
+      "<strong>개발자를 위해</strong> 게임 개발자가 게임 개발자를 위해: 일상적인 제작에서 탄생한 도구.",
     "about.val3":
-      "<strong>모두 연결됨</strong>: 게임에서 사용하는 것이 Asset Store에 게시하는 것입니다.",
+      "<strong>모두 연결됨</strong> 게임에서 사용하는 것이 Asset Store에 게시하는 것입니다.",
     "team.tag": "팀 소개",
     "team.title": "팀",
     "team.desc":
@@ -880,11 +880,11 @@ window.I18N_LOCALES_EXTRA = {
     "about.p2":
       "นี่คือสิ่งที่ Devil's Club แทน: ประสบการณ์สำหรับผู้เล่น ประสิทธิภาพสำหรับนักพัฒนา",
     "about.val1":
-      "<strong>สำหรับผู้เล่น</strong>: ทุกการตัดสินใจเน้นประสบการณ์ ตั้งแต่ต้นแบบแรกจนถึงการเปิดตัว",
+      "<strong>สำหรับผู้เล่น</strong> ทุกการตัดสินใจเน้นประสบการณ์ ตั้งแต่ต้นแบบแรกจนถึงการเปิดตัว",
     "about.val2":
-      "<strong>สำหรับนักพัฒนา</strong>: โดย game dev สำหรับ game dev: เครื่องมือที่เกิดจากการผลิตประจำวันของเรา",
+      "<strong>สำหรับนักพัฒนา</strong> โดย game dev สำหรับ game dev: เครื่องมือที่เกิดจากการผลิตประจำวันของเรา",
     "about.val3":
-      "<strong>เชื่อมต่อทั้งหมด</strong>: สิ่งที่เราใช้ในเกมคือสิ่งที่เราเผยแพร่บน Asset Store",
+      "<strong>เชื่อมต่อทั้งหมด</strong> สิ่งที่เราใช้ในเกมคือสิ่งที่เราเผยแพร่บน Asset Store",
     "team.tag": "เราเป็นใคร",
     "team.title": "ทีม",
     "team.desc":
