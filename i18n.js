@@ -75,6 +75,12 @@ window.I18N = (function () {
       "game.lunaria.status": "Em prototipação",
       "game.lunaria.genre": "Survival Horror · PSX",
       "game.lunaria.desc": "Um survival horror com estética PSX. Detalhes em breve.",
+      "game.pebble.placeholderAlt": "Pebbleshore",
+      "game.pebble.placeholder": "Arte em breve",
+      "game.pebble.status": "Em desenvolvimento",
+      "game.pebble.genre": "Plataforma 3D · Collect-a-thon",
+      "game.pebble.desc":
+        "Deslize, mergulhe e salte pela costa antártica em busca da pedra perfeita. Construa seu ninho, monte um colar de seixos raros e conquiste ela.",
       "product.note":
         "Nosso framework nasce de necessidade real e foi validado em My Eternal Lily antes de ir para a loja.",
       "frameworks.title": "Frameworks",
@@ -191,6 +197,12 @@ window.I18N = (function () {
       "game.lunaria.status": "In prototyping",
       "game.lunaria.genre": "Survival Horror · PSX",
       "game.lunaria.desc": "A PSX-style survival horror. Details coming soon.",
+      "game.pebble.placeholderAlt": "Pebbleshore",
+      "game.pebble.placeholder": "Art coming soon",
+      "game.pebble.status": "In development",
+      "game.pebble.genre": "3D Platformer · Collect-a-thon",
+      "game.pebble.desc":
+        "Slide, dive and leap along the Antarctic coast in search of the perfect stone. Build your nest, string a necklace of rare pebbles and win her over.",
       "product.note":
         "Our framework was born from real needs and was validated in My Eternal Lily before heading to the store.",
       "frameworks.title": "Frameworks",
@@ -307,6 +319,12 @@ window.I18N = (function () {
       "game.lunaria.status": "En prototypage",
       "game.lunaria.genre": "Survival Horror · PSX",
       "game.lunaria.desc": "Un survival horror à l'esthétique PSX. Détails bientôt disponibles.",
+      "game.pebble.placeholderAlt": "Pebbleshore",
+      "game.pebble.placeholder": "Art bientôt disponible",
+      "game.pebble.status": "En développement",
+      "game.pebble.genre": "Plateforme 3D · Collect-a-thon",
+      "game.pebble.desc":
+        "Glissez, plongez et sautez le long de la côte antarctique à la recherche de la pierre parfaite. Construisez votre nid, enfilez un collier de galets rares et séduisez-la.",
       "product.note":
         "Notre framework est né d'un besoin réel et a été validé dans My Eternal Lily avant d'aller en boutique.",
       "frameworks.title": "Frameworks",
@@ -423,6 +441,12 @@ window.I18N = (function () {
       "game.lunaria.status": "En prototipado",
       "game.lunaria.genre": "Survival Horror · PSX",
       "game.lunaria.desc": "Un survival horror con estética PSX. Detalles próximamente.",
+      "game.pebble.placeholderAlt": "Pebbleshore",
+      "game.pebble.placeholder": "Arte próximamente",
+      "game.pebble.status": "En desarrollo",
+      "game.pebble.genre": "Plataforma 3D · Collect-a-thon",
+      "game.pebble.desc":
+        "Deslízate, sumérgete y salta por la costa antártica en busca de la piedra perfecta. Construye tu nido, arma un collar de guijarros raros y conquístala.",
       "product.note":
         "Nuestro framework nace de una necesidad real y fue validado en My Eternal Lily antes de llegar a la tienda.",
       "frameworks.title": "Frameworks",
@@ -539,6 +563,12 @@ window.I18N = (function () {
       "game.lunaria.status": "原型阶段",
       "game.lunaria.genre": "生存恐怖 · PSX",
       "game.lunaria.desc": "PSX 风格的生存恐怖游戏。详情即将公布。",
+      "game.pebble.placeholderAlt": "Pebbleshore",
+      "game.pebble.placeholder": "美术即将公布",
+      "game.pebble.status": "开发中",
+      "game.pebble.genre": "3D 平台 · Collect-a-thon",
+      "game.pebble.desc":
+        "在南极海岸滑行、潜水和跳跃，寻找那颗完美的石头。筑起巢穴，串起稀有卵石项链，赢得她的心。",
       "product.note":
         "我们的框架源于真实需求。在上架商店之前，已在 My Eternal Lily 中得到验证。",
       "frameworks.title": "框架",
@@ -653,6 +683,12 @@ window.I18N = (function () {
       "game.lunaria.status": "プロトタイプ中",
       "game.lunaria.genre": "サバイバルホラー · PSX",
       "game.lunaria.desc": "PSX風サバイバルホラー。詳細は近日公開。",
+      "game.pebble.placeholderAlt": "Pebbleshore",
+      "game.pebble.placeholder": "アート近日公開",
+      "game.pebble.status": "開発中",
+      "game.pebble.genre": "3Dプラットフォーマー · Collect-a-thon",
+      "game.pebble.desc":
+        "南極の海岸を滑り、潜り、跳んで、完璧な石を探す。巣を作り、珍しい小石のネックレスを通して、彼女を勝ち取る。",
       "product.note":
         "フレームワークは実際のニーズから生まれ、ストアに出る前に My Eternal Lily で検証されました。",
       "frameworks.title": "フレームワーク",
