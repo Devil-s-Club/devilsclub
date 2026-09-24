@@ -1086,21 +1086,18 @@ a {
 
 @media (min-width: 960px) {
   .team-grid {
-    grid-template-columns: repeat(6, minmax(0, 1fr));
-    gap: 1.5rem;
+    gap: 1.5rem 2rem;
   }
 
   .team-card {
-    grid-column: span 2;
+    width: 100%;
+    max-width: 28rem;
+    justify-self: center;
   }
 
-  /* Leftover cards on the last row stay centered instead of hugging the left edge. */
-  .team-card:nth-last-child(2):nth-child(3n + 1) {
-    grid-column: 2 / span 2;
-  }
-
-  .team-card:last-child:nth-child(3n + 1) {
-    grid-column: 3 / span 2;
+  /* An odd last card centers across the row instead of hugging the left edge. */
+  .team-card:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
   }
 }
 
