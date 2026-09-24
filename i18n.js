@@ -120,9 +120,6 @@ window.I18N = (function () {
       "team.camila.role": "Diretora de narrativa",
       "team.camila.bio":
         "Roteiro, worldbuilding e voz narrativa, da primeira ideia ao arco que define cada jogo do estúdio.",
-      "team.thadeu.role": "Roteirista · Artista de personagem",
-      "team.thadeu.bio":
-        "Roteiro e design de personagens, da história aos traços que dão vida a cada protagonista.",
       "team.pablo.role": "Diretor de arte",
       "team.pablo.bio":
         "Direção visual e identidade de cada projeto, do conceito à linguagem gráfica que unifica o estúdio.",
@@ -242,9 +239,6 @@ window.I18N = (function () {
       "team.camila.role": "Narrative director",
       "team.camila.bio":
         "Writing, worldbuilding, and narrative voice, from the first idea to the arc that defines each studio game.",
-      "team.thadeu.role": "Screenwriter · Character artist",
-      "team.thadeu.bio":
-        "Writing and character design, from story to the lines that bring each protagonist to life.",
       "team.pablo.role": "Art director",
       "team.pablo.bio":
         "Visual direction and identity for each project, from concept to the graphic language that unifies the studio.",
@@ -364,9 +358,6 @@ window.I18N = (function () {
       "team.camila.role": "Directrice narrative",
       "team.camila.bio":
         "Scénario, worldbuilding et voix narrative, de la première idée à l'arc qui définit chaque jeu du studio.",
-      "team.thadeu.role": "Scénariste · Artiste personnages",
-      "team.thadeu.bio":
-        "Écriture et design de personnages, de l'histoire aux traits qui donnent vie à chaque protagoniste.",
       "team.pablo.role": "Directeur artistique",
       "team.pablo.bio":
         "Direction visuelle et identité de chaque projet, du concept au langage graphique qui unifie le studio.",
@@ -486,9 +477,6 @@ window.I18N = (function () {
       "team.camila.role": "Directora de narrativa",
       "team.camila.bio":
         "Guion, worldbuilding y voz narrativa, de la primera idea al arco que define cada juego del estúdio.",
-      "team.thadeu.role": "Guionista · Artista de personajes",
-      "team.thadeu.bio":
-        "Guion y diseño de personajes, de la historia a los trazos que dan vida a cada protagonista.",
       "team.pablo.role": "Director de arte",
       "team.pablo.bio":
         "Dirección visual e identidad de cada proyecto, del concepto al lenguaje gráfico que unifica el estúdio.",
@@ -607,8 +595,6 @@ window.I18N = (function () {
       "team.camila.role": "叙事总监",
       "team.camila.bio":
         "剧本、世界观与叙事声音, 从最初创意到定义每款游戏的叙事弧线。",
-      "team.thadeu.role": "编剧 · 角色艺术家",
-      "team.thadeu.bio": "剧本与角色设计, 从故事到赋予每位主角生命的每一笔。",
       "team.pablo.role": "艺术总监",
       "team.pablo.bio":
         "每个项目的视觉方向与品牌识别, 从概念到统一工作室的视觉语言。",
@@ -728,9 +714,6 @@ window.I18N = (function () {
       "team.camila.role": "ナラティブディレクター",
       "team.camila.bio":
         "脚本、ワールドビルディング、ナラティブの声, 最初のアイデアから各ゲームを定義する物語の弧まで。",
-      "team.thadeu.role": "シナリオライター · キャラクターアーティスト",
-      "team.thadeu.bio":
-        "脚本とキャラクターデザイン, 物語から各主人公に命を吹き込む一筆一筆まで。",
       "team.pablo.role": "アートディレクター",
       "team.pablo.bio":
         "各プロジェクトのビジュアルディレクションとアイデンティティ, コンセプトからスタジオを統一するグラフィック言語まで。",
