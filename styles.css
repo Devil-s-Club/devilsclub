@@ -593,6 +593,8 @@ a {
   letter-spacing: 0.02em;
   text-transform: uppercase;
   margin: 0 0 1.5rem;
+  /* Long compounds in some locales cannot fit a phone line; break rather than overflow. */
+  overflow-wrap: break-word;
 }
 
 .hero-accent {

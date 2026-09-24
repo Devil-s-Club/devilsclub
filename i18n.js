@@ -27,7 +27,7 @@ window.I18N = (function () {
   const messages = {
     "pt-BR": {
       "meta.description":
-        "Devil's Club: estúdio indie de jogos e frameworks para Unity Asset Store. Experiências originais e ferramentas para outros devs.",
+        "Devil's Club: estúdio indie de jogos. Visual novels, aventuras e plataforma 3D com identidade própria, do roteiro ao lançamento.",
       "aria.logo": "Devil's Club: início",
       "aria.nav": "Principal",
       "aria.menuOpen": "Abrir menu",
@@ -40,16 +40,16 @@ window.I18N = (function () {
       "nav.contact": "Contato",
       "hero.eyebrow": "Estúdio indie · Brasil",
       "hero.title1": "Experiência para o jogador.",
-      "hero.title2": "Eficiência para o dev.",
+      "hero.title2": "Identidade em cada jogo.",
       "hero.lead":
-        "Criamos jogos com identidade própria e frameworks que aceleram a produção, testados nos nossos projetos antes de irem para a loja.",
+        "Criamos jogos com identidade própria, produzidos dentro de casa: roteiro, arte e código pelo mesmo time, do primeiro protótipo ao lançamento.",
       "hero.ctaProducts": "Ver produtos",
       "hero.ctaContact": "Contato",
       "hero.scroll": "Scroll",
       "products.tag": "Produtos",
       "products.title": "O que fazemos",
       "products.desc":
-        "Duas linhas de trabalho que se alimentam: jogos com identidade própria e frameworks que aceleram a produção, inclusive a nossa.",
+        "Uma linha de trabalho só: jogos autorais, cada um com a sua própria voz, do primeiro protótipo ao lançamento.",
       "games.title": "Jogos",
       "games.desc": "Títulos autorais.",
       "game.mel.coverAlt": "Capa de My Eternal Lily",
@@ -75,39 +75,27 @@ window.I18N = (function () {
       "game.pebble.genre": "Plataforma 3D · Collect-a-thon",
       "game.pebble.desc":
         "Deslize, mergulhe e salte pela costa antártica atrás da pedra perfeita. Construa seu ninho, monte um colar de pedras raras e conquiste sua pretendida.",
-      "product.note":
-        "Nosso framework nasce de necessidade real e foi validado em My Eternal Lily antes de ir para a loja.",
-      "frameworks.title": "Frameworks",
-      "frameworks.desc":
-        "Ferramentas testadas nos nossos jogos, documentadas e disponibilizadas para outros Game Devs usarem em seus projetos.",
-      "fw.vn.placeholderAlt": "Framework de visual novel para Unity",
-      "fw.vn.placeholder": "Visual Novel",
-      "fw.vn.status": "Em desenvolvimento",
-      "fw.vn.genre": "Visual Novel · Unity · C#",
-      "fw.vn.desc":
-        "Facilita o desenvolvimento de visual novels na Unity: você foca em escrever a história e fazer as artes. O framework cuida do resto. Expansível e customizável para a necessidade de cada projeto.",
-      "fw.vn.cta": "Asset Store em breve",
+      "product.note": "Poucos títulos por vez, cada um produzido do começo ao fim aqui dentro.",
       "about.foundation": "Fundação",
       "about.indieLabel": "De coração",
       "about.tag": "Sobre",
       "about.title": "O Devil's Club",
       "about.p1":
-        "Jogos autorais para players. Frameworks para desenvolvedores. Um estúdio indie com as duas frentes e o mesmo time por trás.",
+        "Jogos autorais, do começo ao fim. Um estúdio indie pequeno, com o mesmo time do roteiro ao lançamento.",
       "about.p2":
-        "É isso que o Devil's Club representa: experiência para o jogador, eficiência para o desenvolvedor.",
+        "É isso que o Devil's Club representa: experiência para o jogador, identidade em cada jogo.",
       "about.val1":
         "<strong>Para Quem Joga</strong> Cada decisão pensada na experiência, do primeiro protótipo ao lançamento.",
       "about.val2":
-        "<strong>Para Quem Desenvolve</strong> De Game Dev para Game Dev: ferramentas que nascem do nosso dia a dia em produção.",
+        "<strong>Identidade Própria</strong> Nada de fórmula pronta: cada projeto tem a sua voz, a sua arte e o seu ritmo.",
       "about.val3":
-        "<strong>Tudo Conectado</strong> O que a gente usa nos nossos jogos é o que publicamos nas Asset Stores.",
+        "<strong>Tudo na Casa</strong> Um time pequeno que assina cada etapa, do roteiro ao build final.",
       "team.tag": "Quem faz",
       "team.title": "A equipe",
       "team.desc":
-        "Time enxuto e multidisciplinar. As mesmas pessoas que fazem os jogos constroem os frameworks.",
+        "Time enxuto e multidisciplinar. As mesmas pessoas que escrevem, desenham e programam cada jogo.",
       "team.fabio.role": "Fundador · Diretor criativo · Lead programmer",
-      "team.fabio.bio":
-        "Direção criativa e código, dos protótipos dos jogos aos frameworks que saem da Asset Store.",
+      "team.fabio.bio": "Direção criativa e código, do primeiro protótipo ao build final de cada jogo.",
       "team.arthur.role": "Programador",
       "team.arthur.bio":
         "Código e sistemas, do gameplay às ferramentas que sustentam os projetos do estúdio.",
@@ -137,7 +125,7 @@ window.I18N = (function () {
     },
     en: {
       "meta.description":
-        "Devil's Club: indie game studio and frameworks for the Unity Asset Store. Original experiences and tools for fellow developers.",
+        "Devil's Club: indie game studio. Visual novels, adventures and 3D platformers with an identity of their own, from script to launch.",
       "aria.logo": "Devil's Club: home",
       "aria.nav": "Main",
       "aria.menuOpen": "Open menu",
@@ -150,16 +138,16 @@ window.I18N = (function () {
       "nav.contact": "Contact",
       "hero.eyebrow": "Indie studio · Brazil",
       "hero.title1": "Experience for the player.",
-      "hero.title2": "Efficiency for the dev.",
+      "hero.title2": "Identity in every game.",
       "hero.lead":
-        "We create games with a distinct identity and frameworks that speed up production, tested in our own projects before heading to the store.",
+        "We create games with a distinct identity, made in house: script, art and code by the same team, from first prototype to launch.",
       "hero.ctaProducts": "View products",
       "hero.ctaContact": "Contact",
       "hero.scroll": "Scroll",
       "products.tag": "Products",
       "products.title": "What we do",
       "products.desc":
-        "Two lines of work that feed each other: games with a distinct identity and frameworks that speed up production, including our own.",
+        "One line of work: original games, each with a voice of its own, from first prototype to launch.",
       "games.title": "Games",
       "games.desc": "Original titles.",
       "game.mel.coverAlt": "My Eternal Lily cover",
@@ -185,39 +173,26 @@ window.I18N = (function () {
       "game.pebble.genre": "3D Platformer · Collect-a-thon",
       "game.pebble.desc":
         "Slide, dive and leap along the Antarctic coast after the perfect stone. Build your nest, string a necklace of rare stones and win over your intended.",
-      "product.note":
-        "Our framework was born from real needs and was validated in My Eternal Lily before heading to the store.",
-      "frameworks.title": "Frameworks",
-      "frameworks.desc":
-        "Tools tested in our games, documented and made available for other game developers to use in their projects.",
-      "fw.vn.placeholderAlt": "Visual novel framework for Unity",
-      "fw.vn.placeholder": "Visual Novel",
-      "fw.vn.status": "In development",
-      "fw.vn.genre": "Visual Novel · Unity · C#",
-      "fw.vn.desc":
-        "Streamlines visual novel development in Unity: you focus on writing the story and creating the art. The framework handles the rest. Expandable and customizable for each project's needs.",
-      "fw.vn.cta": "Asset Store coming soon",
+      "product.note": "A few titles at a time, each one built end to end in house.",
       "about.foundation": "Founded",
       "about.indieLabel": "At heart",
       "about.tag": "About",
       "about.title": "Devil's Club",
       "about.p1":
-        "Original games for players. Frameworks for developers. An indie studio on both fronts, with the same team behind them.",
-      "about.p2":
-        "That's what Devil's Club stands for: experience for the player, efficiency for the developer.",
+        "Original games, end to end. A small indie studio with the same team from script to launch.",
+      "about.p2": "That is what Devil's Club stands for: experience for the player, identity in every game.",
       "about.val1":
         "<strong>For Players</strong> Every decision shaped around the experience, from first prototype to launch.",
       "about.val2":
-        "<strong>For Developers</strong> By game devs, for game devs: tools born from our day-to-day production.",
+        "<strong>A Voice of Its Own</strong> No ready-made formula: every project gets its own voice, art and pace.",
       "about.val3":
-        "<strong>All Connected</strong> What we use in our games is what we publish on the Asset Stores.",
+        "<strong>All In House</strong> A small team that signs every step, from script to final build.",
       "team.tag": "Who we are",
       "team.title": "The team",
-      "team.desc":
-        "A lean, multidisciplinary crew. The same people who make the games build the frameworks.",
+      "team.desc": "A lean, multidisciplinary crew. The same people who write, draw and program every game.",
       "team.fabio.role": "Founder · Creative director · Lead programmer",
       "team.fabio.bio":
-        "Creative direction and code, from game prototypes to frameworks on the Asset Store.",
+        "Creative direction and code, from the first prototype to the final build of every game.",
       "team.arthur.role": "Programmer",
       "team.arthur.bio":
         "Code and systems, from gameplay to the tools that power the studio's projects.",
@@ -247,7 +222,7 @@ window.I18N = (function () {
     },
     fr: {
       "meta.description":
-        "Devil's Club: studio indie de jeux et frameworks pour Unity Asset Store. Expériences originales et outils pour les développeurs.",
+        "Devil's Club : studio indie de jeux. Visual novels, aventures et plateforme 3D à l'identité propre, du scénario au lancement.",
       "aria.logo": "Devil's Club: accueil",
       "aria.nav": "Principal",
       "aria.menuOpen": "Ouvrir le menu",
@@ -260,16 +235,16 @@ window.I18N = (function () {
       "nav.contact": "Contact",
       "hero.eyebrow": "Studio indie · Brésil",
       "hero.title1": "L'expérience pour le joueur.",
-      "hero.title2": "L'efficacité pour le dev.",
+      "hero.title2": "Une identité dans chaque jeu.",
       "hero.lead":
-        "Nous créons des jeux à identité propre et des frameworks qui accélèrent la production, testés dans nos propres projets avant d'aller en boutique.",
+        "Nous créons des jeux à l'identité propre, produits en interne : scénario, art et code par la même équipe, du premier prototype au lancement.",
       "hero.ctaProducts": "Voir les produits",
       "hero.ctaContact": "Contact",
       "hero.scroll": "Défiler",
       "products.tag": "Produits",
       "products.title": "Ce que nous faisons",
       "products.desc":
-        "Deux lignes de travail qui se nourrissent mutuellement : des jeux à identité propre et des frameworks qui accélèrent la production, y compris la nôtre.",
+        "Une seule ligne de travail : des jeux originaux, chacun avec sa propre voix, du premier prototype au lancement.",
       "games.title": "Jeux",
       "games.desc": "Titres originaux.",
       "game.mel.coverAlt": "Couverture de My Eternal Lily",
@@ -295,39 +270,27 @@ window.I18N = (function () {
       "game.pebble.genre": "Plateforme 3D · Collect-a-thon",
       "game.pebble.desc":
         "Glissez, plongez et sautez le long de la côte antarctique après la pierre parfaite. Construisez votre nid, montez un collier de pierres rares et conquérez votre promise.",
-      "product.note":
-        "Notre framework est né d'un besoin réel et a été validé dans My Eternal Lily avant d'aller en boutique.",
-      "frameworks.title": "Frameworks",
-      "frameworks.desc":
-        "Outils testés dans nos jeux, documentés et mis à disposition d'autres game devs pour leurs projets.",
-      "fw.vn.placeholderAlt": "Framework de visual novel pour Unity",
-      "fw.vn.placeholder": "Visual Novel",
-      "fw.vn.status": "En développement",
-      "fw.vn.genre": "Visual Novel · Unity · C#",
-      "fw.vn.desc":
-        "Facilite le développement de visual novels sur Unity : vous vous concentrez sur l'écriture et l'art. Le framework s'occupe du reste. Extensible et personnalisable selon chaque projet.",
-      "fw.vn.cta": "Asset Store bientôt disponible",
+      "product.note": "Peu de titres à la fois, chacun produit de bout en bout en interne.",
       "about.foundation": "Fondation",
       "about.indieLabel": "Indépendant dans l'âme",
       "about.tag": "À propos",
       "about.title": "Devil's Club",
       "about.p1":
-        "Des jeux originaux pour les joueurs. Des frameworks pour les développeurs. Un studio indie sur les deux fronts, avec la même équipe derrière.",
+        "Des jeux originaux, de bout en bout. Un petit studio indie, avec la même équipe du scénario au lancement.",
       "about.p2":
-        "C'est ce que représente Devil's Club : l'expérience pour le joueur, l'efficacité pour le développeur.",
+        "C'est ce que représente Devil's Club : l'expérience pour le joueur, une identité dans chaque jeu.",
       "about.val1":
         "<strong>Pour les Joueurs</strong> Chaque décision pensée pour l'expérience, du premier prototype au lancement.",
       "about.val2":
-        "<strong>Pour les Développeurs</strong> De game dev à game dev : des outils nés de notre quotidien en production.",
+        "<strong>Une Identité Propre</strong> Pas de formule toute faite : chaque projet a sa voix, son art et son rythme.",
       "about.val3":
-        "<strong>Tout est Connecté</strong> Ce que nous utilisons dans nos jeux est ce que nous publions sur les Asset Stores.",
+        "<strong>Tout en Interne</strong> Une petite équipe qui signe chaque étape, du scénario au build final.",
       "team.tag": "Qui sommes-nous",
       "team.title": "L'équipe",
       "team.desc":
-        "Une équipe réduite et pluridisciplinaire. Les mêmes personnes qui font les jeux construisent les frameworks.",
+        "Une équipe réduite et pluridisciplinaire. Les mêmes personnes écrivent, dessinent et programment chaque jeu.",
       "team.fabio.role": "Fondateur · Directeur créatif · Lead programmer",
-      "team.fabio.bio":
-        "Direction créative et code, des prototypes de jeux aux frameworks sur l'Asset Store.",
+      "team.fabio.bio": "Direction créative et code, du premier prototype au build final de chaque jeu.",
       "team.arthur.role": "Programmeur",
       "team.arthur.bio":
         "Code et systèmes, du gameplay aux outils qui soutiennent les projets du studio.",
@@ -357,7 +320,7 @@ window.I18N = (function () {
     },
     es: {
       "meta.description":
-        "Devil's Club: estudio indie de juegos y frameworks para Unity Asset Store. Experiencias originales y herramientas para otros desarrolladores.",
+        "Devil's Club: estudio indie de videojuegos. Visual novels, aventuras y plataformas 3D con identidad propia, del guion al lanzamiento.",
       "aria.logo": "Devil's Club: inicio",
       "aria.nav": "Principal",
       "aria.menuOpen": "Abrir menú",
@@ -370,16 +333,16 @@ window.I18N = (function () {
       "nav.contact": "Contacto",
       "hero.eyebrow": "Estudio indie · Brasil",
       "hero.title1": "Experiencia para el jugador.",
-      "hero.title2": "Eficiencia para el dev.",
+      "hero.title2": "Identidad en cada juego.",
       "hero.lead":
-        "Creamos juegos con identidad propia y frameworks que aceleran la producción, probados en nuestros proyectos antes de llegar a la tienda.",
+        "Creamos juegos con identidad propia, producidos en casa: guion, arte y código por el mismo equipo, del primer prototipo al lanzamiento.",
       "hero.ctaProducts": "Ver productos",
       "hero.ctaContact": "Contacto",
       "hero.scroll": "Scroll",
       "products.tag": "Productos",
       "products.title": "Qué hacemos",
       "products.desc":
-        "Dos líneas de trabajo que se alimentan mutuamente: juegos con identidad propia y frameworks que aceleran la producción, incluida la nuestra.",
+        "Una sola línea de trabajo: juegos de autor, cada uno con su propia voz, del primer prototipo al lanzamiento.",
       "games.title": "Juegos",
       "games.desc": "Títulos originales.",
       "game.mel.coverAlt": "Portada de My Eternal Lily",
@@ -405,39 +368,27 @@ window.I18N = (function () {
       "game.pebble.genre": "Plataforma 3D · Collect-a-thon",
       "game.pebble.desc":
         "Deslízate, sumérgete y salta por la costa antártica detrás de la piedra perfecta. Construye tu nido, arma un collar de piedras raras y conquista a tu pretendida.",
-      "product.note":
-        "Nuestro framework nace de una necesidad real y fue validado en My Eternal Lily antes de llegar a la tienda.",
-      "frameworks.title": "Frameworks",
-      "frameworks.desc":
-        "Herramientas probadas en nuestros juegos, documentadas y disponibles para que otros game devs las usen en sus proyectos.",
-      "fw.vn.placeholderAlt": "Framework de visual novel para Unity",
-      "fw.vn.placeholder": "Visual Novel",
-      "fw.vn.status": "En desarrollo",
-      "fw.vn.genre": "Visual Novel · Unity · C#",
-      "fw.vn.desc":
-        "Facilita el desarrollo de visual novels en Unity: tú te enfocas en escribir la historia y crear el arte. El framework se encarga del resto. Expandible y personalizable según cada proyecto.",
-      "fw.vn.cta": "Asset Store próximamente",
+      "product.note": "Pocos títulos a la vez, cada uno producido de principio a fin en casa.",
       "about.foundation": "Fundación",
       "about.indieLabel": "De corazón",
       "about.tag": "Sobre nosotros",
       "about.title": "Devil's Club",
       "about.p1":
-        "Juegos autorais para jugadores. Frameworks para desarrolladores. Un estudio indie en ambas frentes, con el mismo equipo detrás.",
+        "Juegos de autor, de principio a fin. Un estudio indie pequeño, con el mismo equipo del guion al lanzamiento.",
       "about.p2":
-        "Eso es lo que representa Devil's Club: experiencia para el jugador, eficiencia para el desarrollador.",
+        "Eso es lo que representa Devil's Club: experiencia para el jugador, identidad en cada juego.",
       "about.val1":
         "<strong>Para Quien Juega</strong> Cada decisión pensada en la experiencia, del primer prototipo al lanzamiento.",
       "about.val2":
-        "<strong>Para Quien Desarrolla</strong> De game dev para game dev: herramientas nacidas de nuestro día a día en producción.",
+        "<strong>Identidad Propia</strong> Nada de fórmulas hechas: cada proyecto tiene su voz, su arte y su ritmo.",
       "about.val3":
-        "<strong>Todo Conectado</strong> Lo que usamos en nuestros juegos es lo que publicamos en las Asset Stores.",
+        "<strong>Todo en Casa</strong> Un equipo pequeño que firma cada etapa, del guion a la build final.",
       "team.tag": "Quiénes somos",
       "team.title": "El equipo",
       "team.desc":
-        "Equipo reducido y multidisciplinar. Las mismas personas que hacen los juegos construyen los frameworks.",
+        "Equipo reducido y multidisciplinar. Las mismas personas que escriben, dibujan y programan cada juego.",
       "team.fabio.role": "Fundador · Director creativo · Lead programmer",
-      "team.fabio.bio":
-        "Dirección creativa y código, de los prototipos de juegos a los frameworks en la Asset Store.",
+      "team.fabio.bio": "Dirección creativa y código, del primer prototipo a la build final de cada juego.",
       "team.arthur.role": "Programador",
       "team.arthur.bio":
         "Código y sistemas, del gameplay a las herramientas que sustentan los proyectos del estudio.",
@@ -466,8 +417,7 @@ window.I18N = (function () {
       "footer.rights": "Todos los derechos reservados.",
     },
     zh: {
-      "meta.description":
-        "Devil's Club: 独立游戏工作室，为 Unity Asset Store 提供游戏与框架。原创体验与开发者工具。",
+      "meta.description": "Devil's Club：独立游戏工作室。视觉小说、冒险与 3D 平台游戏，拥有独特身份，从剧本到发布。",
       "aria.logo": "Devil's Club: 首页",
       "aria.nav": "主导航",
       "aria.menuOpen": "打开菜单",
@@ -480,16 +430,14 @@ window.I18N = (function () {
       "nav.contact": "联系",
       "hero.eyebrow": "独立工作室 · 巴西",
       "hero.title1": "为玩家打造体验。",
-      "hero.title2": "为开发者提升效率。",
-      "hero.lead":
-        "我们创作具有独特身份的游戏，以及加速制作的框架, 在上架之前已在我们自己的项目中得到验证。",
+      "hero.title2": "每款游戏都有独特身份。",
+      "hero.lead": "我们打造具有独特身份的游戏，全部由内部完成：剧本、美术与代码出自同一支团队，从首个原型到正式发布。",
       "hero.ctaProducts": "查看产品",
       "hero.ctaContact": "联系",
       "hero.scroll": "滚动",
       "products.tag": "产品",
       "products.title": "我们的工作",
-      "products.desc":
-        "两条相互促进的业务线：具有独特身份的游戏，以及加速制作（包括我们自己）的框架。",
+      "products.desc": "只有一条业务线：原创游戏，每一款都有自己的声音，从首个原型到正式发布。",
       "games.title": "游戏",
       "games.desc": "原创作品。",
       "game.mel.coverAlt": "My Eternal Lily 封面",
@@ -515,39 +463,22 @@ window.I18N = (function () {
       "game.pebble.genre": "3D 平台 · Collect-a-thon",
       "game.pebble.desc":
         "在南极海岸滑行、潜水和跳跃，去追那颗完美的石头。筑起巢穴，串起稀有石子项链，赢得你的意中人。",
-      "product.note":
-        "我们的框架源于真实需求。在上架商店之前，已在 My Eternal Lily 中得到验证。",
-      "frameworks.title": "框架",
-      "frameworks.desc":
-        "在我们游戏中经过测试、编写文档并开放给其他游戏开发者使用的工具。",
-      "fw.vn.placeholderAlt": "Unity 视觉小说框架",
-      "fw.vn.placeholder": "视觉小说",
-      "fw.vn.status": "开发中",
-      "fw.vn.genre": "视觉小说 · Unity · C#",
-      "fw.vn.desc":
-        "简化 Unity 视觉小说开发：你专注于撰写故事与制作美术。框架负责其余部分。可扩展、可定制，适应每个项目的需求。",
-      "fw.vn.cta": "Asset Store 即将上线",
+      "product.note": "一次只做少数几款，每一款都由我们从头做到尾。",
       "about.foundation": "成立",
       "about.indieLabel": "发自内心",
       "about.tag": "关于",
       "about.title": "Devil's Club",
-      "about.p1":
-        "为玩家打造原创游戏。为开发者打造框架。独立工作室，双线并行。同一支团队。",
-      "about.p2":
-        "这就是 Devil's Club 的意义：为玩家带来体验，为开发者带来效率。",
+      "about.p1": "原创游戏，从头做到尾。一家小型独立工作室，从剧本到发布都是同一支团队。",
+      "about.p2": "这就是 Devil's Club 的意义：为玩家带来体验，为每款游戏赋予独特身份。",
       "about.val1":
         "<strong>为玩家</strong> 每个决定都围绕体验，从首个原型到正式发布。",
-      "about.val2":
-        "<strong>为开发者</strong> 游戏开发者做给游戏开发者：源于我们日常制作的工具。",
-      "about.val3":
-        "<strong>一脉相连</strong> 我们在游戏中使用的，就是我们在 Asset Store 上发布的。",
+      "about.val2": "<strong>独特身份</strong> 没有现成公式：每个项目都有自己的声音、美术与节奏。",
+      "about.val3": "<strong>全部自研</strong> 一支小团队负责每个环节，从剧本到最终构建。",
       "team.tag": "团队介绍",
       "team.title": "团队",
-      "team.desc":
-        "精简而多学科的团队。制作游戏的人，也在构建框架。",
+      "team.desc": "精简而多学科的团队。写剧本、画美术、写代码的都是同一群人。",
       "team.fabio.role": "创始人 · 创意总监 · 首席程序员",
-      "team.fabio.bio":
-        "创意方向与代码, 从游戏原型到 Asset Store 上的框架。",
+      "team.fabio.bio": "创意总监与程序，从首个原型到每款游戏的最终构建。",
       "team.arthur.role": "程序员",
       "team.arthur.bio": "代码与系统, 从玩法到支撑工作室项目的工具。",
       "team.pablo.role": "艺术总监",
@@ -576,7 +507,7 @@ window.I18N = (function () {
     },
     ja: {
       "meta.description":
-        "Devil's Club: インディーゲームスタジオ。Unity Asset Store向けのゲームとフレームワーク。独自の体験と開発者向けツール。",
+        "Devil's Club：インディーゲームスタジオ。独自のアイデンティティを持つビジュアルノベル、アドベンチャー、3D プラットフォーマーを、脚本からリリースまで。",
       "aria.logo": "Devil's Club: ホーム",
       "aria.nav": "メイン",
       "aria.menuOpen": "メニューを開く",
@@ -589,16 +520,14 @@ window.I18N = (function () {
       "nav.contact": "お問い合わせ",
       "hero.eyebrow": "インディースタジオ · ブラジル",
       "hero.title1": "プレイヤーへの体験。",
-      "hero.title2": "開発者への効率。",
-      "hero.lead":
-        "独自のアイデンティティを持つゲームと、制作を加速するフレームワークを創り出す, ストアに出る前に自社プロジェクトで検証。",
+      "hero.title2": "すべてのゲームに個性を。",
+      "hero.lead": "独自のアイデンティティを持つゲームを、すべて自社で制作。脚本もアートもコードも同じチームが、最初のプロトタイプからリリースまで手がけます。",
       "hero.ctaProducts": "製品を見る",
       "hero.ctaContact": "お問い合わせ",
       "hero.scroll": "スクロール",
       "products.tag": "製品",
       "products.title": "私たちの仕事",
-      "products.desc":
-        "相互に支え合う二つのライン：独自のアイデンティティを持つゲームと、制作（私たち自身の制作も）を加速するフレームワーク。",
+      "products.desc": "取り組むのは一つだけ。それぞれが独自の声を持つオリジナルゲームを、最初のプロトタイプからリリースまで。",
       "games.title": "ゲーム",
       "games.desc": "オリジナルタイトル。",
       "game.mel.coverAlt": "My Eternal Lily カバー",
@@ -624,39 +553,22 @@ window.I18N = (function () {
       "game.pebble.genre": "3Dプラットフォーマー · Collect-a-thon",
       "game.pebble.desc":
         "南極の海岸を滑り、潜り、跳んで、完璧な石を追う。巣を作り、珍しい石のネックレスを通して、想い人を勝ち取る。",
-      "product.note":
-        "フレームワークは実際のニーズから生まれ、ストアに出る前に My Eternal Lily で検証されました。",
-      "frameworks.title": "フレームワーク",
-      "frameworks.desc":
-        "自社ゲームでテストし、文書化して他のゲーム開発者がプロジェクトで使えるように公開したツール。",
-      "fw.vn.placeholderAlt": "Unity 向けビジュアルノベルフレームワーク",
-      "fw.vn.placeholder": "ビジュアルノベル",
-      "fw.vn.status": "開発中",
-      "fw.vn.genre": "ビジュアルノベル · Unity · C#",
-      "fw.vn.desc":
-        "Unity でのビジュアルノベル開発を効率化：ストーリー執筆とアート制作に集中。フレームワークが残りを担当。プロジェクトごとに拡張・カスタマイズ可能。",
-      "fw.vn.cta": "Asset Store 近日公開",
+      "product.note": "一度に手がけるのは少数のタイトルだけ。そのすべてを最初から最後まで自社で作ります。",
       "about.foundation": "設立",
       "about.indieLabel": "インディーの心",
       "about.tag": "概要",
       "about.title": "Devil's Club",
-      "about.p1":
-        "プレイヤー向けのオリジナルゲーム。開発者向けのフレームワーク。両方に取り組むインディースタジオ。同じチームが支える。",
-      "about.p2":
-        "それが Devil's Club の意味：プレイヤーへの体験、開発者への効率。",
+      "about.p1": "オリジナルゲームを、最初から最後まで。脚本からリリースまで同じチームが担う小さなインディースタジオです。",
+      "about.p2": "それが Devil's Club の意味です。プレイヤーには体験を、すべてのゲームに個性を。",
       "about.val1":
         "<strong>プレイヤーのために</strong> 最初のプロトタイプからリリースまで、体験を念頭に置いたすべての判断。",
-      "about.val2":
-        "<strong>開発者のために</strong> ゲーム開発者による、ゲーム開発者のためのツール：日々の制作から生まれた。",
-      "about.val3":
-        "<strong>すべてがつながる</strong> ゲームで使うものが、Asset Store で公開するもの。",
+      "about.val2": "<strong>独自の個性</strong> 既成の型はありません。プロジェクトごとに固有の声、アート、テンポがあります。",
+      "about.val3": "<strong>すべて自社で</strong> 脚本から最終ビルドまで、小さなチームがすべての工程を担います。",
       "team.tag": "メンバー",
       "team.title": "チーム",
-      "team.desc":
-        "少数精鋭の多能工チーム。ゲームを作る人々がフレームワークも構築する。",
+      "team.desc": "少数精鋭の多能工チーム。書く人、描く人、コードを書く人が同じです。",
       "team.fabio.role": "創設者 · クリエイティブディレクター · リードプログラマー",
-      "team.fabio.bio":
-        "クリエイティブディレクションとコード, ゲームのプロトタイプから Asset Store のフレームワークまで。",
+      "team.fabio.bio": "クリエイティブディレクションとコード。最初のプロトタイプから各タイトルの最終ビルドまで。",
       "team.arthur.role": "プログラマー",
       "team.arthur.bio":
         "コードとシステム, ゲームプレイからスタジオのプロジェクトを支えるツールまで。",
