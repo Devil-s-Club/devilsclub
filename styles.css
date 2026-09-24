@@ -812,12 +812,25 @@ a {
     radial-gradient(ellipse at 70% 20%, rgba(140, 190, 220, 0.16), transparent 60%);
 }
 
+/* The label sits on art, so it carries its own scrim: the gradients below vary
+   per game and some stops are too light for the label to clear WCAG AA. */
+.game-placeholder::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0 0;
+  height: 45%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.72), transparent);
+  pointer-events: none;
+}
+
 .game-placeholder-label {
+  position: relative;
+  z-index: 1;
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--text-muted);
+  color: var(--text);
 }
 
 .game-status {
