@@ -46,8 +46,6 @@ window.I18N = (function () {
       "hero.ctaProducts": "Ver jogos",
       "hero.ctaContact": "Contato",
       "hero.scroll": "Scroll",
-      "products.desc":
-        "Uma linha de trabalho só: jogos autorais, cada um com a sua própria voz, do primeiro protótipo ao lançamento.",
       "games.title": "Jogos",
       "game.mel.coverAlt": "Capa de My Eternal Lily",
       "game.mel.status": "Disponível",
@@ -141,8 +139,6 @@ window.I18N = (function () {
       "hero.ctaProducts": "View games",
       "hero.ctaContact": "Contact",
       "hero.scroll": "Scroll",
-      "products.desc":
-        "One line of work: original games, each with a voice of its own, from first prototype to launch.",
       "games.title": "Games",
       "game.mel.coverAlt": "My Eternal Lily cover",
       "game.mel.status": "Available",
@@ -235,8 +231,6 @@ window.I18N = (function () {
       "hero.ctaProducts": "Voir les jeux",
       "hero.ctaContact": "Contact",
       "hero.scroll": "Défiler",
-      "products.desc":
-        "Une seule ligne de travail : des jeux originaux, chacun avec sa propre voix, du premier prototype au lancement.",
       "games.title": "Jeux",
       "game.mel.coverAlt": "Couverture de My Eternal Lily",
       "game.mel.status": "Disponible",
@@ -330,8 +324,6 @@ window.I18N = (function () {
       "hero.ctaProducts": "Ver juegos",
       "hero.ctaContact": "Contacto",
       "hero.scroll": "Scroll",
-      "products.desc":
-        "Una sola línea de trabajo: juegos de autor, cada uno con su propia voz, del primer prototipo al lanzamiento.",
       "games.title": "Juegos",
       "game.mel.coverAlt": "Portada de My Eternal Lily",
       "game.mel.status": "Disponible",
@@ -423,7 +415,6 @@ window.I18N = (function () {
       "hero.ctaProducts": "查看游戏",
       "hero.ctaContact": "联系",
       "hero.scroll": "滚动",
-      "products.desc": "只有一条业务线：原创游戏，每一款都有自己的声音，从首个原型到正式发布。",
       "games.title": "游戏",
       "game.mel.coverAlt": "My Eternal Lily 封面",
       "game.mel.status": "现已推出",
@@ -510,7 +501,6 @@ window.I18N = (function () {
       "hero.ctaProducts": "ゲームを見る",
       "hero.ctaContact": "お問い合わせ",
       "hero.scroll": "スクロール",
-      "products.desc": "取り組むのは一つだけ。それぞれが独自の声を持つオリジナルゲームを、最初のプロトタイプからリリースまで。",
       "games.title": "ゲーム",
       "game.mel.coverAlt": "My Eternal Lily カバー",
       "game.mel.status": "配信中",

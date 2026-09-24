@@ -20,8 +20,6 @@ window.I18N_LOCALES_EXTRA = {
     "hero.ctaProducts": "Spiele ansehen",
     "hero.ctaContact": "Kontakt",
     "hero.scroll": "Scrollen",
-    "products.desc":
-      "Nur eine Arbeitslinie: eigene Spiele, jedes mit einer eigenen Stimme, vom ersten Prototyp bis zum Release.",
     "games.title": "Spiele",
     "game.mel.coverAlt": "My Eternal Lily Cover",
     "game.mel.status": "Verfügbar",
@@ -114,8 +112,6 @@ window.I18N_LOCALES_EXTRA = {
     "hero.ctaProducts": "Vedi i giochi",
     "hero.ctaContact": "Contatti",
     "hero.scroll": "Scorri",
-    "products.desc":
-      "Una sola linea di lavoro: giochi d'autore, ognuno con una voce propria, dal primo prototipo al lancio.",
     "games.title": "Giochi",
     "game.mel.coverAlt": "Copertina di My Eternal Lily",
     "game.mel.status": "Disponibile",
@@ -208,8 +204,6 @@ window.I18N_LOCALES_EXTRA = {
     "hero.ctaProducts": "Zobacz gry",
     "hero.ctaContact": "Kontakt",
     "hero.scroll": "Przewiń",
-    "products.desc":
-      "Jedna linia pracy: autorskie gry, każda z własnym głosem, od pierwszego prototypu po premierę.",
     "games.title": "Gry",
     "game.mel.coverAlt": "Okładka My Eternal Lily",
     "game.mel.status": "Dostępna",
@@ -301,8 +295,6 @@ window.I18N_LOCALES_EXTRA = {
     "hero.ctaProducts": "Смотреть игры",
     "hero.ctaContact": "Контакты",
     "hero.scroll": "Прокрутить",
-    "products.desc":
-      "Одно направление: авторские игры, каждая со своим голосом, от первого прототипа до релиза.",
     "games.title": "Игры",
     "game.mel.coverAlt": "Обложка My Eternal Lily",
     "game.mel.status": "Доступна",
@@ -395,7 +387,6 @@ window.I18N_LOCALES_EXTRA = {
     "hero.ctaProducts": "Oyunları gör",
     "hero.ctaContact": "İletişim",
     "hero.scroll": "Kaydır",
-    "products.desc": "Tek bir iş kolu: her biri kendi sesine sahip özgün oyunlar, ilk prototipten lansmana.",
     "games.title": "Oyunlar",
     "game.mel.coverAlt": "My Eternal Lily kapağı",
     "game.mel.status": "Mevcut",
@@ -484,7 +475,6 @@ window.I18N_LOCALES_EXTRA = {
     "hero.ctaProducts": "查看遊戲",
     "hero.ctaContact": "聯絡",
     "hero.scroll": "捲動",
-    "products.desc": "只有一條業務線：原創遊戲，每一款都有自己的聲音，從首個原型到正式發布。",
     "games.title": "遊戲",
     "game.mel.coverAlt": "My Eternal Lily 封面",
     "game.mel.status": "現已推出",
@@ -570,7 +560,6 @@ window.I18N_LOCALES_EXTRA = {
     "hero.ctaProducts": "게임 보기",
     "hero.ctaContact": "문의",
     "hero.scroll": "스크롤",
-    "products.desc": "하나의 길만 갑니다. 저마다 고유한 목소리를 지닌 오리지널 게임을, 첫 프로토타입부터 출시까지.",
     "games.title": "게임",
     "game.mel.coverAlt": "My Eternal Lily 커버",
     "game.mel.status": "출시 중",
@@ -659,8 +648,6 @@ window.I18N_LOCALES_EXTRA = {
     "hero.ctaProducts": "ดูเกม",
     "hero.ctaContact": "ติดต่อ",
     "hero.scroll": "เลื่อน",
-    "products.desc":
-      "มีเพียงสายงานเดียว: เกมต้นฉบับที่แต่ละเกมมีเสียงเป็นของตัวเอง ตั้งแต่ต้นแบบแรกจนถึงการเปิดตัว",
     "games.title": "เกม",
     "game.mel.coverAlt": "ปก My Eternal Lily",
     "game.mel.status": "พร้อมเล่น",
