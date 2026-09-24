@@ -1093,6 +1093,15 @@ a {
   .team-card {
     grid-column: span 2;
   }
+
+  /* Leftover cards on the last row stay centered instead of hugging the left edge. */
+  .team-card:nth-last-child(2):nth-child(3n + 1) {
+    grid-column: 2 / span 2;
+  }
+
+  .team-card:last-child:nth-child(3n + 1) {
+    grid-column: 3 / span 2;
+  }
 }
 
 .team-card {
