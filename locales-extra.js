@@ -91,9 +91,6 @@ window.I18N_LOCALES_EXTRA = {
     "team.arthur.role": "Programmierer",
     "team.arthur.bio":
       "Code und Systeme, vom Gameplay bis zu den Tools, die die Projekte des Studios tragen.",
-    "team.camila.role": "Narrative Director",
-    "team.camila.bio":
-      "Drehbuch, Worldbuilding und narrative Stimme, von der ersten Idee bis zum Bogen, der jedes Studio-Spiel definiert.",
     "team.pablo.role": "Art Director",
     "team.pablo.bio":
       "Visuelle Leitung und Identität jedes Projekts, vom Konzept bis zur Grafiksprache, die das Studio verbindet.",
@@ -210,9 +207,6 @@ window.I18N_LOCALES_EXTRA = {
     "team.arthur.role": "Programmatore",
     "team.arthur.bio":
       "Codice e sistemi, dal gameplay agli strumenti che sostengono i progetti dello studio.",
-    "team.camila.role": "Direttrice narrativa",
-    "team.camila.bio":
-      "Sceneggiatura, worldbuilding e voce narrativa, dalla prima idea all'arco che definisce ogni gioco dello studio.",
     "team.pablo.role": "Direttore artistico",
     "team.pablo.bio":
       "Direzione visiva e identità di ogni progetto, dal concept al linguaggio grafico che unifica lo studio.",
@@ -329,9 +323,6 @@ window.I18N_LOCALES_EXTRA = {
     "team.arthur.role": "Programista",
     "team.arthur.bio":
       "Kod i systemy, od rozgrywki po narzędzia wspierające projekty studia.",
-    "team.camila.role": "Dyrektor narracji",
-    "team.camila.bio":
-      "Scenariusz, worldbuilding i głos narracji, od pierwszego pomysłu po łuk definiujący każdą grę studia.",
     "team.pablo.role": "Dyrektor artystyczny",
     "team.pablo.bio":
       "Kierunek wizualny i tożsamość każdego projektu, od koncepcji po język graficzny jednoczący studio.",
@@ -448,9 +439,6 @@ window.I18N_LOCALES_EXTRA = {
     "team.arthur.role": "Программист",
     "team.arthur.bio":
       "Код и системы, от геймплея до инструментов, на которых держатся проекты студии.",
-    "team.camila.role": "Директор по нарративу",
-    "team.camila.bio":
-      "Сценарий, worldbuilding и нарративный голос, от первой идеи до арки, определяющей каждую игру студии.",
     "team.pablo.role": "Арт-директор",
     "team.pablo.bio":
       "Визуальное руководство и идентичность каждого проекта, от концепции до графического языка, объединяющего студию.",
@@ -567,9 +555,6 @@ window.I18N_LOCALES_EXTRA = {
     "team.arthur.role": "Programcı",
     "team.arthur.bio":
       "Kod ve sistemler, oynanıştan stüdyonun projelerini taşıyan araçlara.",
-    "team.camila.role": "Anlatı yönetmeni",
-    "team.camila.bio":
-      "Senaryo, worldbuilding ve anlatı sesi, ilk fikirden stüdyonun her oyununu tanımlayan yola.",
     "team.pablo.role": "Sanat yönetmeni",
     "team.pablo.bio":
       "Her projenin görsel yönetimi ve kimliği, konseptten stüdyoyu birleştiren grafik diline.",
@@ -685,9 +670,6 @@ window.I18N_LOCALES_EXTRA = {
       "創意方向與程式, 從遊戲原型到 Asset Store 上的框架。",
     "team.arthur.role": "程式設計師",
     "team.arthur.bio": "程式與系統, 從玩法到支撐工作室專案的工具。",
-    "team.camila.role": "敘事總監",
-    "team.camila.bio":
-      "劇本、世界觀與敘事聲音, 從最初創意到定義每款遊戲的敘事弧線。",
     "team.pablo.role": "美術總監",
     "team.pablo.bio":
       "每個專案的視覺方向與品牌識別, 從概念到統一工作室的視覺語言。",
@@ -804,9 +786,6 @@ window.I18N_LOCALES_EXTRA = {
     "team.arthur.role": "프로그래머",
     "team.arthur.bio":
       "코드와 시스템, 게임플레이부터 스튜디오 프로젝트를 지탱하는 도구까지.",
-    "team.camila.role": "내러티브 디렉터",
-    "team.camila.bio":
-      "시나리오, 월드빌딩, 내러티브 보이스, 첫 아이디어부터 각 게임을 정의하는 서사 아크까지.",
     "team.pablo.role": "아트 디렉터",
     "team.pablo.bio":
       "각 프로젝트의 비주얼 디렉션과 아이덴티티, 컨셉부터 스튜디오를 통합하는 그래픽 언어까지.",
@@ -923,9 +902,6 @@ window.I18N_LOCALES_EXTRA = {
     "team.arthur.role": "โปรแกรมเมอร์",
     "team.arthur.bio":
       "โค้ดและระบบ, จากเกมเพลย์ไปจนถึงเครื่องมือที่หนุนโปรเจกต์ของสตูดิโอ",
-    "team.camila.role": "ผู้อำนวยการเนื้อเรื่อง",
-    "team.camila.bio":
-      "บท โลก และเสียงเล่าเรื่อง, จากไอเดียแรกถึงเส้นทางที่กำหนดเกมแต่ละเกมของสตูดิโอ",
     "team.pablo.role": "ผู้อำนวยการศิลป์",
     "team.pablo.bio":
       "ทิศทางภาพและเอกลักษณ์ของแต่ละโปรเจกต์, จากคอนเซปต์ถึงภาษากราฟิกที่รวมสตูดิโอ",

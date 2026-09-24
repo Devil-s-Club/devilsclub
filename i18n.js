@@ -117,9 +117,6 @@ window.I18N = (function () {
       "team.arthur.role": "Programador",
       "team.arthur.bio":
         "Código e sistemas, do gameplay às ferramentas que sustentam os projetos do estúdio.",
-      "team.camila.role": "Diretora de narrativa",
-      "team.camila.bio":
-        "Roteiro, worldbuilding e voz narrativa, da primeira ideia ao arco que define cada jogo do estúdio.",
       "team.pablo.role": "Diretor de arte",
       "team.pablo.bio":
         "Direção visual e identidade de cada projeto, do conceito à linguagem gráfica que unifica o estúdio.",
@@ -236,9 +233,6 @@ window.I18N = (function () {
       "team.arthur.role": "Programmer",
       "team.arthur.bio":
         "Code and systems, from gameplay to the tools that power the studio's projects.",
-      "team.camila.role": "Narrative director",
-      "team.camila.bio":
-        "Writing, worldbuilding, and narrative voice, from the first idea to the arc that defines each studio game.",
       "team.pablo.role": "Art director",
       "team.pablo.bio":
         "Visual direction and identity for each project, from concept to the graphic language that unifies the studio.",
@@ -355,9 +349,6 @@ window.I18N = (function () {
       "team.arthur.role": "Programmeur",
       "team.arthur.bio":
         "Code et systèmes, du gameplay aux outils qui soutiennent les projets du studio.",
-      "team.camila.role": "Directrice narrative",
-      "team.camila.bio":
-        "Scénario, worldbuilding et voix narrative, de la première idée à l'arc qui définit chaque jeu du studio.",
       "team.pablo.role": "Directeur artistique",
       "team.pablo.bio":
         "Direction visuelle et identité de chaque projet, du concept au langage graphique qui unifie le studio.",
@@ -474,9 +465,6 @@ window.I18N = (function () {
       "team.arthur.role": "Programador",
       "team.arthur.bio":
         "Código y sistemas, del gameplay a las herramientas que sustentan los proyectos del estudio.",
-      "team.camila.role": "Directora de narrativa",
-      "team.camila.bio":
-        "Guion, worldbuilding y voz narrativa, de la primera idea al arco que define cada juego del estúdio.",
       "team.pablo.role": "Director de arte",
       "team.pablo.bio":
         "Dirección visual e identidad de cada proyecto, del concepto al lenguaje gráfico que unifica el estúdio.",
@@ -592,9 +580,6 @@ window.I18N = (function () {
         "创意方向与代码, 从游戏原型到 Asset Store 上的框架。",
       "team.arthur.role": "程序员",
       "team.arthur.bio": "代码与系统, 从玩法到支撑工作室项目的工具。",
-      "team.camila.role": "叙事总监",
-      "team.camila.bio":
-        "剧本、世界观与叙事声音, 从最初创意到定义每款游戏的叙事弧线。",
       "team.pablo.role": "艺术总监",
       "team.pablo.bio":
         "每个项目的视觉方向与品牌识别, 从概念到统一工作室的视觉语言。",
@@ -711,9 +696,6 @@ window.I18N = (function () {
       "team.arthur.role": "プログラマー",
       "team.arthur.bio":
         "コードとシステム, ゲームプレイからスタジオのプロジェクトを支えるツールまで。",
-      "team.camila.role": "ナラティブディレクター",
-      "team.camila.bio":
-        "脚本、ワールドビルディング、ナラティブの声, 最初のアイデアから各ゲームを定義する物語の弧まで。",
       "team.pablo.role": "アートディレクター",
       "team.pablo.bio":
         "各プロジェクトのビジュアルディレクションとアイデンティティ, コンセプトからスタジオを統一するグラフィック言語まで。",
