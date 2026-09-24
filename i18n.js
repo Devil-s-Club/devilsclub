@@ -71,7 +71,6 @@ window.I18N = (function () {
       "game.pebble.genre": "Plataforma 3D · Collect-a-thon",
       "game.pebble.desc":
         "Deslize, mergulhe e salte pela costa antártica atrás da pedra perfeita. Construa seu ninho, monte um colar de pedras raras e conquiste sua pretendida.",
-      "product.note": "Poucos títulos por vez, cada um produzido do começo ao fim aqui dentro.",
       "about.foundation": "Fundação",
       "about.indieLabel": "De coração",
       "about.tag": "Sobre",
@@ -165,7 +164,6 @@ window.I18N = (function () {
       "game.pebble.genre": "3D Platformer · Collect-a-thon",
       "game.pebble.desc":
         "Slide, dive and leap along the Antarctic coast after the perfect stone. Build your nest, string a necklace of rare stones and win over your intended.",
-      "product.note": "A few titles at a time, each one built end to end in house.",
       "about.foundation": "Founded",
       "about.indieLabel": "At heart",
       "about.tag": "About",
@@ -258,7 +256,6 @@ window.I18N = (function () {
       "game.pebble.genre": "Plateforme 3D · Collect-a-thon",
       "game.pebble.desc":
         "Glissez, plongez et sautez le long de la côte antarctique après la pierre parfaite. Construisez votre nid, montez un collier de pierres rares et conquérez votre promise.",
-      "product.note": "Peu de titres à la fois, chacun produit de bout en bout en interne.",
       "about.foundation": "Fondation",
       "about.indieLabel": "Indépendant dans l'âme",
       "about.tag": "À propos",
@@ -352,7 +349,6 @@ window.I18N = (function () {
       "game.pebble.genre": "Plataforma 3D · Collect-a-thon",
       "game.pebble.desc":
         "Deslízate, sumérgete y salta por la costa antártica detrás de la piedra perfecta. Construye tu nido, arma un collar de piedras raras y conquista a tu pretendida.",
-      "product.note": "Pocos títulos a la vez, cada uno producido de principio a fin en casa.",
       "about.foundation": "Fundación",
       "about.indieLabel": "De corazón",
       "about.tag": "Sobre nosotros",
@@ -444,7 +440,6 @@ window.I18N = (function () {
       "game.pebble.genre": "3D 平台 · Collect-a-thon",
       "game.pebble.desc":
         "在南极海岸滑行、潜水和跳跃，去追那颗完美的石头。筑起巢穴，串起稀有石子项链，赢得你的意中人。",
-      "product.note": "一次只做少数几款，每一款都由我们从头做到尾。",
       "about.foundation": "成立",
       "about.indieLabel": "发自内心",
       "about.tag": "关于",
@@ -531,7 +526,6 @@ window.I18N = (function () {
       "game.pebble.genre": "3Dプラットフォーマー · Collect-a-thon",
       "game.pebble.desc":
         "南極の海岸を滑り、潜り、跳んで、完璧な石を追う。巣を作り、珍しい石のネックレスを通して、想い人を勝ち取る。",
-      "product.note": "一度に手がけるのは少数のタイトルだけ。そのすべてを最初から最後まで自社で作ります。",
       "about.foundation": "設立",
       "about.indieLabel": "インディーの心",
       "about.tag": "概要",

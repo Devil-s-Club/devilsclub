@@ -708,16 +708,6 @@ a {
   font-size: 0.95rem;
 }
 
-.product-note {
-  margin: -1rem 0 2.5rem;
-  padding-left: 0.75rem;
-  border-left: 2px solid var(--accent-dim);
-  font-size: 0.88rem;
-  color: var(--text-muted);
-  max-width: 34rem;
-  line-height: 1.55;
-}
-
 /* Games */
 .games {
   background: linear-gradient(180deg, var(--bg) 0%, var(--bg-elevated) 50%, var(--bg) 100%);
