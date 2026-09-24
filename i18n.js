@@ -58,12 +58,6 @@ window.I18N = (function () {
       "game.mel.desc":
         "Após um acidente de trabalho que tira seu emprego e compromete seu braço mecânico, Conor Spada vai até a Praça da República em busca de renda. Lá encontra uma loja de assistência à beira da falência e seu dono Nano, silencioso, sério e um pouco misterioso.",
       "game.mel.cta": "Jogar no itch.io",
-      "game.raizes.coverAlt": "Capa de Raízes",
-      "game.raizes.status": "Disponível",
-      "game.raizes.genre": "Visual Novel · Point-and-click · Ancestralidade amazônica",
-      "game.raizes.desc":
-        "Uma missão acadêmica leva você até Belém na busca por um artefato. Diálogos, investigação e escolhas revelam o conflito entre memória cultural e poder.",
-      "game.raizes.cta": "Jogar no itch.io",
       "game.serra.placeholderAlt": "O Caso Serra Vermelha",
       "game.serra.placeholder": "Arte em breve",
       "game.serra.status": "Em desenvolvimento",
@@ -174,12 +168,6 @@ window.I18N = (function () {
       "game.mel.desc":
         "After a workplace accident costs him his job and damages his mechanical arm, Conor Spada heads to Praça da República looking for income. There he finds a repair shop on the brink of bankruptcy and its owner Nano, quiet, serious, and a little mysterious.",
       "game.mel.cta": "Play on itch.io",
-      "game.raizes.coverAlt": "Raízes cover",
-      "game.raizes.status": "Available",
-      "game.raizes.genre": "Visual Novel · Point-and-click · Amazonian ancestry",
-      "game.raizes.desc":
-        "An academic mission takes you to Belém in search of an artifact. Dialogue, investigation, and choices reveal the conflict between cultural memory and power.",
-      "game.raizes.cta": "Play on itch.io",
       "game.serra.placeholderAlt": "O Caso Serra Vermelha",
       "game.serra.placeholder": "Art coming soon",
       "game.serra.status": "In development",
@@ -290,12 +278,6 @@ window.I18N = (function () {
       "game.mel.desc":
         "Après un accident de travail qui lui coûte son emploi et endommage son bras mécanique, Conor Spada se rend sur la Praça da República en quête de revenus. Il y trouve un atelier de réparation au bord de la faillite et son propriétaire Nano, silencieux, sérieux et un peu mystérieux.",
       "game.mel.cta": "Jouer sur itch.io",
-      "game.raizes.coverAlt": "Couverture de Raízes",
-      "game.raizes.status": "Disponible",
-      "game.raizes.genre": "Visual Novel · Point-and-click · Ancestralité amazonienne",
-      "game.raizes.desc":
-        "Une mission académique vous mène à Belém à la recherche d'un artefact. Dialogues, enquête et choix révèlent le conflit entre mémoire culturelle et pouvoir.",
-      "game.raizes.cta": "Jouer sur itch.io",
       "game.serra.placeholderAlt": "O Caso Serra Vermelha",
       "game.serra.placeholder": "Art bientôt disponible",
       "game.serra.status": "En développement",
@@ -406,12 +388,6 @@ window.I18N = (function () {
       "game.mel.desc":
         "Tras un accidente laboral que le cuesta el empleo y daña su brazo mecánico, Conor Spada va a la Praça da República en busca de ingresos. Allí encuentra una tienda de reparaciones al borde de la quiebra y su dueño Nano, callado, serio y un poco misterioso.",
       "game.mel.cta": "Jugar en itch.io",
-      "game.raizes.coverAlt": "Portada de Raízes",
-      "game.raizes.status": "Disponible",
-      "game.raizes.genre": "Visual Novel · Point-and-click · Ancestralidad amazónica",
-      "game.raizes.desc":
-        "Una misión académica te lleva hasta Belém en busca de un artefacto. Diálogos, investigación y decisiones revelan el conflicto entre memoria cultural y poder.",
-      "game.raizes.cta": "Jugar en itch.io",
       "game.serra.placeholderAlt": "O Caso Serra Vermelha",
       "game.serra.placeholder": "Arte próximamente",
       "game.serra.status": "En desarrollo",
@@ -522,12 +498,6 @@ window.I18N = (function () {
       "game.mel.desc":
         "一场工伤让他失去工作，机械臂也受了损伤。Conor Spada 前往共和国广场寻找收入，在那里他发现一家濒临倒闭的维修店，以及店主 Nano, 沉默、严肃，略带神秘。",
       "game.mel.cta": "在 itch.io 游玩",
-      "game.raizes.coverAlt": "Raízes 封面",
-      "game.raizes.status": "现已推出",
-      "game.raizes.genre": "视觉小说 · 点击解谜 · 亚马逊祖先文化",
-      "game.raizes.desc":
-        "一项学术任务将你带到贝伦，寻找一件文物。对话、调查与选择揭示文化记忆与权力之间的冲突。",
-      "game.raizes.cta": "在 itch.io 游玩",
       "game.serra.placeholderAlt": "O Caso Serra Vermelha",
       "game.serra.placeholder": "美术即将公布",
       "game.serra.status": "开发中",
@@ -637,12 +607,6 @@ window.I18N = (function () {
       "game.mel.desc":
         "職場の事故で仕事を失い、機械腕を損傷した Conor Spada は収入を求めて共和国広場へ。そこで倒産寸前の修理店と、その店主 Nano, 物静かで真面目、少しミステリアスな人物, に出会う。",
       "game.mel.cta": "itch.io でプレイ",
-      "game.raizes.coverAlt": "Raízes カバー",
-      "game.raizes.status": "配信中",
-      "game.raizes.genre": "ビジュアルノベル · ポイント＆クリック · アマゾンの祖先性",
-      "game.raizes.desc":
-        "学術ミッションがあなたをベレンへ導き、遺物を探す。対話、調査、選択が文化の記憶と権力の対立を明らかにする。",
-      "game.raizes.cta": "itch.io でプレイ",
       "game.serra.placeholderAlt": "O Caso Serra Vermelha",
       "game.serra.placeholder": "アート近日公開",
       "game.serra.status": "開発中",
