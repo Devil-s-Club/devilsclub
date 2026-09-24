@@ -1100,7 +1100,7 @@ a {
   background:
     radial-gradient(circle at 35% 30%, var(--accent-dim), transparent 65%),
     var(--bg);
-  border: 1px solid var(--border);
+  border: 2px solid var(--accent);
   font-family: var(--font-display);
   font-size: 1.75rem;
   letter-spacing: 0.04em;
