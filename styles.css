@@ -900,9 +900,34 @@ a {
 }
 
 /* Team */
-.team {
-  background: var(--bg-elevated);
-  border-block: 1px solid var(--border);
+/* The team now lives inside About, so it reads on the light backdrop: the red
+   halo behind the avatars was lit for black and turns muddy here. */
+.about-team {
+  margin-top: clamp(3.5rem, 8vw, 5.5rem);
+  padding-top: clamp(3rem, 6vw, 4rem);
+  border-top: 1px solid var(--border);
+}
+
+.about-team .team-avatar {
+  box-shadow: 0 0 0 1px var(--border), 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.about-team .team-card:hover .team-avatar {
+  box-shadow: 0 0 0 1px rgba(153, 15, 21, 0.35), 0 10px 24px rgba(0, 0, 0, 0.18);
+}
+
+.about-team-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin: 0 0 0.5rem;
+}
+
+.about-team-desc {
+  color: var(--text-muted);
+  max-width: 44rem;
+  margin: 0 0 2.5rem;
 }
 
 .team-grid {

@@ -33,8 +33,7 @@
       </a>
       <nav class="nav" data-i18n-attr="aria-label:aria.nav">
         <a href="#jogos" data-i18n="nav.products">Jogos</a>
-        <a href="#sobre" data-i18n="nav.about">Sobre</a>
-        <a href="#equipe" data-i18n="nav.team">Equipe</a>
+        <a href="#sobre" data-i18n="nav.about">Quem somos</a>
         <div class="lang-dropdown" data-lang-dropdown>
           <button
             type="button"
@@ -69,8 +68,7 @@
     <div class="mobile-menu" id="mobile-menu" hidden>
       <nav aria-label="Menu mobile">
         <a href="#jogos" data-i18n="nav.products">Jogos</a>
-        <a href="#sobre" data-i18n="nav.about">Sobre</a>
-        <a href="#equipe" data-i18n="nav.team">Equipe</a>
+        <a href="#sobre" data-i18n="nav.about">Quem somos</a>
         <a href="#contato" data-i18n="nav.contact">Contato</a>
         <div class="lang-dropdown lang-dropdown--mobile" data-lang-dropdown>
           <button
@@ -164,8 +162,14 @@
       </section>
 
       <section class="section about" id="sobre" aria-labelledby="about-title">
-        <div class="container about-grid">
-          <div class="about-visual reveal">
+        <div class="container">
+          <header class="section-header reveal">
+            <span class="section-tag" data-i18n="about.tag">Quem somos</span>
+            <h2 id="about-title" class="section-title" data-i18n="about.title">O Devil's Club</h2>
+          </header>
+
+          <div class="about-grid">
+            <div class="about-visual reveal">
             <div class="about-frame">
               <div class="about-stat">
                 <span class="about-stat-num">2024</span>
@@ -177,9 +181,7 @@
               </div>
             </div>
           </div>
-          <div class="about-copy reveal">
-            <span class="section-tag" data-i18n="about.tag">Sobre</span>
-            <h2 id="about-title" class="section-title" data-i18n="about.title">O Devil's Club</h2>
+            <div class="about-copy reveal">
             <p data-i18n="about.p1">
               Jogos autorais, do começo ao fim. Um estúdio indie pequeno, com o mesmo time do
               roteiro ao lançamento.
@@ -199,21 +201,16 @@
                 <strong>Tudo na Casa</strong> Um time pequeno que assina cada etapa, do roteiro ao build final.
               </li>
             </ul>
+            </div>
           </div>
-        </div>
-      </section>
 
-      <section class="section team" id="equipe" aria-labelledby="team-title">
-        <div class="container">
-          <header class="section-header reveal">
-            <span class="section-tag" data-i18n="team.tag">Quem faz</span>
-            <h2 id="team-title" class="section-title" data-i18n="team.title">A equipe</h2>
-            <p class="section-desc" data-i18n="team.desc">
+          <div class="about-team">
+            <h3 id="team-title" class="about-team-title" data-i18n="team.title">A equipe</h3>
+            <p class="about-team-desc" data-i18n="team.desc">
               Time enxuto e multidisciplinar. As mesmas pessoas que escrevem, desenham e programam cada jogo.
             </p>
-          </header>
 
-          <div class="team-grid">
+            <div class="team-grid">
             <article class="team-card reveal">
               <div class="team-avatar team-avatar--photo">
                 <img
@@ -293,6 +290,7 @@
                 Design e arte de personagens, do conceito ao sprite final, com personalidade em cada traço.
               </p>
             </article>
+          </div>
           </div>
         </div>
       </section>
