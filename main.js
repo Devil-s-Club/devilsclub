@@ -65,6 +65,31 @@
     });
   }
 
+  // Trailers load as a facade: the cover stands in until someone asks to watch.
+  // Embedding the iframe up front pulls ~1MB of YouTube's player and sets its
+  // cookies on every visit, for a video most visitors never play.
+  document.querySelectorAll("[data-trailer]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const id = button.getAttribute("data-trailer");
+      if (!id) return;
+      const frame = document.createElement("iframe");
+      frame.className = "trailer-frame";
+      frame.src =
+        "https://www.youtube-nocookie.com/embed/" +
+        encodeURIComponent(id) +
+        "?autoplay=1&rel=0";
+      frame.title = button.getAttribute("aria-label") || "";
+      frame.allow =
+        "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+      frame.allowFullscreen = true;
+      const media = button.closest(".showcase-media");
+      button.replaceWith(frame);
+      // The status badge sits where the player puts its own title bar.
+      if (media) media.classList.add("is-playing");
+      frame.focus();
+    });
+  });
+
   const revealEls = document.querySelectorAll(".reveal");
   if (revealEls.length && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
     const observer = new IntersectionObserver(

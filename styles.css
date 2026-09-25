@@ -709,6 +709,84 @@ a {
   object-position: center;
 }
 
+.trailer {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: block;
+}
+
+.trailer::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.55), transparent 45%);
+  transition: background 0.3s;
+}
+
+.trailer-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: 1;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: rgba(8, 8, 10, 0.72);
+  border: 2px solid var(--text);
+  color: var(--text);
+  transition: transform 0.3s var(--ease), background 0.3s;
+}
+
+.trailer-play svg {
+  width: 1.75rem;
+  height: 1.75rem;
+  margin-left: 0.2rem;
+}
+
+.trailer-label {
+  position: absolute;
+  left: 1.25rem;
+  bottom: 1.25rem;
+  z-index: 1;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text);
+}
+
+.trailer:hover .trailer-play,
+.trailer:focus-visible .trailer-play {
+  transform: scale(1.08);
+  background: var(--accent);
+}
+
+.trailer:focus-visible {
+  outline: 2px solid var(--text);
+  outline-offset: -4px;
+}
+
+.trailer-frame {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.showcase-media.is-playing .game-status {
+  display: none;
+}
+
 .showcase-body {
   display: flex;
   flex-direction: column;
