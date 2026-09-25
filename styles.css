@@ -571,6 +571,39 @@ a {
   opacity: 0.4;
 }
 
+/* Game stills behind the headline, as texture rather than as content.
+   The opacity is not a taste call: measured against the band where the copy
+   sits, anything above ~0.11 drops the lead paragraph under WCAG AA on the
+   brightest of these four. Stills whose centre is white sit this out entirely,
+   because no workable opacity saves them. */
+.hero-shots {
+  position: absolute;
+  inset: 0;
+  mask-image: radial-gradient(ellipse 80% 70% at 50% 45%, black 30%, transparent 78%);
+}
+
+.hero-shot {
+  position: absolute;
+  inset: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0;
+  filter: grayscale(0.35) contrast(1.05);
+  transition: opacity 1.6s var(--ease);
+}
+
+.hero-shot.is-on {
+  opacity: 0.1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  /* No cycling: the first still stays put. */
+  .hero-shot {
+    transition: none;
+  }
+}
+
 .hero-content {
   position: relative;
   width: 100%;
@@ -806,8 +839,27 @@ a {
 .showcase-desc {
   color: var(--text-muted);
   line-height: 1.65;
-  margin: 0 0 2rem;
+  margin: 0 0 1.25rem;
   max-width: 34rem;
+}
+
+/* Origin and collaborators: context, not pitch, so it sits quieter. */
+.showcase-note {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  opacity: 0.8;
+  margin: 0 0 0.4rem;
+  padding-left: 0.75rem;
+  border-left: 2px solid var(--accent-dim);
+  max-width: 34rem;
+}
+
+.showcase-note:last-of-type {
+  margin-bottom: 2rem;
+}
+
+.showcase + .showcase {
+  border-top: none;
 }
 
 @media (min-width: 900px) {
@@ -826,6 +878,16 @@ a {
   .showcase-body {
     padding-inline: clamp(2.5rem, 5vw, 4.5rem);
     max-width: 38rem;
+  }
+
+  /* The second game mirrors the first, so the page alternates sides. */
+  .showcase--flip .showcase-media {
+    order: 2;
+  }
+
+  .showcase--flip .showcase-body {
+    order: 1;
+    margin-left: auto;
   }
 }
 

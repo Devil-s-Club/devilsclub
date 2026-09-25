@@ -65,6 +65,18 @@
     });
   }
 
+  // Hero stills cycle slowly. Anyone who asked the system for less motion keeps
+  // the first one, so the page never animates behind the text they are reading.
+  const shots = document.querySelectorAll(".hero-shot");
+  if (shots.length > 1 && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    let current = 0;
+    setInterval(() => {
+      shots[current].classList.remove("is-on");
+      current = (current + 1) % shots.length;
+      shots[current].classList.add("is-on");
+    }, 7000);
+  }
+
   // Trailers load as a facade: the cover stands in until someone asks to watch.
   // Embedding the iframe up front pulls ~1MB of YouTube's player and sets its
   // cookies on every visit, for a video most visitors never play.

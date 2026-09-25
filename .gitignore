@@ -6,3 +6,6 @@ desktop.ini
 # Python
 __pycache__/
 *.py[cod]
+
+# Working leftovers from the removed Frameworks section
+assets/frameworks/
