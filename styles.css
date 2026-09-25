@@ -680,102 +680,28 @@ a {
 }
 
 /* Products */
-.product-line {
-  margin-bottom: 3.5rem;
-}
-
-.product-line:last-child {
-  margin-bottom: 0;
-}
-
-.product-line-header {
-  margin-bottom: 1.5rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid var(--border);
-}
-
-.product-line-title {
-  font-family: var(--font-display);
-  font-size: 1.75rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  margin: 0 0 0.5rem;
-  color: var(--accent-text);
-}
-
-.product-line-desc {
-  color: var(--text-muted);
-  margin: 0;
-  max-width: 40rem;
-  font-size: 0.95rem;
-}
 
 /* Games */
 .games {
   background: linear-gradient(180deg, var(--bg) 0%, var(--bg-elevated) 50%, var(--bg) 100%);
 }
 
-.game-card {
+/* One game, so it gets the width instead of sitting in a grid of one: the art
+   bleeds off the edge and the copy holds a column beside it. */
+.showcase {
   display: grid;
   gap: 0;
   background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  overflow: hidden;
-  transition: border-color 0.3s, transform 0.4s var(--ease);
+  border-block: 1px solid var(--border);
 }
 
-.game-card:hover {
-  border-color: rgba(153, 15, 21, 0.35);
-}
-
-.game-card--featured {
-  grid-template-columns: 1fr;
-  margin-bottom: 1.5rem;
-}
-
-@media (min-width: 900px) {
-  .game-card--featured {
-    grid-template-columns: 1.1fr 1fr;
-    align-items: stretch;
-    min-height: clamp(22rem, 32vw, 25rem);
-  }
-
-  .game-card--featured .game-card-media {
-    aspect-ratio: unset;
-    height: 100%;
-    min-height: 0;
-  }
-
-  .game-card--featured .game-cover,
-  .game-card--featured .game-placeholder {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-  }
-}
-
-.game-card-media .game-placeholder {
-  position: absolute;
-  inset: 0;
-}
-
-.game-card-media {
+.showcase-media {
   position: relative;
   aspect-ratio: 16 / 10;
-  min-height: 220px;
   overflow: hidden;
 }
 
-.game-card-media--sm {
-  aspect-ratio: 16 / 9;
-  min-height: 160px;
-}
-
-.game-cover {
+.showcase-cover {
   width: 100%;
   height: 100%;
   display: block;
@@ -783,54 +709,46 @@ a {
   object-position: center;
 }
 
-.game-placeholder {
-  width: 100%;
-  height: 100%;
+.showcase-body {
   display: flex;
-  align-items: flex-end;
-  padding: 1.25rem;
-  background:
-    linear-gradient(135deg, #1a0a0e 0%, #2d1218 40%, #0d0d10 100%),
-    radial-gradient(ellipse at 70% 30%, var(--accent-dim), transparent 60%);
+  flex-direction: column;
+  justify-content: center;
+  padding: clamp(2rem, 5vw, 3.5rem);
 }
 
-.game-placeholder--alt {
-  background:
-    linear-gradient(160deg, #0e1218 0%, #1a2430 50%, #0a0a0c 100%),
-    radial-gradient(ellipse at 30% 70%, rgba(60, 80, 120, 0.2), transparent);
-}
-
-.game-placeholder--alt2 {
-  background:
-    linear-gradient(200deg, #12100a 0%, #1e1a12 50%, #08080a 100%),
-    radial-gradient(ellipse at 50% 50%, rgba(180, 140, 60, 0.12), transparent);
-}
-
-.game-placeholder--ice {
-  background:
-    linear-gradient(165deg, #0c141c 0%, #1a2a38 45%, #0a0c10 100%),
-    radial-gradient(ellipse at 70% 20%, rgba(140, 190, 220, 0.16), transparent 60%);
-}
-
-/* The label sits on art, so it carries its own scrim: the gradients below vary
-   per game and some stops are too light for the label to clear WCAG AA. */
-.game-placeholder::after {
-  content: "";
-  position: absolute;
-  inset: auto 0 0 0;
-  height: 45%;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.72), transparent);
-  pointer-events: none;
-}
-
-.game-placeholder-label {
-  position: relative;
-  z-index: 1;
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.12em;
+.showcase-title {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 5vw, 3.25rem);
+  letter-spacing: 0.02em;
   text-transform: uppercase;
-  color: var(--text);
+  line-height: 1.05;
+  margin: 0 0 0.5rem;
+}
+
+.showcase-desc {
+  color: var(--text-muted);
+  line-height: 1.65;
+  margin: 0 0 2rem;
+  max-width: 34rem;
+}
+
+@media (min-width: 900px) {
+  .showcase {
+    grid-template-columns: 1fr 1fr;
+    align-items: stretch;
+    min-height: min(78vh, 38rem);
+  }
+
+  .showcase-media {
+    aspect-ratio: auto;
+    height: 100%;
+  }
+
+  /* Align the copy with the container while the art keeps the full half. */
+  .showcase-body {
+    padding-inline: clamp(2.5rem, 5vw, 4.5rem);
+    max-width: 38rem;
+  }
 }
 
 .game-status {
@@ -856,52 +774,11 @@ a {
   background: #3b3b44;
 }
 
-.game-status--rd {
-  background: #2a2a32;
-  color: var(--text-muted);
-}
-
-.game-card-body {
-  padding: clamp(1.5rem, 4vw, 2.5rem);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.game-card--featured .game-card-body {
-  justify-content: flex-start;
-}
-
-@media (min-width: 900px) {
-  .game-card--featured .game-title {
-    font-size: clamp(1.35rem, 2.1vw, 1.75rem);
-    line-height: 1.15;
-  }
-}
-
-.game-title {
-  font-family: var(--font-display);
-  font-size: 2rem;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  margin: 0 0 0.35rem;
-}
-
 .game-genre {
   font-size: 0.8rem;
   color: var(--accent-text);
   font-weight: 600;
   margin: 0 0 1rem;
-}
-
-.game-desc {
-  color: var(--text-muted);
-  margin: 0 0 1.5rem;
-  flex: 1;
-}
-
-.game-card--featured .game-desc {
-  flex: 0 1 auto;
 }
 
 .game-actions {
@@ -912,46 +789,8 @@ a {
   margin-top: auto;
 }
 
-.games-grid {
-  display: grid;
-  gap: 1.5rem;
-}
-
-@media (min-width: 700px) {
-  .games-grid {
-    grid-template-columns: 1fr 1fr;
-    align-items: stretch;
-  }
-
-  .games-grid .game-card--compact {
-    height: 100%;
-  }
-}
-
 @media (min-width: 960px) {
   /* An odd last card centers instead of leaving a hole in the row. */
-  .games-grid .game-card--compact:last-child:nth-child(odd) {
-    grid-column: 1 / -1;
-    width: min(100%, 32rem);
-    justify-self: center;
-  }
-}
-
-.game-card--compact .game-card-body {
-  padding: 1.25rem 1.5rem 1.5rem;
-}
-
-.game-card--compact .game-title {
-  font-size: 1.5rem;
-}
-
-.game-card--compact .game-desc {
-  font-size: 0.9rem;
-  margin-bottom: 1rem;
-}
-
-.game-card--compact .game-desc--pending {
-  margin-bottom: 0;
 }
 
 .game-desc--pending {
@@ -960,6 +799,25 @@ a {
 }
 
 /* About */
+
+/* The page runs black end to end, so nothing reads as a new chapter. This one
+   section inverts. The tokens are redefined on the section rather than each rule
+   overridden, so everything inside follows, including the accent: #e85158 is
+   tuned for a dark backdrop and only reaches 3.5:1 on this one, while the deep
+   brand red clears AA here. */
+.about {
+  --bg: #f0ede8;
+  --bg-elevated: #e7e3dc;
+  --bg-card: #ffffff;
+  --text: #17171a;
+  --text-muted: #55524d;
+  --border: rgba(0, 0, 0, 0.14);
+  --accent-text: #8c0e14;
+  --accent-dim: rgba(153, 15, 21, 0.1);
+  background: var(--bg);
+  color: var(--text);
+}
+
 .about-grid {
   display: grid;
   gap: 3rem;
@@ -1274,34 +1132,6 @@ a {
 
 .contact-email:hover {
   color: var(--accent-text);
-}
-
-.press-includes {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 1.5rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.55rem;
-  flex: 1;
-}
-
-.press-includes li {
-  position: relative;
-  padding-left: 1.1rem;
-  font-size: 0.9rem;
-  color: var(--text-muted);
-}
-
-.press-includes li::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0.55em;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background: var(--accent);
 }
 
 .press-actions {
