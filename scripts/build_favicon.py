@@ -10,9 +10,6 @@ SRC = Path(r"C:\Stuff\Devil's Club\devils-club-logo\parts\icone-01.png")
 ASSETS = Path(__file__).resolve().parent.parent / "assets"
 PAD_RATIO = 0.1
 BG = (8, 8, 10, 255)
-# The master art is #a20f15, which sits at 2.5:1 on the site's black. This lifts
-# the same hue to 3.6:1 without touching the drawing.
-TINT = (201, 34, 43)
 
 
 def load_icon(path: Path) -> Image.Image:
@@ -20,13 +17,6 @@ def load_icon(path: Path) -> Image.Image:
     data = np.array(rgba)
     dark = (data[:, :, 0] < 24) & (data[:, :, 1] < 24) & (data[:, :, 2] < 24)
     data[dark, 3] = 0
-    return Image.fromarray(data)
-
-
-def tint(im: Image.Image, rgb: tuple[int, int, int]) -> Image.Image:
-    """Repaint the mark in `rgb`, leaving the alpha (and so the edges) alone."""
-    data = np.array(im)
-    data[:, :, 0], data[:, :, 1], data[:, :, 2] = rgb
     return Image.fromarray(data)
 
 
@@ -56,7 +46,7 @@ def main() -> None:
         raise SystemExit(f"Missing source: {SRC}")
 
     ASSETS.mkdir(parents=True, exist_ok=True)
-    icon = fit_square(tint(load_icon(SRC), TINT))
+    icon = fit_square(load_icon(SRC))
     sizes = [(16, 16), (32, 32), (48, 48), (64, 64), (128, 128), (256, 256)]
     icons = [icon.resize(size, Image.Resampling.LANCZOS) for size in sizes]
     icons[0].save(

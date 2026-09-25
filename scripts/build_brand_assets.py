@@ -17,9 +17,6 @@ TEXT_SRC = SRC_DIR / "devils-club-logo-text-transparent.png"
 
 HEADER_ICON_H = 44
 HEADER_WORDMARK_H = 32
-# The source art is #a20f15, 2.5:1 on the site's black. Same hue, raised to 3.6:1.
-# The wordmark is left alone: it is already off-white at 16.9:1.
-ICON_TINT = (201, 34, 43)
 # One high-res wordmark/icon for header + hero (CSS scales down/up)
 WORDMARK_EXPORT_H = 128
 ICON_EXPORT_H = 120
@@ -38,13 +35,6 @@ def trim_rgba(im: Image.Image, alpha_min: int = 8, pad: int = 4) -> Image.Image:
     return im.crop((x0, y0, x1, y1))
 
 
-def tint(im: Image.Image, rgb: tuple[int, int, int]) -> Image.Image:
-    """Repaint the mark in `rgb`, leaving the alpha (and so the edges) alone."""
-    data = np.array(im)
-    data[:, :, 0], data[:, :, 1], data[:, :, 2] = rgb
-    return Image.fromarray(data)
-
-
 def resize_to_height(im: Image.Image, height: int) -> Image.Image:
     if im.height == height:
         return im
@@ -58,7 +48,7 @@ def main() -> None:
 
     ASSETS.mkdir(parents=True, exist_ok=True)
 
-    icon = tint(trim_rgba(Image.open(ICON_SRC).convert("RGBA")), ICON_TINT)
+    icon = trim_rgba(Image.open(ICON_SRC).convert("RGBA"))
     icon_hi = resize_to_height(icon, ICON_EXPORT_H)
     icon_hi.save(ASSETS / "logo-icon.png", optimize=True)
 
