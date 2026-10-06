@@ -25,9 +25,8 @@ Ou abra `index.html` diretamente no navegador.
 
 Arquivos em `assets/` (copiados de `C:\Stuff\Devil's Club\devils-club-logo`):
 
-- `logo-icon.png` — ícone vermelho (planta)
-- `logo-wordmark.png` / `logo-icon.png` — camadas transparentes oficiais (header e hero)
-- Hero = mesmo par de imagens do header, maior via CSS (sem caixa preta)
+- `logo.webp` (header e rodapé) e `logo-hero.webp` (topo da home) — exportados de `Devil's Club Logo com Letras Brancas.png`, o logo oficial para fundo escuro
+- `logo-icon.png` / `logo-wordmark.png` — camadas separadas (ícone e letreiro), para usos isolados
 - Regenerar: `python scripts/build_brand_assets.py`
 - `favicon.ico`
 

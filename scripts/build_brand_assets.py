@@ -1,6 +1,7 @@
 """
-Export web logos from official transparent PNG layers (same look as the source art).
-Hero uses the same assets as the header, scaled in CSS — no black box composite.
+Export web logos from the official transparent PNGs (same look as the source art).
+The site logo (header, hero, footer) is the white-letter composite; the separate
+icon/wordmark layers are still exported for anything that needs one part alone.
 """
 from __future__ import annotations
 
@@ -14,12 +15,15 @@ ASSETS = Path(__file__).resolve().parent.parent / "assets"
 
 ICON_SRC = SRC_DIR / "devils-club-logo-icon-transparent.png"
 TEXT_SRC = SRC_DIR / "devils-club-logo-text-transparent.png"
+LOGO_SRC = SRC_DIR / "Devil's Club Logo com Letras Brancas.png"
 
 HEADER_ICON_H = 44
 HEADER_WORDMARK_H = 32
 # One high-res wordmark/icon for header + hero (CSS scales down/up)
 WORDMARK_EXPORT_H = 128
 ICON_EXPORT_H = 120
+# Header/footer logo at 2x its 3rem height; the hero gets the source's full size.
+LOGO_EXPORT_H = 96
 
 
 def trim_rgba(im: Image.Image, alpha_min: int = 8, pad: int = 4) -> Image.Image:
@@ -61,6 +65,14 @@ def main() -> None:
 
     print("Wrote logo-icon.png", icon_hi.size)
     print("Wrote logo-wordmark.png", word_hi.size)
+
+    logo = trim_rgba(Image.open(LOGO_SRC).convert("RGBA"))
+    for name, out in (
+        ("logo.webp", resize_to_height(logo, LOGO_EXPORT_H)),
+        ("logo-hero.webp", logo),
+    ):
+        out.save(ASSETS / name, "WEBP", quality=92, method=6)
+        print("Wrote", name, out.size)
 
 
 if __name__ == "__main__":

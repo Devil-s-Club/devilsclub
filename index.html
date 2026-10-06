@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Devil's Club: estúdio indie de jogos. Visual novels, aventuras e plataforma 3D com identidade própria, do roteiro ao lançamento."
+      content="Devil's Club: estúdio independente de jogos de São Paulo. Jogos para PC que quebram o que você espera. The devil is in the details."
     />
     <title>Devil's Club</title>
     <link rel="icon" href="assets/favicon.ico?v=3" sizes="any" />
@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif+Display:wght@500&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap"
       rel="stylesheet"
     />
     <link
@@ -28,12 +28,14 @@
 
     <header class="site-header">
       <a href="#top" class="logo" data-i18n-attr="aria-label:aria.logo">
-        <img src="assets/logo-icon.png" alt="" class="logo-icon" width="44" height="44" decoding="async" />
-        <img src="assets/logo-wordmark.png" alt="Devil's Club" class="logo-wordmark" width="167" height="32" decoding="async" />
+        <img src="assets/logo.webp" alt="Devil's Club" class="logo-img" width="152" height="96" decoding="async" />
       </a>
-      <nav class="nav" data-i18n-attr="aria-label:aria.nav">
-        <a href="#jogos" data-i18n="nav.products">Jogos</a>
-        <a href="#sobre" data-i18n="nav.about">Quem somos</a>
+      <div class="header-actions">
+        <nav class="nav" data-i18n-attr="aria-label:aria.nav">
+          <a href="#jogos" data-i18n="nav.products">Jogos</a>
+          <a href="#sobre" data-i18n="nav.about">Quem somos</a>
+          <a href="#contato" data-i18n="nav.contact">Contato</a>
+        </nav>
         <div class="lang-dropdown" data-lang-dropdown>
           <button
             type="button"
@@ -43,7 +45,10 @@
             aria-expanded="false"
             data-i18n-attr="aria-label:aria.lang"
           >
-            <span class="lang-dropdown-flag fi fi-br" aria-hidden="true"></span>
+            <svg class="lang-dropdown-globe" width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+              <circle cx="8" cy="8" r="6.25" stroke="currentColor" stroke-width="1.2" />
+              <path d="M1.75 8h12.5M8 1.75c1.7 1.75 2.55 3.83 2.55 6.25S9.7 12.5 8 14.25M8 1.75C6.3 3.5 5.45 5.58 5.45 8S6.3 12.5 8 14.25" stroke="currentColor" stroke-width="1.2" />
+            </svg>
             <span class="lang-dropdown-code">PT</span>
             <svg class="lang-dropdown-chevron" width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true">
               <path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" />
@@ -51,18 +56,17 @@
           </button>
           <ul class="lang-dropdown-menu" role="listbox" hidden data-lang-menu></ul>
         </div>
-        <a href="#contato" class="nav-cta" data-i18n="nav.contact">Contato</a>
-      </nav>
-      <button
-        type="button"
-        class="menu-toggle"
-        aria-expanded="false"
-        aria-controls="mobile-menu"
-        data-i18n-attr="aria-label:aria.menuOpen"
-      >
-        <span></span>
-        <span></span>
-      </button>
+        <button
+          type="button"
+          class="menu-toggle"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          data-i18n-attr="aria-label:aria.menuOpen"
+        >
+          <span></span>
+          <span></span>
+        </button>
+      </div>
     </header>
 
     <div class="mobile-menu" id="mobile-menu" hidden>
@@ -70,22 +74,6 @@
         <a href="#jogos" data-i18n="nav.products">Jogos</a>
         <a href="#sobre" data-i18n="nav.about">Quem somos</a>
         <a href="#contato" data-i18n="nav.contact">Contato</a>
-        <div class="lang-dropdown lang-dropdown--mobile" data-lang-dropdown>
-          <button
-            type="button"
-            class="lang-dropdown-btn"
-            aria-haspopup="listbox"
-            aria-expanded="false"
-            data-i18n-attr="aria-label:aria.lang"
-          >
-            <span class="lang-dropdown-flag fi fi-br" aria-hidden="true"></span>
-            <span class="lang-dropdown-code">PT</span>
-            <svg class="lang-dropdown-chevron" width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true">
-              <path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" />
-            </svg>
-          </button>
-          <ul class="lang-dropdown-menu" role="listbox" hidden data-lang-menu></ul>
-        </div>
       </nav>
     </div>
 
@@ -102,14 +90,10 @@
           </div>
         </div>
         <div class="hero-content reveal">
-          <h1 id="hero-title" class="hero-title">
-            <span data-i18n="hero.title1">Experiência para o jogador.</span><br />
-            <span class="hero-accent" data-i18n="hero.title2">Identidade em cada jogo.</span>
+          <h1 id="hero-title" class="hero-brand">
+            <img src="assets/logo-hero.webp" alt="Devil's Club" class="hero-logo" width="659" height="416" decoding="async" />
           </h1>
-          <p class="hero-lead" data-i18n="hero.lead">
-            Criamos jogos com identidade própria, produzidos dentro de casa: roteiro, arte e
-            código pelo mesmo time, do primeiro protótipo ao lançamento.
-          </p>
+          <p class="hero-slogan" lang="en">The devil is in the details.</p>
           <div class="hero-actions">
             <a href="#jogos" class="btn btn-primary" data-i18n="hero.ctaProducts">Ver jogos</a>
             <a href="#contato" class="btn btn-ghost" data-i18n="hero.ctaContact">Contato</a>
@@ -231,29 +215,26 @@
                 <span class="about-stat-label" data-i18n="about.foundation">Fundação</span>
               </div>
               <div class="about-stat">
-                <span class="about-stat-num">Indie</span>
-                <span class="about-stat-label" data-i18n="about.indieLabel">De coração</span>
+                <span class="about-stat-num">PC</span>
+                <span class="about-stat-label" data-i18n="about.platformLabel">Plataforma</span>
               </div>
             </div>
           </div>
             <div class="about-copy reveal">
             <p data-i18n="about.p1">
-              Jogos autorais, do começo ao fim. Um estúdio indie pequeno, com o mesmo time do
-              roteiro ao lançamento.
+              Devil's Club é um estúdio independente de jogos de São Paulo, Brasil. Fazemos jogos
+              que quebram o que você espera, para você pensar no que encontrou.
             </p>
-            <p data-i18n="about.p2">
-              É isso que o Devil's Club representa: experiência para o jogador, identidade em cada
-              jogo.
-            </p>
+            <p data-i18n="about.p2">Gêneros diferentes, mesma regra: nada é o que parece.</p>
             <ul class="about-values">
               <li data-i18n-html="about.val1">
-                <strong>Para Quem Joga</strong> Cada decisão pensada na experiência, do primeiro protótipo ao lançamento.
+                <strong>Quebrar o Esperado</strong> Todo jogo subverte algo: um clichê do gênero, o herói, o mundo ou as próprias regras.
               </li>
               <li data-i18n-html="about.val2">
-                <strong>Identidade Própria</strong> Nada de fórmula pronta: cada projeto tem a sua voz, a sua arte e o seu ritmo.
+                <strong>Surpresa, Depois Reflexão</strong> Surpresa durante o jogo, reflexão depois dos créditos.
               </li>
               <li data-i18n-html="about.val3">
-                <strong>Tudo na Casa</strong> Um time pequeno que assina cada etapa, do roteiro ao build final.
+                <strong>Nos Detalhes</strong> A subversão mora nos detalhes. Nossos jogos recompensam quem presta atenção.
               </li>
             </ul>
             </div>
@@ -350,7 +331,7 @@
         </div>
       </section>
 
-      <section class="section reach" aria-labelledby="reach-title">
+      <section class="section reach" id="contato" aria-labelledby="reach-title">
         <div class="container">
           <header class="section-header reveal">
             <span class="section-tag" data-i18n="reach.tag">Fale conosco</span>
@@ -360,35 +341,22 @@
             </p>
           </header>
 
-          <div class="reach-grid reveal">
-            <div class="reach-panel" id="contato" aria-labelledby="contact-title">
-              <h3 id="contact-title" class="reach-panel-title" data-i18n="contact.title">Contato</h3>
-              <p class="reach-panel-desc" data-i18n="contact.desc">Para conversas gerais, parcerias e oportunidades comerciais.</p>
-
-              <div class="contact-cards">
-                <article class="contact-card">
-                  <span class="contact-label" data-i18n="contact.general.label">Geral</span>
-                  <p class="contact-hint" data-i18n="contact.general.hint">Dúvidas, convites e assuntos diversos.</p>
-                  <a href="mailto:contact@devilsclub.com.br" class="contact-email">contact@devilsclub.com.br</a>
-                </article>
-                <article class="contact-card">
-                  <span class="contact-label" data-i18n="contact.biz.label">Parcerias & negócios</span>
-                  <p class="contact-hint" data-i18n="contact.biz.hint">Publishers, investidores e colaborações B2B.</p>
-                  <a href="mailto:biz@devilsclub.com.br" class="contact-email">biz@devilsclub.com.br</a>
-                </article>
-              </div>
-            </div>
-
-            <div class="reach-panel reach-panel--press" id="imprensa" aria-labelledby="press-title">
-              <h3 id="press-title" class="reach-panel-title" data-i18n="press.title">Imprensa</h3>
-              <p class="reach-panel-desc" data-i18n="press.desc">
-                Jornalistas, criadores de conteúdo e curadores de lojas. Material oficial do estúdio.
-              </p>
-
-              <div class="press-actions">
-                <a href="mailto:press@devilsclub.com.br" class="btn btn-primary">press@devilsclub.com.br</a>
-              </div>
-            </div>
+          <div class="contact-cards reveal">
+            <article class="contact-card">
+              <span class="contact-label" data-i18n="contact.general.label">Geral</span>
+              <p class="contact-hint" data-i18n="contact.general.hint">Dúvidas, convites e assuntos diversos.</p>
+              <a href="mailto:contact@devilsclub.com.br" class="contact-email">contact@devilsclub.com.br</a>
+            </article>
+            <article class="contact-card">
+              <span class="contact-label" data-i18n="contact.biz.label">Parcerias & negócios</span>
+              <p class="contact-hint" data-i18n="contact.biz.hint">Publishers, investidores e colaborações B2B.</p>
+              <a href="mailto:biz@devilsclub.com.br" class="contact-email">biz@devilsclub.com.br</a>
+            </article>
+            <article class="contact-card">
+              <span class="contact-label" data-i18n="press.title">Imprensa</span>
+              <p class="contact-hint" data-i18n="contact.press.hint">Jornalistas, criadores de conteúdo e curadores de lojas.</p>
+              <a href="mailto:press@devilsclub.com.br" class="contact-email">press@devilsclub.com.br</a>
+            </article>
           </div>
         </div>
       </section>
@@ -397,10 +365,14 @@
     <footer class="site-footer">
       <div class="container footer-inner">
         <a href="#top" class="logo logo--footer">
-          <img src="assets/logo-icon.png" alt="" class="logo-icon" width="36" height="36" decoding="async" />
-          <img src="assets/logo-wordmark.png" alt="Devil's Club" class="logo-wordmark" width="140" height="27" decoding="async" />
+          <img src="assets/logo.webp" alt="Devil's Club" class="logo-img" width="152" height="96" decoding="async" />
         </a>
-        <p class="footer-copy">© <span id="year"></span> Devil's Club. <span data-i18n="footer.rights">Todos os direitos reservados.</span></p>
+        <div class="footer-text">
+          <p class="footer-copy">
+            © <span id="year"></span> Devil's Club · <span data-i18n="footer.location">São Paulo, Brasil</span>
+          </p>
+          <p class="footer-slogan" lang="en">The devil is in the details.</p>
+        </div>
       </div>
     </footer>
 

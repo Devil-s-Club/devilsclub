@@ -11,12 +11,19 @@
     yearEl.textContent = String(new Date().getFullYear());
   }
 
+  const heroLogo = document.querySelector(".hero-logo");
+
   function onScroll() {
     if (!header) return;
     header.classList.toggle("is-scrolled", window.scrollY > 40);
+    const logoInView =
+      heroLogo && heroLogo.getBoundingClientRect().bottom > header.offsetHeight;
+    const menuOpen = mobileMenu && !mobileMenu.hidden;
+    header.classList.toggle("is-hero", Boolean(logoInView) && !menuOpen);
   }
 
   window.addEventListener("scroll", onScroll, { passive: true });
+  window.addEventListener("resize", onScroll);
   onScroll();
 
   function scrollToTop() {
@@ -54,6 +61,7 @@
       );
       mobileMenu.hidden = open;
       document.body.style.overflow = open ? "" : "hidden";
+      onScroll();
     });
 
     mobileMenu.querySelectorAll("a").forEach((link) => {

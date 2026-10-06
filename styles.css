@@ -14,6 +14,7 @@
   --accent-dim: rgba(153, 15, 21, 0.18);
   --glow: rgba(153, 15, 21, 0.38);
   --font-display: "Bebas Neue", sans-serif;
+  --font-slogan: "Noto Serif Display", Georgia, serif;
   --font-body: "DM Sans", system-ui, sans-serif;
   --header-h: 72px;
   --container: min(1120px, 92vw);
@@ -104,16 +105,31 @@ a {
   gap: 0.6rem;
 }
 
-.logo-icon {
+.logo-img {
   width: auto;
-  height: 2.75rem;
+  height: 3rem;
   flex-shrink: 0;
 }
 
-.logo-wordmark {
-  width: auto;
-  height: 2rem;
-  flex-shrink: 0;
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* While the hero logo is on screen it is the brand mark, so the bar steps back
+   to just the language picker and returns once the logo scrolls away. */
+.site-header .logo,
+.site-header .nav,
+.site-header .menu-toggle {
+  transition: opacity 0.3s var(--ease), visibility 0.3s;
+}
+
+.site-header.is-hero .logo,
+.site-header.is-hero .nav,
+.site-header.is-hero .menu-toggle {
+  opacity: 0;
+  visibility: hidden;
 }
 
 .nav {
@@ -131,18 +147,6 @@ a {
 
 .nav a:hover {
   color: var(--text);
-}
-
-.nav-cta {
-  padding: 0.5rem 1rem;
-  border: 1px solid var(--border);
-  border-radius: 4px;
-  color: var(--text) !important;
-}
-
-.nav-cta:hover {
-  border-color: var(--accent);
-  color: var(--accent-text) !important;
 }
 
 .lang-dropdown {
@@ -208,6 +212,17 @@ a {
     0 1px 3px rgba(0, 0, 0, 0.28);
   background-size: cover;
   line-height: 1;
+}
+
+.lang-dropdown-globe {
+  flex-shrink: 0;
+  color: var(--text-muted);
+  transition: color 0.25s;
+}
+
+.lang-dropdown-btn:hover .lang-dropdown-globe,
+.lang-dropdown.is-open .lang-dropdown-globe {
+  color: var(--accent-text);
 }
 
 .lang-dropdown-code {
@@ -377,24 +392,8 @@ a {
   line-height: 1.2;
 }
 
-.lang-dropdown--mobile {
-  margin-top: 1.5rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid var(--border);
-}
 
-.lang-dropdown--mobile .lang-dropdown-btn {
-  width: 100%;
-  justify-content: center;
-  border-radius: 10px;
-}
 
-.lang-dropdown--mobile .lang-dropdown-menu {
-  left: 0;
-  right: 0;
-  min-width: 0;
-  transform-origin: top center;
-}
 
 .visually-hidden {
   border: 0;
@@ -600,37 +599,25 @@ a {
   text-align: center;
 }
 
-.hero-eyebrow {
-  font-size: 0.8rem;
-  font-weight: 600;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: var(--accent-text);
-  margin: 0 0 1rem;
+.hero-brand {
+  margin: 0;
 }
 
-.hero-title {
-  font-family: var(--font-display);
-  font-size: clamp(3.5rem, 12vw, 7rem);
-  font-weight: 400;
-  line-height: 0.95;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-  margin: 0 0 1.5rem;
-  /* Long compounds in some locales cannot fit a phone line; break rather than overflow. */
-  overflow-wrap: break-word;
+.hero-logo {
+  display: block;
+  width: clamp(13rem, 34vw, 24rem);
+  height: auto;
+  margin: 0 auto;
 }
 
-.hero-accent {
-  color: var(--accent-text);
-  display: inline-block;
-}
-
-.hero-lead {
-  font-size: clamp(1rem, 2.5vw, 1.2rem);
-  color: var(--text-muted);
-  max-width: 36rem;
-  margin: 0 auto 2rem;
+/* Sized off the logo so the pair keeps one proportion at every width. */
+.hero-slogan {
+  font-family: var(--font-slogan);
+  font-weight: 500;
+  font-size: calc(clamp(13rem, 34vw, 24rem) * 0.1);
+  line-height: 1.2;
+  color: var(--text);
+  margin: 1.5rem 0 2.25rem;
 }
 
 .hero-actions {
@@ -1197,59 +1184,23 @@ a {
   border-top: 1px solid var(--border);
 }
 
-.reach-grid {
-  display: grid;
-  gap: 1.25rem;
-}
-
-@media (min-width: 900px) {
-  .reach-grid {
-    grid-template-columns: 1fr 1fr;
-    align-items: stretch;
-  }
-}
-
-.reach-panel {
-  padding: clamp(1.5rem, 4vw, 2.25rem);
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  display: flex;
-  flex-direction: column;
-}
-
-.reach-panel--press {
-  border-color: rgba(153, 15, 21, 0.22);
-  background:
-    linear-gradient(145deg, rgba(153, 15, 21, 0.07) 0%, transparent 55%),
-    var(--bg-card);
-}
-
-.reach-panel-title {
-  font-family: var(--font-display);
-  font-size: 1.65rem;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  margin: 0 0 0.5rem;
-  line-height: 1;
-}
-
-.reach-panel-desc {
-  color: var(--text-muted);
-  font-size: 0.92rem;
-  margin: 0 0 1.5rem;
-  line-height: 1.55;
-}
-
 .contact-cards {
   display: grid;
   gap: 1rem;
-  flex: 1;
+}
+
+@media (min-width: 900px) {
+  .contact-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .contact-card {
-  padding: 1.15rem 1.25rem;
-  background: var(--bg);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1.5rem;
+  background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: 6px;
   transition: border-color 0.25s;
@@ -1281,18 +1232,12 @@ a {
   font-weight: 500;
   color: var(--text);
   word-break: break-all;
+  margin-top: auto;
   transition: color 0.2s;
 }
 
 .contact-email:hover {
   color: var(--accent-text);
-}
-
-.press-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  margin-top: auto;
 }
 
 /* Footer */
@@ -1326,17 +1271,27 @@ a {
   }
 }
 
-.logo--footer .logo-icon {
-  height: 2.25rem;
+.logo--footer .logo-img {
+  height: 2.5rem;
 }
 
-.logo--footer .logo-wordmark {
-  height: 1.65rem;
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
 }
 
 .footer-copy {
   font-size: 0.8rem;
   color: var(--text-muted);
+  margin: 0;
+}
+
+.footer-slogan {
+  font-family: var(--font-slogan);
+  font-weight: 500;
+  font-size: 1rem;
+  color: var(--text);
   margin: 0;
 }
 
