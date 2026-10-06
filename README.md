@@ -1,14 +1,13 @@
 # Devils Club — Landing Page
 
-Landing page do estúdio indie **Devil's Club**, no padrão dos sites de estúdios independentes atuais.
+Site do estúdio indie **Devil's Club**: um cartão de visitas para publishers, estúdios e parceiros. Em 14 idiomas (`i18n.js` e `locales-extra.js`).
 
 ## Seções
 
-- Hero em tela cheia com CTA
-- Produtos: jogos + frameworks (Unity Asset Store, etc.)
-- Sobre o estúdio
-- Press kit
-- Contato
+- Topo: logo e slogan
+- Jogos: My Eternal Lily e Entrelinhas
+- Quem somos: o estúdio, os valores e a equipe
+- Contato & imprensa
 
 ## Como ver localmente
 
@@ -23,21 +22,13 @@ Ou abra `index.html` diretamente no navegador.
 
 ## Logo e cores da marca
 
-Arquivos em `assets/` (copiados de `C:\Stuff\Devil's Club\devils-club-logo`):
+Gerados a partir de `C:\Stuff\Devil's Club\devils-club-logo`:
 
-- `logo.webp` (header e rodapé) e `logo-hero.webp` (topo da home) — exportados de `Devil's Club Logo com Letras Brancas.png`, o logo oficial para fundo escuro
-- `logo-icon.png` / `logo-wordmark.png` — camadas separadas (ícone e letreiro), para usos isolados
-- Regenerar: `python scripts/build_brand_assets.py`
-- `favicon.ico`
+- `assets/logo.webp` (header e rodapé) e `assets/logo-hero.webp` (topo da home): exportados de `Devil's Club Logo com Letras Brancas.png`, o logo oficial para fundo escuro. Regenerar: `python scripts/build_brand_assets.py`
+- `assets/favicon.ico`, `favicon-16.png` e `favicon-32.png`: regenerar com `python scripts/build_favicon.py`
+- `logo-email.png` e `logo-email-dark.png` (na raiz): logos usados na assinatura de e-mail, servidos pelo site
 
 Vermelho oficial: **#990f15** · Texto cream: **#edeae5**
-
-## Personalizar
-
-1. Substitua **Projeto Alpha/Beta/Gamma** pelos nomes reais dos jogos.
-2. Troque os placeholders de arte por screenshots (`<img src="...">` dentro de `.game-card-media`).
-3. Atualize links de Steam, Discord, YouTube, itch.io em `.social-links` e botões.
-4. Ajuste e-mails de contato e imprensa para os endereços reais do Workspace.
 
 ## Deploy (GitHub Pages)
 

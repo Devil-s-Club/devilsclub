@@ -51,17 +51,6 @@ a {
   text-decoration: none;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
-}
-
 .container {
   width: var(--container);
   margin-inline: auto;
@@ -392,21 +381,6 @@ a {
   line-height: 1.2;
 }
 
-
-
-
-.visually-hidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-}
-
 .lang-dropdown--mobile {
   margin-top: 1.5rem;
   padding-top: 1.5rem;
@@ -523,11 +497,6 @@ a {
 
 .btn-primary:hover {
   background: var(--accent-hover);
-}
-
-.btn-sm {
-  padding: 0.65rem 1.15rem;
-  font-size: 0.8rem;
 }
 
 .btn-icon {
@@ -700,8 +669,6 @@ a {
 .section-header {
   margin-bottom: 3rem;
 }
-
-/* Products */
 
 /* Games */
 .games {
@@ -909,10 +876,6 @@ a {
   color: #9fd4b8;
 }
 
-.game-status--proto {
-  background: #3b3b44;
-}
-
 .game-genre {
   font-size: 0.8rem;
   color: var(--accent-text);
@@ -926,15 +889,6 @@ a {
   gap: 0.75rem;
   flex-shrink: 0;
   margin-top: auto;
-}
-
-@media (min-width: 960px) {
-  /* An odd last card centers instead of leaving a hole in the row. */
-}
-
-.game-desc--pending {
-  font-style: italic;
-  opacity: 0.75;
 }
 
 /* About */

@@ -57,7 +57,6 @@ def main() -> None:
     )
     icons[0].save(ASSETS / "favicon-16.png")
     icons[1].save(ASSETS / "favicon-32.png")
-    icon.resize((512, 512), Image.Resampling.LANCZOS).save(ASSETS / "favicon-flower.png")
     print(f"Wrote favicon.ico from {SRC.name} ({icon.size})")
 
 

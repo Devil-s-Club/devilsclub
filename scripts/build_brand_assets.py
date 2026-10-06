@@ -1,7 +1,6 @@
 """
-Export web logos from the official transparent PNGs (same look as the source art).
-The site logo (header, hero, footer) is the white-letter composite; the separate
-icon/wordmark layers are still exported for anything that needs one part alone.
+Export the site logo from the official white-letter PNG (same look as the source art):
+logo.webp for the header and footer, logo-hero.webp for the top of the home page.
 """
 from __future__ import annotations
 
@@ -13,15 +12,8 @@ from PIL import Image
 SRC_DIR = Path(r"C:\Stuff\Devil's Club\devils-club-logo")
 ASSETS = Path(__file__).resolve().parent.parent / "assets"
 
-ICON_SRC = SRC_DIR / "devils-club-logo-icon-transparent.png"
-TEXT_SRC = SRC_DIR / "devils-club-logo-text-transparent.png"
 LOGO_SRC = SRC_DIR / "Devil's Club Logo com Letras Brancas.png"
 
-HEADER_ICON_H = 44
-HEADER_WORDMARK_H = 32
-# One high-res wordmark/icon for header + hero (CSS scales down/up)
-WORDMARK_EXPORT_H = 128
-ICON_EXPORT_H = 120
 # Header/footer logo at 2x its 3rem height; the hero gets the source's full size.
 LOGO_EXPORT_H = 96
 
@@ -47,24 +39,10 @@ def resize_to_height(im: Image.Image, height: int) -> Image.Image:
 
 
 def main() -> None:
-    if not ICON_SRC.exists() or not TEXT_SRC.exists():
-        raise SystemExit(f"Missing sources in {SRC_DIR}")
+    if not LOGO_SRC.exists():
+        raise SystemExit(f"Missing source: {LOGO_SRC}")
 
     ASSETS.mkdir(parents=True, exist_ok=True)
-
-    icon = trim_rgba(Image.open(ICON_SRC).convert("RGBA"))
-    icon_hi = resize_to_height(icon, ICON_EXPORT_H)
-    icon_hi.save(ASSETS / "logo-icon.png", optimize=True)
-
-    word = trim_rgba(Image.open(TEXT_SRC).convert("RGBA"))
-    word_hi = resize_to_height(word, WORDMARK_EXPORT_H)
-    word_hi.save(ASSETS / "logo-wordmark.png", optimize=True)
-
-    # Legacy alias some docs may reference
-    word_hi.save(ASSETS / "logo-text.png", optimize=True)
-
-    print("Wrote logo-icon.png", icon_hi.size)
-    print("Wrote logo-wordmark.png", word_hi.size)
 
     logo = trim_rgba(Image.open(LOGO_SRC).convert("RGBA"))
     for name, out in (
