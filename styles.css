@@ -407,6 +407,35 @@ a {
   width: 1px;
 }
 
+.lang-dropdown--mobile {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.lang-dropdown--mobile .lang-dropdown-btn {
+  width: 100%;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.lang-dropdown--mobile .lang-dropdown-menu {
+  left: 0;
+  right: 0;
+  min-width: 0;
+  transform-origin: top center;
+}
+
+/* On phones the bar holds one control at a time: the language picker alone,
+   pinned to the edge, while the hero logo shows; the menu toggle after that,
+   with the picker moved inside the menu. */
+@media (max-width: 767px) {
+  .site-header.is-hero .menu-toggle,
+  .site-header:not(.is-hero) .header-actions > .lang-dropdown {
+    display: none;
+  }
+}
+
 .menu-toggle {
   display: flex;
   flex-direction: column;
@@ -479,7 +508,8 @@ a {
   border-radius: 4px;
   border: none;
   cursor: pointer;
-  transition: transform 0.2s var(--ease), background 0.2s, color 0.2s, border-color 0.2s;
+  transition: transform 0.2s var(--ease), background 0.2s, color 0.2s, border-color 0.2s,
+    box-shadow 0.2s;
 }
 
 .btn:active {
@@ -493,16 +523,6 @@ a {
 
 .btn-primary:hover {
   background: var(--accent-hover);
-}
-
-.btn-ghost {
-  background: transparent;
-  color: var(--text);
-  border: 1px solid var(--border);
-}
-
-.btn-ghost:hover {
-  border-color: var(--text-muted);
 }
 
 .btn-sm {
@@ -614,17 +634,10 @@ a {
 .hero-slogan {
   font-family: var(--font-slogan);
   font-weight: 500;
-  font-size: calc(clamp(13rem, 34vw, 24rem) * 0.1);
+  font-size: max(1.05rem, calc(clamp(13rem, 34vw, 24rem) * 0.075));
   line-height: 1.2;
   color: var(--text);
-  margin: 1.5rem 0 2.25rem;
-}
-
-.hero-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  justify-content: center;
+  margin: 1.5rem 0 0;
 }
 
 .hero-scroll {
@@ -695,8 +708,9 @@ a {
   background: linear-gradient(180deg, var(--bg) 0%, var(--bg-elevated) 50%, var(--bg) 100%);
 }
 
-/* One game, so it gets the width instead of sitting in a grid of one: the art
-   bleeds off the edge and the copy holds a column beside it. */
+/* Each game gets a whole row rather than a grid cell. On phones the art runs
+   edge to edge; from 900px it becomes a card held to the content width, so the
+   art stays a sensible size on wide screens. */
 .showcase {
   display: grid;
   gap: 0;
@@ -826,7 +840,7 @@ a {
   opacity: 0.8;
   margin: 0 0 0.4rem;
   padding-left: 0.75rem;
-  border-left: 2px solid var(--accent-dim);
+  border-left: 2px solid var(--accent-text);
   max-width: 34rem;
 }
 
@@ -842,7 +856,17 @@ a {
   .showcase {
     grid-template-columns: 1fr 1fr;
     align-items: stretch;
-    min-height: min(78vh, 38rem);
+    width: var(--container);
+    min-height: min(70vh, 32rem);
+    margin-inline: auto;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .showcase + .showcase {
+    margin-top: 1.5rem;
+    border-top: 1px solid var(--border);
   }
 
   .showcase-media {
@@ -850,7 +874,6 @@ a {
     height: 100%;
   }
 
-  /* Align the copy with the container while the art keeps the full half. */
   .showcase-body {
     padding-inline: clamp(2.5rem, 5vw, 4.5rem);
     max-width: 38rem;
@@ -1293,6 +1316,11 @@ a {
   font-size: 1rem;
   color: var(--text);
   margin: 0;
+}
+
+/* The slogan's one red word, in hero and footer alike. */
+.slogan-accent {
+  color: var(--accent-text);
 }
 
 /* Reveal animations */
