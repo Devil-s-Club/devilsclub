@@ -957,39 +957,17 @@ a {
   color: var(--text);
 }
 
+/* One section: who we are and what we hold to side by side, the people below. */
 .about-grid {
   display: grid;
-  gap: 3rem;
-  align-items: center;
+  gap: 2.5rem;
 }
 
 @media (min-width: 800px) {
   .about-grid {
-    grid-template-columns: 0.9fr 1.1fr;
+    grid-template-columns: 1.1fr 0.9fr;
     gap: 4rem;
   }
-}
-
-.about-frame {
-  aspect-ratio: 4 / 5;
-  max-height: 420px;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  background: var(--bg-card);
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding: 2rem;
-  gap: 2rem;
-  position: relative;
-  overflow: hidden;
-}
-
-.about-frame::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(ellipse at 50% 0%, var(--accent-dim), transparent 70%);
 }
 
 .about-stat {
@@ -998,9 +976,15 @@ a {
   flex-direction: column;
 }
 
+.about-facts {
+  display: flex;
+  gap: 2.5rem;
+  margin-top: 1.75rem;
+}
+
 .about-stat-num {
   font-family: var(--font-display);
-  font-size: 3rem;
+  font-size: 2.25rem;
   letter-spacing: 0.04em;
   line-height: 1;
   color: var(--accent-text);
@@ -1019,10 +1003,10 @@ a {
 .about-values {
   list-style: none;
   padding: 0;
-  margin: 2rem 0 0;
+  margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.25rem;
 }
 
 .about-values li {
@@ -1039,34 +1023,18 @@ a {
 }
 
 /* Team */
-/* The team now lives inside About, so it reads on the light backdrop: the red
-   halo behind the avatars was lit for black and turns muddy here. */
-.about-team {
-  margin-top: clamp(3.5rem, 8vw, 5.5rem);
-  padding-top: clamp(3rem, 6vw, 4rem);
-  border-top: 1px solid var(--border);
+/* The team sits on About's light backdrop: the red halo behind the avatars was
+   lit for black and turns muddy here. */
+.about .team-grid {
+  margin-top: clamp(3rem, 6vw, 4.5rem);
 }
 
-.about-team .team-avatar {
+.about .team-avatar {
   box-shadow: 0 0 0 1px var(--border), 0 6px 18px rgba(0, 0, 0, 0.12);
 }
 
-.about-team .team-card:hover .team-avatar {
+.about .team-card:hover .team-avatar {
   box-shadow: 0 0 0 1px rgba(153, 15, 21, 0.35), 0 10px 24px rgba(0, 0, 0, 0.18);
-}
-
-.about-team-title {
-  font-family: var(--font-display);
-  font-size: clamp(1.75rem, 3.5vw, 2.5rem);
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  margin: 0 0 0.5rem;
-}
-
-.about-team-desc {
-  color: var(--text-muted);
-  max-width: 44rem;
-  margin: 0 0 2.5rem;
 }
 
 .team-grid {
@@ -1093,17 +1061,13 @@ a {
 }
 
 @media (min-width: 960px) {
-  /* Narrow the whole grid instead of the cards, so the columns stay close together. */
+  /* The whole team on one row. */
   .team-grid {
-    max-width: min(var(--container), 58rem);
-    gap: 1.5rem;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
-  /* An odd last card centers across the row instead of hugging the left edge. */
-  .team-card:last-child:nth-child(odd) {
-    grid-column: 1 / -1;
-    width: min(100%, 28rem);
-    justify-self: center;
+  .team-card {
+    padding: 1.5rem 1.1rem;
   }
 }
 
