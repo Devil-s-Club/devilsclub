@@ -699,6 +699,13 @@ a {
   object-position: center;
 }
 
+/* Key art with the logo beside the character: cropping would cut one of them,
+   so it fits whole and the frame takes the art's own sky colour. */
+.showcase-cover--contain {
+  object-fit: contain;
+  background: #d7eaf6;
+}
+
 .trailer {
   position: absolute;
   inset: 0;
@@ -874,6 +881,11 @@ a {
 .game-status--available {
   background: #1a3328;
   color: #9fd4b8;
+}
+
+.game-status--dev {
+  background: #3a2c12;
+  color: #f0cf8a;
 }
 
 .game-genre {
