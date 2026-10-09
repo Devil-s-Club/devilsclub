@@ -1214,6 +1214,34 @@ video.hero-shot {
     top: 50%;
     transform: translateY(-50%);
   }
+
+  /* Mirrors the logo on the other side, so the text stays centred. */
+  .footer-social {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.footer-social {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-social svg {
+  width: 1.15rem;
+  height: 1.15rem;
+}
+
+.footer-social:hover,
+.footer-social:focus-visible {
+  color: var(--text);
 }
 
 .logo--footer .logo-img {
