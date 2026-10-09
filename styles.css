@@ -574,6 +574,14 @@ a {
   opacity: 0.1;
 }
 
+/* The Entrelinhas trailer takes a turn like a still; the cut on disk leaves
+   out its white strobe, which would wash the logo out even at this opacity. */
+video.hero-shot {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 @media (prefers-reduced-motion: reduce) {
   /* No cycling: the first still stays put. */
   .hero-shot {

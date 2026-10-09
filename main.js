@@ -75,14 +75,41 @@
 
   // Hero stills cycle slowly. Anyone who asked the system for less motion keeps
   // the first one, so the page never animates behind the text they are reading.
+  // A video shot plays once from the start and hands over when it ends; it only
+  // downloads when its turn first comes, so it never delays the first paint.
   const shots = document.querySelectorAll(".hero-shot");
   if (shots.length > 1 && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    const STILL_MS = 7000;
     let current = 0;
-    setInterval(() => {
-      shots[current].classList.remove("is-on");
+    let timer;
+
+    const advance = () => {
+      const prev = shots[current];
+      prev.classList.remove("is-on");
+      if (prev instanceof HTMLVideoElement) prev.pause();
+
       current = (current + 1) % shots.length;
-      shots[current].classList.add("is-on");
-    }, 7000);
+      const shot = shots[current];
+      shot.classList.add("is-on");
+
+      if (shot instanceof HTMLVideoElement) {
+        shot.currentTime = 0;
+        shot.onended = () => {
+          clearTimeout(timer);
+          advance();
+        };
+        // Safety net if playback is blocked or stalls: never hold the slot forever.
+        timer = setTimeout(advance, 40000);
+        shot.play().catch(() => {
+          clearTimeout(timer);
+          timer = setTimeout(advance, 0);
+        });
+      } else {
+        timer = setTimeout(advance, STILL_MS);
+      }
+    };
+
+    timer = setTimeout(advance, STILL_MS);
   }
 
   // Trailers load as a facade: the cover stands in until someone asks to watch.
