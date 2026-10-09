@@ -1007,10 +1007,6 @@ video.hero-shot {
   box-shadow: 0 0 0 1px var(--border), 0 6px 18px rgba(0, 0, 0, 0.12);
 }
 
-.about .team-card:hover .team-avatar {
-  box-shadow: 0 0 0 1px rgba(153, 15, 21, 0.35), 0 10px 24px rgba(0, 0, 0, 0.18);
-}
-
 .team-grid {
   display: grid;
   gap: 1.25rem;
@@ -1055,13 +1051,6 @@ video.hero-shot {
   border: 1px solid var(--border);
   border-radius: 10px;
   text-align: center;
-  transition: border-color 0.3s, transform 0.35s var(--ease), box-shadow 0.35s var(--ease);
-}
-
-.team-card:hover {
-  border-color: rgba(153, 15, 21, 0.3);
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.22);
-  transform: translateY(-4px);
 }
 
 .team-avatar {
@@ -1078,15 +1067,10 @@ video.hero-shot {
   border: none;
   /* No ring: the photo sits flush and a halo lights it from behind. */
   box-shadow: 0 0 24px 3px var(--glow);
-  transition: box-shadow 0.35s var(--ease);
   font-family: var(--font-display);
   font-size: 1.75rem;
   letter-spacing: 0.04em;
   color: var(--accent-text);
-}
-
-.team-card:hover .team-avatar {
-  box-shadow: 0 0 34px 6px rgba(153, 15, 21, 0.55);
 }
 
 .team-avatar--photo {

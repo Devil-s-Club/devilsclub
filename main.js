@@ -79,7 +79,7 @@
   // downloads when its turn first comes, so it never delays the first paint.
   const shots = document.querySelectorAll(".hero-shot");
   if (shots.length > 1 && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-    const STILL_MS = 7000;
+    const STILL_MS = 4000;
     let current = 0;
     let timer;
 
